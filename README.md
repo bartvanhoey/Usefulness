@@ -1,7 +1,9 @@
 # Useful Commands
 
-[Git](GitCommands.md)
+[Git](Commands/GitCommands.md)
 
-[EntityFrameworkCore](EntityFrameworkCore.md)
+[EntityFrameworkCore](Commands/EntityFrameworkCoreCommands.md)
 
-[ABP cli](ABPcli.md)
+[ABP cli](Commands/ABPcliCommands.md)
+
+[DotNet Commands](Commands/DotNetCommands.md)
