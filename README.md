@@ -1,0 +1,240 @@
+# Git Tips And Tricks
+
+## Some useful commands to work with the Vim editor
+
+| Command                                                                                         |
+|-------------------------------------------------------------------------------------------------|
+|Press `i` (insert mode) to start entering text                                                   |
+|Press `<ESC>` to escape from insert mode                                                         |
+|Press `<ESC>` and `:wq` (write and quit) to save entered text and quit                           |
+|Press `:q!` to quit editor without saving                                                        |
+|Press `d` to delete character under cursor                                                       |
+|Press `dd` to delete line                                                                        |
+|Press `vimtutor` a tutorial file for the Vim editor                                              |
+
+## My Favorite Git Commands
+
+### Howto remove old unused branches of remote repository
+
+`git remote prune origin --dry-run` run this command first to see which branches will be deleted!
+`git remote prune origin`
+
+### Howto uncommit last un-pushed git commits without losing changes (~gN N=number of commits)
+
+`git reset HEAD~1 --soft` uncommit last un-pushed git commit without losing changes
+`git log origin/master..HEAD` view unpushed git commits
+
+### Howto stash changes
+
+error: Your local changes to the following files would be overwritten by checkout:
+Please commit your changes or stash them before you switch branches.
+
+`git stash`
+
+-> Checkout branch and apply stash on the checked out branch
+
+`git stash pop`
+
+### Howto revert all uncommitted changes made to _tracked files_ (i.e. that you have added)
+
+error: Your local changes to the following files would be overwritten by checkout:
+
+`git reset --hard HEAD`
+
+### Howto remove uncommitted _untracked files_ (e.g., new files, generated files)
+
+`git clean -f`
+
+### Howto remove uncommitted _untracked files or directories_ (e.g., new files, generated files)
+
+`git clean -fd`
+
+### Howto add remote repository
+
+`git remote add origin https://github.com/your-user-name/repo-name.git`
+
+### Howto deal with error: 'fatal: The current branch master has no upstream branch'
+
+`git push --set-upstream origin master`
+
+### Howto deal with error: 'error: failed to push some refs to '<https://github.com/your-username/repository-name.git>'
+
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+`git push --force`
+
+### Howto handle fatal: refusing to merge unrelated histories
+
+`git pull origin <branch-name> --allow-unrelated-histories`
+
+### Howto show all local branches
+
+`git branch --list -a`
+
+### Howto delete a local branch
+
+`git branch -d <branch-name>`
+
+### Howto delete a remote branch
+
+`git push origin --delete <branch-name>`
+
+### Howto recover a deleted local branch
+
+`git reflog`
+`git checkout -b <branch-name> <sha>`
+
+### Howto deal with 'error: failed to push some refs to '<https://github.com/your-username/repository-name.git>'
+
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+`git pull <remote> <branch>`
+
+### Howto exit git log window
+
+`q`
+
+### Howto revert to a previous commit
+
+`git reset --hard HEAD`
+
+### Howto set your branch to exactly match the remote branch
+
+`git fetch origin`
+`git reset --hard origin/master`
+
+`git clean -f` to remove local files
+`git clean -n -f` to see what files will be removed without removing them
+
+### Howto revert to a specific commit
+
+`git revert --no-commit <sha>..HEAD`
+`git add .`
+`git commit -m "your-commit-message"`
+`git push origin <branch-name>`
+
+### Howto change a un-pushed commit-message
+
+`git commit --amend`
+
+After updating message leave VIM editor by pressing
+
+`Esc`
+`:wq`
+
+### Howto delete the most recent commit, keeping the work you've done
+
+`git reset --soft HEAD~1`
+
+### Howto Delete the most recent commit, **destroying** the work you've done
+
+`git reset --hard HEAD~1`
+
+### Howto change a pushed commit-message (not yet pulled from remote)
+
+`git commit --amend`
+
+After updating message leave VIM editor by pressing
+
+`Esc`
+`:wq`
+
+`git push --force-with-lease <repository> <branch>`
+
+### Howto turn off **warning: LF will be replaced by CRLF in ...**
+
+warning: LF will be replaced by CRLF in ... The file will have its original line endings in your working directory.
+
+In Unix systems the end of a line is represented with a line feed (LF). In windows a line is represented with a carriage return (CR) and a line feed (LF) thus (CRLF). when you get code from git that was uploaded from a unix system they will only have an LF.
+
+`git config core.autocrlf true`
+
+### Howto add a .gitignore file to a repo after it already has commits
+
+`git rm -r --cached .`
+`git add .`
+`git commit -m ".gitignore is now working"`
+
+### Howto exit git log or git diff screen
+
+`q + ENTER`
+
+### Howto deal with message **There is no tracking information for the current branch. Please specify which branch you want to merge with.**
+
+When you are on local branch master and no changes are coming in from remote master after git pull and you see the above message.
+
+`git branch --set-upstream-to=origin/master master`
+
+### Howto show details of a raw commit object (author/committer/date/details/SHA-1 Hash)
+
+`git show --pretty=raw HEAD`
+
+### Howto display references available in a local repository along with the associated commit IDs
+
+`git show-ref`
+
+### Howto get the tree-like view of commits in terminal
+
+`git log --graph --oneline --all`
+
+### Howto deal with message **fatal: Unable to create ... '/../git/index.lock': File exists**
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+`rm -f ./.git/index.lock`
+
+### Howto create a GitHub Pull Request from command line
+
+Make sure you have installed the command line tool 'hub'
+
+`hub pull-request -m "your-pull-request-message" -b master -h <local-branch-name>`
+
+### Howto merge a GitHub Pull Request from command line
+
+Checkout master branch first: `git checkout master`
+
+`hub merge https://github.com/<your-github-account>/<repository-name>/pull/10`
+
+### Howto merge master in your local branch
+
+`git checkout <local-branch-name>`
+`git fetch origin`
+`git merge origin/master`
+
+### Howto handle error **error: Your local changes to the following files would be overwritten ...** when checking out another branch
+
+`git stash`
+`git checkout <branch-name>`
+`git apply`
+
+### Howto keep a file in a git repo but don't track changes
+
+`git update-index --assume-unchanged <project-name><file-name>`
+
+### Howto to track changes again of an untracked file in a git repo
+
+`git update-index --no-assume-unchanged <project-name><file-name>`
+
+### Workflow to create and merge GitHub Pull Request without leaving terminal in VsCode
+
+`git add .`
+`git commit -m "your-commit-message"`
+`git push origin <branch-name>`
+`git checkout master`
+`hub pull-request -m "your-pull-request-message" -b master -h <branch-name>`
+`hub merge <pull-request-name>`
+`git push`
+`git push origin --delete <branch-name>`
+`git branch -d <branch>`
+`git checkout -b <new-branch-name>`
