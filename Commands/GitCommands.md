@@ -1,22 +1,8 @@
-# Git Tips And Tricks
+## Git Commands
 
-## Some useful commands to work with the Vim editor
+## Howto remove old unused branches of remote repository
 
-| Command                                                                                         |
-|-------------------------------------------------------------------------------------------------|
-|Press `i` (insert mode) to start entering text                                                   |
-|Press `<ESC>` to escape from insert mode                                                         |
-|Press `<ESC>` and `:wq` (write and quit) to save entered text and quit                           |
-|Press `:q!` to quit editor without saving                                                        |
-|Press `d` to delete character under cursor                                                       |
-|Press `dd` to delete line                                                                        |
-|Press `vimtutor` a tutorial file for the Vim editor                                              |
-
-## My Favorite Git Commands
-
-### Howto remove old unused branches of remote repository
-
-`git remote prune origin --dry-run` run this command first to see which branches will be deleted!
+`git remote prune origin --dry-run` run this to see which branches will be deleted!
 `git remote prune origin`
 
 ### Howto uncommit last un-pushed git commits without losing changes (~gN N=number of commits)
