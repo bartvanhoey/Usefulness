@@ -1,19 +1,31 @@
 ## EntityFrameworkCore Commands
 
-### How to update EntityFramework tools
+### Howto update EntityFramework tools
 
 ```bash
 dotnet tool update --global dotnet-ef
 ```
 
-### How to check version of EntityFrameworkCore
+### Howto check version of EntityFrameworkCore
 
 ```bash
 dotnet ef --version
 ```
 
-### How to add a migration
+### Howto add a migration
 
 ```bash
 dotnet ef migrations add <MigrationName>
+```
+
+### Howto remove a migration not applied to database yet
+
+```bash
+dotnet ef migrations remove
+```
+
+### Howto apply migrations to database
+
+```bash
+dotnet ef database update
 ```
