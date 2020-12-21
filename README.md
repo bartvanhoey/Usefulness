@@ -9,3 +9,5 @@
 [DotNet Commands](Commands/DotNet.md)
 
 [Vim Editor Commands](Commands/VimEditor.md)
+
+[VsCode Commands](Commands/VsCode.md)
