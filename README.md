@@ -1,11 +1,11 @@
 # Useful Commands
 
-[Git](Commands/GitCommands.md)
+[Git](Commands/Git.md)
 
-[EntityFrameworkCore](Commands/EntityFrameworkCoreCommands.md)
+[EntityFrameworkCore](Commands/EntityFrameworkCore.md)
 
-[ABP cli](Commands/ABPcliCommands.md)
+[ABP cli](Commands/ABPcli.md)
 
-[DotNet Commands](Commands/DotNetCommands.md)
+[DotNet Commands](Commands/DotNet.md)
 
-[Vim Editor Commands](Commands/VimEditorCommands.md)
+[Vim Editor Commands](Commands/VimEditor.md)
