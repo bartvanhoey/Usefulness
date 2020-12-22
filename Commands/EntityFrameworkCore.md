@@ -29,3 +29,9 @@ dotnet ef migrations remove
 ```bash
 dotnet ef database update
 ```
+
+### Howto delete database
+
+```bash
+dotnet ef database drop
+```
