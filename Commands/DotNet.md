@@ -23,5 +23,3 @@ dotnet sln add [yourProjectName]\[yourProjectName].csproj
  ```bash
  dotnet add reference ../../src/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj
  ```
-
-
