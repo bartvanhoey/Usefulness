@@ -1,5 +1,3 @@
-# Useful Commands
-
 [Git](Commands/Git.md)
 
 [EntityFrameworkCore](Commands/EntityFrameworkCore.md)
