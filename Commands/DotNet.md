@@ -6,6 +6,12 @@
 dotnet new sln -n [YourSolutionName]
 ```
 
+### How to create a new class library project
+
+```bash
+>dotnet new classlib -n [YourProjectName]]
+```
+
 ### Howto add project to solution
 
 ```bash
