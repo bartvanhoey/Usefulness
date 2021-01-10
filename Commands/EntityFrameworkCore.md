@@ -31,7 +31,6 @@ dotnet ef database update <MigrationName-to-which-you-want-to-revert>
 dotnet ef database migrations remove
 ```
 
-
 ### Howto apply migrations to database
 
 ```bash
