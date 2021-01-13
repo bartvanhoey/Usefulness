@@ -71,8 +71,10 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ### Howto recover a deleted local branch
 
-`git reflog`
-`git checkout -b <branch-name> <sha>`
+```bash
+  git reflog
+  git checkout -b <branch-name> <sha>
+```
 
 ### Howto deal with 'error: failed to push some refs to '<https://github.com/your-username/repository-name.git>'
 
@@ -93,18 +95,23 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ### Howto set your branch to exactly match the remote branch
 
-`git fetch origin`
-`git reset --hard origin/master`
-
-`git clean -f` to remove local files
-`git clean -n -f` to see what files will be removed without removing them
+```bash
+git fetch origin
+git reset --hard origin/master
+# to remove local files
+git clean -f 
+# to see what files will be removed without removing them
+git clean -n -f 
+```
 
 ### Howto revert to a specific commit
 
-`git revert --no-commit <sha>..HEAD`
-`git add .`
-`git commit -m "your-commit-message"`
-`git push origin <branch-name>`
+```bash
+git revert --no-commit <sha>..HEAD
+git add .
+git commit -m "your-commit-message"
+git push origin <branch-name>
+```
 
 ### Howto change a un-pushed commit-message
 
@@ -144,9 +151,12 @@ In Unix systems the end of a line is represented with a line feed (LF). In windo
 
 ### Howto add a .gitignore file to a repo after it already has commits
 
-`git rm -r --cached .`
-`git add .`
-`git commit -m ".gitignore is now working"`
+```bash
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+
+```
 
 ### Howto exit git log or git diff screen
 
@@ -194,15 +204,19 @@ Checkout master branch first: `git checkout master`
 
 ### Howto merge master in your local branch
 
-`git checkout <local-branch-name>`
-`git fetch origin`
-`git merge origin/master`
+```bash
+git checkout <local-branch-name>
+git fetch origin
+git merge origin/master
+```
 
 ### Howto handle error **error: Your local changes to the following files would be overwritten ...** when checking out another branch
 
-`git stash`
-`git checkout <branch-name>`
-`git apply`
+```bash
+git stash
+git checkout <branch-name>
+git apply
+```
 
 ### Howto keep a file in a git repo but don't track changes
 
@@ -211,6 +225,30 @@ Checkout master branch first: `git checkout master`
 ### Howto to track changes again of an untracked file in a git repo
 
 `git update-index --no-assume-unchanged <project-name><file-name>`
+
+### Howto rename local and remote branch
+
+```bash
+# Rename the local branch to the new name
+git branch -m <old_name> <new_name>
+
+# Delete the old branch on remote - where <remote> is, for example, origin
+git push <remote> --delete <old_name>
+
+# Or shorter way to delete remote branch [:]
+git push <remote> :<old_name>
+
+# Prevent git from using the old name when pushing in the next step.
+# Otherwise, git will use the old upstream name instead of <new_name>.
+git branch --unset-upstream <old_name>
+
+# Push the new branch to remote
+git push <remote> <new_name>
+
+# Reset the upstream branch for the new_name local branch
+git push <remote> -u <new_name>
+
+```
 
 ### Workflow to create and merge GitHub Pull Request without leaving terminal in VsCode
 
