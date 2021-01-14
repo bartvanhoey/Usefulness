@@ -2,24 +2,31 @@
 
 ## Howto remove old unused branches of remote repository
 
-`git remote prune origin --dry-run` run this to see which branches will be deleted!
-`git remote prune origin`
+  ```csharp
+  #  run this to see which branches will be deleted!
+  git remote prune origin --dry run
+  # run thi command to actually delete these branches
+  git remote prune origin
+  ```
 
 ### Howto uncommit last un-pushed git commits without losing changes (~gN N=number of commits)
 
-`git reset HEAD~1 --soft` uncommit last un-pushed git commit without losing changes
-`git log origin/master..HEAD` view unpushed git commits
+```csharp
+# uncommit last un-pushed git commit without losing changes
+git reset HEAD~1 --soft
+git log origin/master..HEAD` view unpushed git commits
+```
 
 ### Howto stash changes
 
 error: Your local changes to the following files would be overwritten by checkout:
 Please commit your changes or stash them before you switch branches.
 
-`git stash`
-
--> Checkout branch and apply stash on the checked out branch
-
-`git stash pop`
+```csharp
+git stash
+# Checkout branch and apply stash on the checked out branch
+git stash pop
+```
 
 ### Howto revert all uncommitted changes made to _tracked files_ (i.e. that you have added)
 
@@ -119,8 +126,10 @@ git push origin <branch-name>
 
 After updating message leave VIM editor by pressing
 
-`Esc`
-`:wq`
+```csharp
+Esc
+:wq
+```
 
 ### Howto delete the most recent commit, keeping the work you've done
 
@@ -136,10 +145,11 @@ After updating message leave VIM editor by pressing
 
 After updating message leave VIM editor by pressing
 
-`Esc`
-`:wq`
-
-`git push --force-with-lease <repository> <branch>`
+```csharp
+Esc
+:wq
+git push --force-with-lease <repository> <branch>
+```
 
 ### Howto turn off **warning: LF will be replaced by CRLF in ...**
 
@@ -247,18 +257,19 @@ git push <remote> <new_name>
 
 # Reset the upstream branch for the new_name local branch
 git push <remote> -u <new_name>
-
 ```
 
 ### Workflow to create and merge GitHub Pull Request without leaving terminal in VsCode
 
-`git add .`
-`git commit -m "your-commit-message"`
-`git push origin <branch-name>`
-`git checkout master`
-`hub pull-request -m "your-pull-request-message" -b master -h <branch-name>`
-`hub merge <pull-request-name>`
-`git push`
-`git push origin --delete <branch-name>`
-`git branch -d <branch>`
-`git checkout -b <new-branch-name>`
+```csharp
+git add .
+git commit -m "your-commit-message"
+git push origin <branch-name>
+git checkout master
+hub pull-request -m "your-pull-request-message" -b master -h <branch-name>
+hub merge <pull-request-name>
+git push
+git push origin --delete <branch-name>
+git branch -d <branch>
+git checkout -b <new-branch-name>
+```
