@@ -1,5 +1,7 @@
 ## .NET Commands
 
+## Solution
+
 ### Howto create a new solution
 
 ```bash
@@ -23,3 +25,37 @@ dotnet sln add [yourProjectName]\[yourProjectName].csproj
  ```bash
  dotnet add reference ../../src/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj
  ```
+
+## User Secrets
+
+You can find the user secrets in following folder: `C:\Users\bartv\AppData\Roaming\Microsoft\UserSecrets`
+
+### Init
+
+```bash
+dotnet user-secrets init
+```
+
+### List
+
+```bash
+dotnet user-secrets list
+```
+
+### Set a secret
+
+```bash
+dotnet user-secrets set "AuthorApiKey" "xyz1@3"
+```
+
+### Remove a secret
+
+```bash
+dotnet user-secrets remove "AuthorApiKey"
+```
+
+### Remove all secret
+
+```bash
+dotnet user-secrets clear
+```
