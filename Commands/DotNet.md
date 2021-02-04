@@ -11,7 +11,7 @@ dotnet new sln -n [YourSolutionName]
 ### How to create a new class library project
 
 ```bash
->dotnet new classlib -n [YourProjectName]]
+dotnet new classlib -n [YourProjectName]
 ```
 
 ### Howto add project to solution
@@ -25,6 +25,14 @@ dotnet sln add [yourProjectName]\[yourProjectName].csproj
  ```bash
  dotnet add reference ../../src/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj
  ```
+
+## Packages
+
+### Add package to project
+
+```bash
+dotnet add package [PackageName]
+```
 
 ## User Secrets
 
