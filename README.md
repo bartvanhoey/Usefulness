@@ -9,3 +9,5 @@
 [Vim Editor Commands](Commands/VimEditor.md)
 
 [VsCode Commands](Commands/VsCode.md)
+
+[Jekyll Commands](Commands/Jekyll.md)
