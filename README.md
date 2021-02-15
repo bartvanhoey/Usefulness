@@ -10,4 +10,4 @@
 
 [VsCode Commands](Commands/VsCode.md)
 
-[Jekyll Commands](Commands/Jekyll.md)
+[Jekyll Commands](Commands/Azurite.md)
