@@ -28,7 +28,7 @@ dotnet ef migrations remove
 
 ```bash
 dotnet ef database update <MigrationName-to-which-you-want-to-revert>
-dotnet ef database migrations remove
+dotnet ef migrations remove
 ```
 
 ### Howto apply migrations to database
