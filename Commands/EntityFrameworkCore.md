@@ -30,13 +30,19 @@ dotnet ef migrations remove
 dotnet ef database update <MigrationName-to-which-you-want-to-revert>
 dotnet ef migrations remove
 ```
-You need to run the remove command as many times as needed to go back to the MigrationName-to-which-you-want-to-revert
 
+You need to run the remove command as many times as needed to go back to the MigrationName-to-which-you-want-to-revert
 
 ### Howto apply migrations to database
 
 ```bash
 dotnet ef database update
+```
+
+### Howto get list of migrations
+
+```bash
+dotnet ef migrations list
 ```
 
 ### Howto delete database
