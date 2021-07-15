@@ -5,7 +5,6 @@
 | Shortcut Key                               | Action                                         |
 |--------------------------------------------|------------------------------------------------|
 | `CTRL+SHIFT+P`                             | Command Palette
-| `CTRL+SHIFT+P`                             | Command Palette
 | `CTRL+SHIFT+C`                             | Opens External Terminal in Project Root
 | `CTRL+C`                                   | Copy (no need to select line)
 | `CTRL+W`                                   | Close Active Document
