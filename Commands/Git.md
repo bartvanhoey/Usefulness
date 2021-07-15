@@ -1,9 +1,28 @@
 ## Git Commands
 
+## Howto remove old local branches that do not exist on remote repository anymore
+
+There's a neat NPM package that does it for you (and it should work cross platform).
+
+Install it with:
+
+```batch
+  npm install -g git-removed-branches
+```
+
+And then git removed-branches will show you all the stale local branches, and git removed-branches --prune to actually delete them.
+
+```csharp
+  # run this to see which branches will be deleted!
+  git removed-branches --prune
+  # run this to actually deleted these branches!
+  git removed-branches --prune --force
+```
+
 ## Howto remove old unused branches of remote repository
 
   ```csharp
-  #  run this to see which branches will be deleted!
+  # run this to see which branches will be deleted!
   git remote prune origin --dry run
   # run thi command to actually delete these branches
   git remote prune origin
