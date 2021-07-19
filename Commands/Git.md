@@ -13,7 +13,9 @@ Install it with:
 And then git removed-branches will show you all the stale local branches, and git removed-branches --prune to actually delete them.
 
 ```csharp
-  # run this to see which branches will be deleted!
+  # run this command to see which branches will be deleted!
+  git removed-branches
+  # run this command to delete these branches!
   git removed-branches --prune
   # run this to actually deleted these branches!
   git removed-branches --prune --force
