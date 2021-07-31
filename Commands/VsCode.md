@@ -17,12 +17,11 @@
 | `CTRL+D`                                   | Duplicate Line (no need to select line)
 | `CTRL+L`                                   | Delete Line (no need to select line)
 | `CTRL+ALT+L`                               | Reveal Active File in Explorer
-| `CTRL+SHIFT+E`                             | Toggle Solution Explorer
-| `CTRL+SHIFT+E`                             | Focus Debugger
+| `CTRL+SHIFT+E`                             | Toggle Solution Explorer (toggleSideBarVisibility)
+| `CTRL+SHIFT+D`                             | Focus Debugger
 | `CTRL+P` or `CTRL+,`                       | Go to File
 | `CTRL+J`                                   | Show/Hide Bottom Panel
 | `CTRL+M`                                   | Go to Type Declaration
-| `CTRL+-`                                   | Navigate Back
 | `CTRL+-`                                   | Navigate Back
 | `CTRL+W`                                   | Selection Grow
 | `CTRL+SHIFT+W`                             | Selection Shrink
