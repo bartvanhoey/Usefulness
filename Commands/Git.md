@@ -251,8 +251,10 @@ git apply
 
 ### Howto keep a file in a git repo but don't track changes
 
-`git update-index --assume-unchanged <project-name><file-name>`
-
+```bash
+git update-index --assume-unchanged <project-name><file-name>
+## git update-index --assume-unchanged src/AbpFrameworkProjectName.HttpApi.Host/appsettings.json
+```
 ### Howto to track changes again of an untracked file in a git repo
 
 `git update-index --no-assume-unchanged <project-name><file-name>`
