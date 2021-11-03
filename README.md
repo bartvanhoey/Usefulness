@@ -4,7 +4,7 @@
 
 [ABP cli](Commands/ABPcli.md)
 
-[.NET Commands](Commands/DotNet.md)
+[dotNET Commands](Commands/DotNet.md)
 
 [Vim Editor Commands](Commands/VimEditor.md)
 
