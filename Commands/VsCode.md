@@ -54,4 +54,6 @@
 | `CTRl+SHIFT+G`                             | Open Source Control Panel
 | `CTRl+ALT+C`                               | Create New Git Branch (own Keyboard short cut)
 | `CTRl+SHIFT+T`                             | Surround with ... (Surround Extension - Mehmet Yatkı)
+| `CTRL+SHIFT+PlusSign`                      | Increase font size
+| `CTRL+SHIFT+MinusSign`                     | Decrease font size
 | `ALT+O`                                    | Switch from Code-behind to/from razor files (ASP.NET Core Switcher Extension - adrianwilczynski)
