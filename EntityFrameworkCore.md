@@ -1,5 +1,12 @@
 ## EntityFrameworkCore Commands
 
+
+### Howto install EntityFramework tools
+
+```bash
+dotnet tool install --global dotnet-ef
+```
+
 ### Howto update EntityFramework tools
 
 ```bash

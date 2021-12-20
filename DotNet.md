@@ -14,6 +14,19 @@ dotnet new sln -n [YourSolutionName]
 dotnet new classlib -n [YourProjectName]
 ```
 
+### How to see installed dotnet sdks
+
+```bash
+dotnet --list-sdks
+```
+
+### How to specify dotnet version with dotnet new
+
+```bash
+dotnet new web -h
+dotnet new web -o MySimpleWebApp --framework|-f net5.0
+```
+
 ### Howto add project to solution
 
 ```bash

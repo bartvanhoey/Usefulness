@@ -2,7 +2,7 @@
 
 ## Howto remove old local branches that do not exist on remote repository anymore
 
-There's a neat NPM package that does it for you (and it should work cross platform).
+There's a neat NPM package that does it for you (and it should work cross-platform).
 
 Install it with:
 
@@ -10,23 +10,23 @@ Install it with:
   npm install -g git-removed-branches
 ```
 
-And then git removed-branches will show you all the stale local branches, and git removed-branches --prune to actually delete them.
+And then git removed-branches will show you all the stale local branches, and git removed-branches --prune to delete them.
 
 ```csharp
   # run this command to see which branches will be deleted!
   git removed-branches
   # run this command to delete these branches!
   git removed-branches --prune
-  # run this to actually deleted these branches!
+  # run this to delete these branches!
   git removed-branches --prune --force
 ```
 
-## Howto remove old unused branches of remote repository
+## Howto remove old unused branches of a remote repository
 
   ```csharp
   # run this to see which branches will be deleted!
   git remote prune origin --dry run
-  # run thi command to actually delete these branches
+  # run this command to delete these branches
   git remote prune origin
   ```
 
@@ -63,7 +63,7 @@ error: Your local changes to the following files would be overwritten by checkou
 
 `git clean -fd`
 
-### Howto add remote repository
+### Howto add a remote repository
 
 `git remote add origin https://github.com/your-user-name/repo-name.git`
 
@@ -141,11 +141,11 @@ git commit -m "your-commit-message"
 git push origin <branch-name>
 ```
 
-### Howto change a un-pushed commit-message
+### Howto change an un-pushed commit-message
 
 `git commit --amend`
 
-After updating message leave VIM editor by pressing
+After updating the message leave VIM editor by pressing
 
 ```csharp
 Esc
@@ -160,11 +160,11 @@ Esc
 
 `git reset --hard HEAD~1`
 
-### Howto change a pushed commit-message (not yet pulled from remote)
+### Howto change a pushed commit message (not yet pulled from remote)
 
 `git commit --amend`
 
-After updating message leave VIM editor by pressing
+After updating the message leave VIM editor by pressing
 
 ```csharp
 Esc
@@ -176,7 +176,7 @@ git push --force-with-lease <repository> <branch>
 
 warning: LF will be replaced by CRLF in ... The file will have its original line endings in your working directory.
 
-In Unix systems the end of a line is represented with a line feed (LF). In windows a line is represented with a carriage return (CR) and a line feed (LF) thus (CRLF). when you get code from git that was uploaded from a unix system they will only have an LF.
+In Unix systems, the end of a line is represented with a line feed (LF). In windows, a line is represented with a carriage return (CR) and a line feed (LF) thus (CRLF). when you get code from git that was uploaded from a Unix system they will only have an LF.
 
 `git config core.autocrlf true`
 
@@ -193,7 +193,7 @@ git commit -m ".gitignore is now working"
 
 `q + ENTER`
 
-### Howto deal with message **There is no tracking information for the current branch. Please specify which branch you want to merge with.**
+### Howto deal with a message **There is no tracking information for the current branch. Please specify which branch you want to merge with.**
 
 When you are on local branch master and no changes are coming in from remote master after git pull and you see the above message.
 
@@ -221,13 +221,13 @@ remove the file manually to continue.
 
 `rm -f ./.git/index.lock`
 
-### Howto create a GitHub Pull Request from command line
+### Howto create a GitHub Pull Request from the command line
 
 Make sure you have installed the command line tool 'hub'
 
 `hub pull-request -m "your-pull-request-message" -b master -h <local-branch-name>`
 
-### Howto merge a GitHub Pull Request from command line
+### Howto merge a GitHub Pull Request from the command line
 
 Checkout master branch first: `git checkout master`
 
@@ -251,13 +251,15 @@ git apply
 
 ### Howto keep a file in a git repo but don't track changes
 
-`git update-index --assume-unchanged <project-name><file-name>`
-
+```bash
+git update-index --assume-unchanged <project-name><file-name>
+## git update-index --assume-unchanged src/AbpFrameworkProjectName.HttpApi.Host/appsettings.json
+```
 ### Howto to track changes again of an untracked file in a git repo
 
 `git update-index --no-assume-unchanged <project-name><file-name>`
 
-### Howto rename local and remote branch
+### Howto rename the local and remote branch
 
 ```bash
 # Rename the local branch to the new name
@@ -280,7 +282,7 @@ git push <remote> <new_name>
 git push <remote> -u <new_name>
 ```
 
-### Workflow to create and merge GitHub Pull Request without leaving terminal in VsCode
+### Workflow to create and merge GitHub Pull Request without leaving the terminal in VsCode
 
 ```csharp
 git add .
