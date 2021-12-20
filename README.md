@@ -1,15 +1,15 @@
-[Git](../Git.md)
+[Git](Git.md)
 
-[EF Core](../EntityFrameworkCore.md)
+[EF Core](EntityFrameworkCore.md)
 
-[ABP cli](../ABP.md)
+[ABP cli](ABP.md)
 
-[.NET](../dotNETCommands.md)
+[.NET](dotNETCommands.md)
 
-[Vim Editor](../VimEditorCommands.md)
+[Vim Editor](VimEditor.md)
 
-[Visual Studio Code](../VsCodeCommands.md)
+[Visual Studio Code](VsCode.md)
 
-[Jekyll](../JekyllCommands.md)
+[Jekyll](JekyllCommands.md)
 
-[Ngrok](../NgrokCommands.md)
+[Ngrok](NgrokCommands.md)
