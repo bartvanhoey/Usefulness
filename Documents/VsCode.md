@@ -59,3 +59,57 @@
 | `SHIFT+ALT+(drag mouse)`                 | Column (box) selection                                                                           |
 | `SHIFT+ALT+ENTER`                        | Toggle Zen Mode                                                                                  |
 | `SHIFT+ALT+F12`                          | Find all References                                                                              |
+
+## My Favorite Visual Studio Code Extensions
+
+| Extension                                  | Description                                                                                    |
+|--------------------------------------------|------------------------------------------------------------------------------------------------|
+| `C#`                                       | C# for Visual Studio Code (powered by OmniSharp)                                               |
+| `Resharper 9 Keybindings`                  | Port of Resharper 9 Keybindings                                                                |
+| `Visual Studio Keymap`                     | Ports popular Visual Studio keyboard shortcuts to Visual Studio Code                           |
+| `Bracket Pair Colorizer`                   | Gives the Corresponding bracket the same color                                                 |
+| `html tag wrapper`                         | Wrap selected html tags by pressing CTRL+i                                                     |
+| `Auto Close Tag`                           | Automatically add HTML/XML close tag, same as Visual Studio IDE does                           |
+| `Auto Rename Tag`                          | Renames the corresponding html tag                                                             |
+| `Auto Import`                              | Provides code actions and code completion for all available Typescript                         |
+| `Lorem Ipsum`                              | Generates and inserts lorem ipsum text into Visual Studio Code                                 |
+| `Markdown Extension Pack`                  | Extension pack with some of the most popular Markdown extensions                               |
+| `vscode-pdf`                               | Display PDF files in Visual Studio Code                                                        |
+| `GitHub Pull Requests`                     | Manage Your Pull Requests for a Repository from VSCode                                         |
+| `Copy name of current git branch`          | Copy name of current git branch [do not forget to assign shortcut key ode]                     |
+| `Surround`                                 | Surround with ... (Surround Extension - Mehmet Yatkı)                                          |
+| `Code Spell Checker`                       | Spelling Checker for Visual Studio Code                                                        |
+| `ASP.NET Core Switcher`                    | Switch from Code-behind to/from razor files                                                    |
+| `Markdown Table Sort`                      | Sorts a Markdown Table                                                                         |
+| `Project Manager`                          | Switch projects easily                                                                         |
+| `Todo Tree`                                | Shows all the TODOs in your code                                                               |
+| `VS Sharper for C#`                        | VS Sharper VS Code Extension for C#                                                            |
+| `Sort JSON Objects`                        | Sorts the keys within JSON objects                                                             |
+| `Razor+`                                   | Improved Razor syntax colorization for VS Code                                                 |
+| `.NET Core Test Explorer`                  | Text Explorer for .NET Core (MSTest, xUnit, NUnit)                                             |
+| `vscode-icons`                             | Icons for Visual Studio Code                                                                   |
+| `TabNine`                                  | Code Faster with the All-Language AI Assistant for Code Completion                             |
+
+## Customize Settings
+
+### Change Shortcut to Pin/Unpin Tabs in VSCode
+
+```bash
+    // File -> Preferences -> Keyboard Shortcuts (CTRL+K, CTRL+S )
+    search for workbench.action.pinEditor : assign shortcut key (CTRL+S)
+    search for workbench.action.unpinEditor : assign shortcut key (CTRL+S)
+```
+
+### Change Shortcut to Toggle Explorer in VSCode
+
+```bash
+    // File -> Preferences -> Keyboard Shortcuts (CTRL+K, CTRL+S )
+    search for workbench.action.toggleSidebarVisibility : assign shortcut key (CTRL+SHIFT+E)
+```
+
+## VS Sharper for C# (Capital letter generating interface issue)
+
+```bash
+    // Navigate to folder below on WINDOWS machine
+    // C:\Users\<YourUserName>\.vscode\extensions\eservice-online.vs-sharper-0.2.0\templates
+    // Edit file csharpInterface.vstpl -> Update Interface to interface
