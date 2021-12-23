@@ -1,4 +1,4 @@
-[Git](Documents/Git.md Git.md)
+[Git](Documents/Git.md)
 
 [EF Core](Documents/EntityFrameworkCore.md)
 
