@@ -22,6 +22,7 @@
 |`docker run <image name>:<tag>` -p [external port]:[internal port]                              | create and start docker container from image                  |
 |`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`          | create and start docker container from image                  |
 |`docker run -it --rm <image name>:<tag>`                                                        | create/start container, remove after stop (CTRL+C)            |
+|`docker run -it --rm -p 3000:80 --name mymicroservicecontainer mymicroservice`                  | create/start container, remove after stop (CTRL+C)            |
 |`docker start <docker id>`                                                                      | start docker container                                        |
 |`docker ps`                                                                                     | docker running containers                                     |
 |`docker ps -a`                                                                                  | docker exited containers                                      |
