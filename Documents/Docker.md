@@ -1,5 +1,6 @@
 ## Docker Commands
 
+
 ### Images
 
 | Command                                                                                        |               Action                                          |
@@ -64,6 +65,15 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 
 ATTENTION: You may get error like: Error response from daemon: conflict: unable to remove repository reference IMAGE NAME  (must force) -
 container 302e8bd is using its referenced image 3334b287844 -> a stopped container isn't actually removed.
+
+### Docker Hub
+
+| Command                                                                                        |               Action                                          |
+|------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|`docker login`                                                                                  | login to Docker Hub                                           |
+|`docker tag <image-name> <your-docker-username>/<image-name></image-name>`                      | Rename/retag image for use in Docker Hub                      |
+|`docker push <your-docker-username>/<image-name></image-name>`                                  | Push/upload the image to Docker Hub                           |
+
 
 ### Docker Parameters
 
