@@ -1,6 +1,5 @@
 ## Docker Commands
 
-
 ### Images
 
 | Command                                                                                        |               Action                                          |
@@ -28,7 +27,7 @@
 |`docker ps`                                                                                     | docker running containers                                     |
 |`docker ps -a`                                                                                  | docker exited containers                                      |
 |`docker build -t <image name>:<tag> .`                                                          | build docker container from Dockerfile                        |
-|`docker run -t imagename:latest -f .\CreateTestDb.Dockerfile .`                                 | build docker container from specified Dockerfile              |
+|`docker run -t <image name>:<tag> -f .\CreateTestDb.Dockerfile .`                                 | build docker container from specified Dockerfile              |
 |`docker inspect <docker name>`                                                                  | show details docker container                                 |
 
 If you get error message `image operating system "windows" cannot be used on this platform` you need to switch to
