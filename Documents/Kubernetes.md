@@ -76,6 +76,7 @@ kubectl delete -f rbac.yaml
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 |`kubectl get pods`                                                                              | get pods                                                     |
 |`kubectl get pods --all-namespaces`                                                             | get all pods in all namespaces                               |
+|`kubectl get pods --namespace=ingress-nginx`                                                    | get all pods in the ingress-nginx namespace                  |
 
 #### Deployments
 
@@ -93,3 +94,10 @@ kubectl delete -f rbac.yaml
 |`kubectl get services`                                                                          | get services in a kubernetes cluster                         |
 |`kubectl delete svc <service-name>`                                                             | delete a service by name                                     |
 |`kubectl get pods`                                                                              | get pods                                                     |
+
+#### Namespaces
+
+| Command                                                                                        | Action                                                       |
+|------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+|`kubectl get namespace`                                                                         | get namespaces kubernetes cluster                            |
+
