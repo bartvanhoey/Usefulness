@@ -84,6 +84,7 @@ kubectl delete -f rbac.yaml
 |`kubectl apply -f deployment.yaml`                                                              | deploy to kubernetes cluster                                 |
 |`kubectl get deployments`                                                                       | get deployments of a kubernetes cluster                      |
 |`kubectl delete deployment <deployment-name>`                                                   | delete a deployment by name                                  |
+|`kubectl rollout restart deployment <deployment-name>`                                          | restart a deployment                                         |
 
 #### Services
 
