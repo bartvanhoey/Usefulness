@@ -58,11 +58,13 @@ kubectl delete -f rbac.yaml
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 |`kubectl config view --raw`                                                                     | view raw content of K8S config file                          |
 
-#### Switch context
+#### Context
 
 | Command                                                                                        | Action                                                       |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+|`kubectl config get-contexts`                                                                   | Get available contexts                                       |
 |`kubectl config use-context <cluster-name>`                                                     | set context to specified cluster                             |
+|`kubectl config delete-context <cluster-name>`                                                  | set context to specified cluster                             |
 
 #### Nodes
 
@@ -95,9 +97,20 @@ kubectl delete -f rbac.yaml
 |`kubectl delete svc <service-name>`                                                             | delete a service by name                                     |
 |`kubectl get pods`                                                                              | get pods                                                     |
 
+#### Persistent claim volumes
+
+| Command                                                                                        | Action                                                       |
+|------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+|`kubectl get pvc`                                                                               | get persisten claim volumes in a kubernetes cluster          |
+
 #### Namespaces
 
 | Command                                                                                        | Action                                                       |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 |`kubectl get namespace`                                                                         | get namespaces kubernetes cluster                            |
 
+#### Secrets
+
+| Command                                                                                        | Action                                                       |
+|------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+|`kubectl create secret generic mssql --from-literal=SA_PASSWORD="pa55w0rd!"`                    | create a secret                                              |
