@@ -97,11 +97,12 @@ kubectl delete -f rbac.yaml
 |`kubectl delete svc <service-name>`                                                             | delete a service by name                                     |
 |`kubectl get pods`                                                                              | get pods                                                     |
 
-#### Persistent claim volumes
+#### StorageClass and Persistent claim volumes
 
 | Command                                                                                        | Action                                                       |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 |`kubectl get pvc`                                                                               | get persisten claim volumes in a kubernetes cluster          |
+|`kubectl get storageclass`                                                                      | get storage classes in a kubernetes cluster                  |
 
 #### Namespaces
 
