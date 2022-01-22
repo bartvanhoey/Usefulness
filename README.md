@@ -16,6 +16,6 @@
 
 [Kubernetes](Documents/Kubernetes.md)
 
-[Kubernetes](Documents/Kubernetes.md)
+[Rider](Documents/Rider.md)
 
 [Azure Kubernetes Service](Documents/AKS.md)
