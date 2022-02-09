@@ -8,6 +8,12 @@
 dotnet new sln -n [YourSolutionName]
 ```
 
+### Howto add project to solution
+
+```bash
+dotnet sln add [yourProjectName]\[yourProjectName].csproj
+```
+
 ### How to create a new class library project
 
 ```bash
@@ -27,12 +33,6 @@ dotnet new web -h
 dotnet new web -o MySimpleWebApp --framework|-f net5.0
 ```
 
-### Howto add project to solution
-
-```bash
-dotnet sln add [yourProjectName]\[yourProjectName].csproj
-```
-
 ### Howto add reference to other project
 
  ```bash
@@ -45,6 +45,14 @@ dotnet sln add [yourProjectName]\[yourProjectName].csproj
 
 ```bash
 dotnet add package [PackageName]
+```
+
+## Gitignore
+
+Generate a gitignore file from the command line
+
+```bash
+dotnet new gitignore
 ```
 
 ## User Secrets
@@ -75,8 +83,11 @@ dotnet user-secrets set "AuthorApiKey" "xyz1@3"
 dotnet user-secrets remove "AuthorApiKey"
 ```
 
-### Remove all secret
+### Remove all secrets
 
 ```bash
 dotnet user-secrets clear
 ```
+
+
+

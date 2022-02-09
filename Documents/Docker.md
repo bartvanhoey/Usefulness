@@ -5,10 +5,10 @@
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`docker build -t <image name>:<tag> .`                                                          | build docker container from Dockerfile                        |
-|`docker images`                                                                                 | shows the list of container images on a machine               |
+|`docker images`  or `docker image list`                                                         | shows the list of container images on a machine               |
 |`docker rmi <image id>`                                                                         | remove image                                                  |
 |`docker image prune`                                                                            | remove images                                                 |
-|`docker rmi $(docker images -q)`                                                                | delete all images                                             |
+|`docker rmi $(docker images -q)`                                                                | delete all images (works only in Ubuntu terminal)             |
 |`docker tag <source image name>:<tag> <target image name>:<tag>`                                | push docker image to Docker Hub                               |
 |`docker push <image name>:<tag>`                                                                | push docker image to Docker Hub                               |
 
@@ -17,17 +17,17 @@
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`docker run -p [external port]:[internal port] <image name>:<tag>`                              | create and start docker container from image                  |
-|`docker run -p [external port]:[internal port] --name my-cotainer <image name>:<tag>`           | create and start docker container from image                  |
+|`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`           | create and start docker container from image                  |
 |`docker create <image name>:<tag>`                                                              | create docker container without starting it                   |
 |`docker run <image name>:<tag>` -p [external port]:[internal port]                              | create and start docker container from image                  |
 |`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`          | create and start docker container from image                  |
 |`docker run -it --rm <image name>:<tag>`                                                        | create/start container, remove after stop (CTRL+C)            |
 |`docker run -it --rm -p 3000:80 --name mymicroservicecontainer mymicroservice`                  | create/start container, remove after stop (CTRL+C)            |
 |`docker start <docker id>`                                                                      | start docker container                                        |
-|`docker ps`                                                                                     | docker running containers                                     |
-|`docker ps -a`                                                                                  | docker exited containers                                      |
+|`docker ps`                                                                                     | display all running containers                                |
+|`docker ps -a`                                                                                  | display all containers with their status                      |
 |`docker build -t <image name>:<tag> .`                                                          | build docker container from Dockerfile                        |
-|`docker run -t <image name>:<tag> -f .\CreateTestDb.Dockerfile .`                                 | build docker container from specified Dockerfile              |
+|`docker run -t <image name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specified Dockerfile              |
 |`docker inspect <docker name>`                                                                  | show details docker container                                 |
 
 If you get error message `image operating system "windows" cannot be used on this platform` you need to switch to
@@ -72,7 +72,6 @@ container 302e8bd is using its referenced image 3334b287844 -> a stopped contain
 |`docker login`                                                                                  | login to Docker Hub                                           |
 |`docker tag <image-name> <your-docker-username>/<image-name></image-name>`                      | Rename/retag image for use in Docker Hub                      |
 |`docker push <your-docker-username>/<image-name></image-name>`                                  | Push/upload the image to Docker Hub                           |
-
 
 ### Docker Parameters
 
