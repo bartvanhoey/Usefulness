@@ -7,9 +7,10 @@
 3. Copy token
 4. `kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.4.0/aio/deploy/recommended.yaml`
 5. `kubectl proxy`
-6. `Goto [Kubernetes Dashboard Login](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login){:target="_blank"}
+6. `Goto [Kubernetes Dashboard Login](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login)
 7. Choose Token in Kubernetes dashboard and paste in token
 
+<a href="http://example.com/" target="_blank">Hello, world!</a>
 --------------------------------------------------------------------------------------------------------------
 
 ### Kubernetes log, User "system:serviceaccount:default:default" cannot get services in the namespace
