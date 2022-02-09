@@ -10,7 +10,6 @@
 6. `Goto [Kubernetes Dashboard Login](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login)
 7. Choose Token in Kubernetes dashboard and paste in token
 
-<a href="http://example.com/" target="_blank">Hello, world!</a>
 --------------------------------------------------------------------------------------------------------------
 
 ### Kubernetes log, User "system:serviceaccount:default:default" cannot get services in the namespace
