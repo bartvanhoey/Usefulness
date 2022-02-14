@@ -28,7 +28,7 @@
 |`docker ps -a`                                                                                  | display all containers with their status                      |
 |`docker build -t <image name>:<tag> .`                                                          | build docker container from Dockerfile                        |
 |`docker run -t <image name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specified Dockerfile              |
-|`docker inspect <docker name>`                                                                  | show details docker container                                 |
+|`docker exec -it <container-id> /bin/sh`    => `ls`                                             | Open a command in running container and display content       |
 
 If you get error message `image operating system "windows" cannot be used on this platform` you need to switch to
 Windows Containers on Docker -> Right Click on Docker Icon in Notification Area and choose `Switch to Windows Containers...`
@@ -37,13 +37,13 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`docker exec <container name> ipconfig`                                                         | get the IP address of a running container                     |
 |`docker exec -it <container id> bash`                                                           | interactive way to use terminal inside a container            |
-|`docker attach --sig-proxy=false <container id>`                                                | peek at container output stream --sig-proxy=false parameter   |
+|`docker attach --sig-proxy=false <container-id>`                                                | peek at container output stream --sig-proxy=false parameter   |
 |                                                                                                | ensures CTRL+C will not stop process in container             |
 |`docker ps -a`                                                                                  | list of running containers (-a slso show exited containers)   |
 |`docker network`                                                                                | manage networking with Docker                                 |
 |`docker pull microsoft/windowsservercore`                                                       | pull latest windowsservercore image from Docker Hub           |
-|`docker rm <container id>`                                                                      | remove a specific container                                   |
-|`docker rm -f <container id>`                                                                   | remove a specific running container                           |
+|`docker rm <container-id>`                                                                      | remove a specific container                                   |
+|`docker rm -f <container-id>`                                                                   | remove a specific running container                           |
 |`docker rm $(docker ps -a -q)`                                                                  | delete all containers                                         |
 |`docker system prune`                                                                           | clean up any resources — images, containers, volumes and      |
 |                                                                                                | network sthat are dangling (not associated with a container)  |
