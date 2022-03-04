@@ -17,7 +17,7 @@
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`docker run -p [external port]:[internal port] <image name>:<tag>`                              | create and start docker container from image                  |
-|`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`           | create and start docker container from image                  |
+|`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`          | create and start docker container from image                  |
 |`docker create <image name>:<tag>`                                                              | create docker container without starting it                   |
 |`docker run <image name>:<tag>` -p [external port]:[internal port]                              | create and start docker container from image                  |
 |`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`          | create and start docker container from image                  |
@@ -29,6 +29,7 @@
 |`docker build -t <image name>:<tag> .`                                                          | build docker container from Dockerfile                        |
 |`docker run -t <image name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specified Dockerfile              |
 |`docker exec -it <container-id> /bin/sh`    => `ls`                                             | Open a command in running container and display content       |
+|`docker exec -it <container-id> /bin/bash`                                                      | Open a command in running container and display content       |
 
 If you get error message `image operating system "windows" cannot be used on this platform` you need to switch to
 Windows Containers on Docker -> Right Click on Docker Icon in Notification Area and choose `Switch to Windows Containers...`

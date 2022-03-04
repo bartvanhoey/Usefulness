@@ -49,3 +49,8 @@ returns:
 <uuid>.<region>.aksapp.io
 ```
 
+### Delete cluster
+
+```bash
+az aks delete --resource-group myResourceGroup --name myAKSCluster --no-wait
+```
