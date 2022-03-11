@@ -45,3 +45,11 @@
 | `ALT+SHIFT+INSERT`           | Enable Column Selection ... edit multiple lines at once
 
 
+# My Favorite Rider Plugins
+
+| Shortcut Key                 | Action                                         |
+|------------------------------|------------------------------------------------|
+| `Kite`                       | Artificial Code Assistance
+| `GitLive`                    | enhance the IDE’s built-in Git functionality
+| `StepSize`                   | IDE Issue tracker for managing technical debt and maintenance issues
+| `WakaTime`                   | Code Stats
