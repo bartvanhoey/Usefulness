@@ -25,7 +25,7 @@ And then git removed-branches will show you all the stale local branches, and gi
 
   ```csharp
   # run this to see which branches will be deleted!
-  git remote prune origin --dry run
+  git remote prune origin --dry-run
   # run this command to delete these branches
   git remote prune origin
   ```
