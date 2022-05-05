@@ -105,6 +105,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ## Solution: Generate Personal Access Token
 
 My account - Setting - Developer Setting - Personal Access Token - Generate New Token
+
 admin:repo_hook Full control of repository hooks
   write:repo_hook Write repository hooks [checked]
   read:repo_hook Read repository hooks [checked]
