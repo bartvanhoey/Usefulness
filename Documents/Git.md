@@ -97,6 +97,22 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 `git push origin --delete <branch-name>`
 
+### Howto handle fatal: unable to access - The requested URL returned error: 403
+
+`remote: Permission to <github-account>/<repo-name>.git denied to <user-name>.`
+`fatal: unable to access 'https://github.com/<github-account>/<repo-name>.git/': The requested URL returned error: 403`
+
+## Solution: Generate Personal Access Token
+
+My account - Setting - Developer Setting - Personal Access Token - Generate New Token
+admin:repo_hook Full control of repository hooks
+  write:repo_hook Write repository hooks [checked]
+  read:repo_hook Read repository hooks [checked]
+
+```bash
+  git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>
+```
+
 ### Howto recover a deleted local branch
 
 ```bash
