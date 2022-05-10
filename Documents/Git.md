@@ -102,7 +102,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 `remote: Permission to <github-account>/<repo-name>.git denied to <user-name>.`
 `fatal: unable to access 'https://github.com/<github-account>/<repo-name>.git/': The requested URL returned error: 403`
 
-## Solution: Generate Personal Access Token
+#### Solution: Generate Personal Access Token in GitHub
 
 My account - Setting - Developer Setting - Personal Access Token - Generate New Token
 
@@ -112,6 +112,20 @@ admin:repo_hook Full control of repository hooks
 
 ```bash
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>
+```
+
+## Howto fix authentication git repository in AzureDevops in VSCode
+
+First get the remote origin.url
+
+```bash
+  git config --get remote.origin.url
+```
+
+Then set personal-access-Token (Find it in AzureDevops -> User Settings -> Personal access tokens )
+
+```bash
+  git remote set-url origin https://<user-name>:<personal-accesstoken>@dev.azure.com/<company-name>/<project-name>/_git/<repo-name>
 ```
 
 ### Howto recover a deleted local branch
