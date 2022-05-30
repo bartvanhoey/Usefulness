@@ -19,3 +19,8 @@
 [Rider](Documents/Rider.md)
 
 [Azure Kubernetes Service](Documents/AKS.md)
+
+
+Powershell convert csv to json
+
+ $saleItemsLines = import-csv .\result.csv | ConvertTo-Json > out.json
