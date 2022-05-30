@@ -20,7 +20,4 @@
 
 [Azure Kubernetes Service](Documents/AKS.md)
 
-
-Powershell convert csv to json
-
- $saleItemsLines = import-csv .\result.csv | ConvertTo-Json > out.json
+[Powershell](Documents/PowerShell.cmd)
