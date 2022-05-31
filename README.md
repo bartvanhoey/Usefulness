@@ -20,4 +20,4 @@
 
 [Azure Kubernetes Service](Documents/AKS.md)
 
-[Powershell](Documents/PowerShell.cmd)
+[Powershell](Documents/PowerShell.md)
