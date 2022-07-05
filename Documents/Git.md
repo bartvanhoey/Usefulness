@@ -1,6 +1,29 @@
 ## Git Commands
 
-## Howto remove old local branches that do not exist on remote repository anymore
+### Howto handle Support for password authentication was removed ... Please use a personal access token instead
+
+```bash
+  C:\>git push -u origin main
+  Username for 'https://github.com': <your-username>
+  Password for 'https://<your-username>@github.com':
+  remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+  remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+  fatal: Authentication failed for 'https://github.com/<your-username>/<your-reponame>.git/'
+```
+
+#### Solution: Generate Personal Access Token in GitHub
+
+My account - Settings - Developer Settings - Personal Access Token - Generate New Token
+
+admin:repo_hook Full control of repository hooks
+  write:repo_hook Write repository hooks [checked]
+  read:repo_hook Read repository hooks [checked]
+
+```bash
+  git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>
+```
+
+### Howto remove old local branches that do not exist on remote repository anymore
 
 There's a neat NPM package that does it for you (and it should work cross-platform).
 
@@ -21,7 +44,7 @@ And then git removed-branches will show you all the stale local branches, and gi
   git removed-branches --prune --force
 ```
 
-## Howto remove old unused branches of a remote repository
+### Howto remove old unused branches of a remote repository
 
   ```csharp
   # run this to see which branches will be deleted!
@@ -104,7 +127,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 #### Solution: Generate Personal Access Token in GitHub
 
-My account - Setting - Developer Setting - Personal Access Token - Generate New Token
+My account - Settings - Developer Settings - Personal Access Token - Generate New Token
 
 admin:repo_hook Full control of repository hooks
   write:repo_hook Write repository hooks [checked]
@@ -114,7 +137,7 @@ admin:repo_hook Full control of repository hooks
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>
 ```
 
-## Howto fix authentication git repository in AzureDevops in VSCode
+### Howto fix authentication git repository in AzureDevops in VSCode
 
 First get the remote origin.url
 
