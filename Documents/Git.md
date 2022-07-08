@@ -23,6 +23,14 @@ admin:repo_hook Full control of repository hooks
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
 ```
 
+### Howto check contributions from a git repository
+
+[Whodid]([https://](https://www.npmjs.com/package/whodid)) is a CLI contribution check tool that counts edited lines from all commits pro author
+
+```bash
+  npm install -g whodid
+```
+
 ### Howto remove old local branches that do not exist on remote repository anymore
 
 There's a neat NPM package that does it for you (and it should work cross-platform).
