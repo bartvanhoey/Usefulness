@@ -20,7 +20,7 @@ admin:repo_hook Full control of repository hooks
   read:repo_hook Read repository hooks [checked]
 
 ```bash
-  git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>
+  git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
 ```
 
 ### Howto remove old local branches that do not exist on remote repository anymore
