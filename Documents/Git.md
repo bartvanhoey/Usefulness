@@ -1,4 +1,4 @@
-## Git Commands
+## Git Tips and Tricks
 
 ### Howto handle Support for password authentication was removed ... Please use a personal access token instead
 
@@ -12,6 +12,23 @@
 ```
 
 #### Solution: Generate Personal Access Token in GitHub
+
+My account - Settings - Developer Settings - Personal Access Token - Generate New Token
+
+admin:repo_hook Full control of repository hooks
+  write:repo_hook Write repository hooks [checked]
+  read:repo_hook Read repository hooks [checked]
+
+```bash
+  git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
+```
+
+### Howto handle fatal: unable to access - The requested URL returned error: 403
+
+`remote: Permission to <github-account>/<repo-name>.git denied to <user-name>.`
+`fatal: unable to access 'https://github.com/<github-account>/<repo-name>.git/': The requested URL returned error: 403`
+
+#### Solution: Generate Personal Access Token in GitHub Account
 
 My account - Settings - Developer Settings - Personal Access Token - Generate New Token
 
@@ -77,8 +94,9 @@ And then git removed-branches will show you all the stale local branches, and gi
 
 ### Howto uncommit last un-pushed git commits without losing changes (~gN N=number of commits)
 
+* uncommit last un-pushed git commit without losing changes
+
 ```csharp
-# uncommit last un-pushed git commit without losing changes
 git reset HEAD~1 --soft
 git log origin/master..HEAD` view unpushed git commits
 ```
@@ -141,23 +159,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ### Howto delete a remote branch
 
 `git push origin --delete <branch-name>`
-
-### Howto handle fatal: unable to access - The requested URL returned error: 403
-
-`remote: Permission to <github-account>/<repo-name>.git denied to <user-name>.`
-`fatal: unable to access 'https://github.com/<github-account>/<repo-name>.git/': The requested URL returned error: 403`
-
-#### Solution: Generate Personal Access Token in GitHub
-
-My account - Settings - Developer Settings - Personal Access Token - Generate New Token
-
-admin:repo_hook Full control of repository hooks
-  write:repo_hook Write repository hooks [checked]
-  read:repo_hook Read repository hooks [checked]
-
-```bash
-  git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>
-```
 
 ### Howto fix authentication git repository in AzureDevops in VSCode
 
