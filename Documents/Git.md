@@ -41,25 +41,39 @@ Install it with:
   npm install -g git-removed-branches
 ```
 
-And then git removed-branches will show you all the stale local branches, and git removed-branches --prune to delete them.
+And then git removed-branches will show you all the stale local branches, and git removed-branches --prune to delete them
 
-```csharp
-  # run this command to see which branches will be deleted!
+* Run this command to see which branches will be deleted
+
+```batch
   git removed-branches
-  # run this command to delete these branches!
+```
+
+* Run this command to actually delete these branches
+
+```batch
   git removed-branches --prune
-  # run this to delete these branches!
+```
+
+* Run this to actually delete these branches (forced)
+
+```batch
   git removed-branches --prune --force
 ```
 
 ### Howto remove old unused branches of a remote repository
 
-  ```csharp
-  # run this to see which branches will be deleted!
+* Run this to see which branches will be deleted!
+
+```batch
   git remote prune origin --dry-run
-  # run this command to delete these branches
+```
+
+* Run this command to delete these branches
+  
+```batch
   git remote prune origin
-  ```
+ ```
 
 ### Howto uncommit last un-pushed git commits without losing changes (~gN N=number of commits)
 
