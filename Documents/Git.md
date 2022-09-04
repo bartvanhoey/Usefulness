@@ -16,11 +16,27 @@
 My account - Settings - Developer Settings - Personal Access Token - Generate New Token
 
 admin:repo_hook Full control of repository hooks
-  write:repo_hook Write repository hooks [checked]
-  read:repo_hook Read repository hooks [checked]
+
+* write:repo_hook Write repository hooks [checked]
+
+* read:repo_hook Read repository hooks [checked]
 
 ```bash
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
+```
+
+### Howto handle Write access to repository not granted
+
+```bash
+  remote: Write access to repository not granted.
+  fatal: unable to access 'https://github.com/<your-username>/<your-reponame>.git/': The requested URL returned error: 403
+```
+
+#### Solution: Remove the remote origin and re-add the remote origin
+
+```bash
+  git remote rm origin
+  git remote add origin  https://<your-username>:<your-personal-accesstoken>@github.com/username/reponame.git
 ```
 
 ### Howto handle fatal: unable to access - The requested URL returned error: 403
