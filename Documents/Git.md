@@ -49,8 +49,10 @@ admin:repo_hook Full control of repository hooks
 My account - Settings - Developer Settings - Personal Access Token - Generate New Token
 
 admin:repo_hook Full control of repository hooks
-  write:repo_hook Write repository hooks [checked]
-  read:repo_hook Read repository hooks [checked]
+
+* write:repo_hook Write repository hooks [checked]
+
+* read:repo_hook Read repository hooks [checked]
 
 ```bash
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
