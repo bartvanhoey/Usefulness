@@ -67,11 +67,12 @@
 | `C#`                                       | C# for Visual Studio Code (powered by OmniSharp)                                               |
 | `Resharper 9 Keybindings`                  | Port of Resharper 9 Keybindings                                                                |
 | `Visual Studio Keymap`                     | Ports popular Visual Studio keyboard shortcuts to Visual Studio Code                           |
-| `Bracket Pair Colorizer`                   | Gives the Corresponding bracket the same color                                                 |
 | `html tag wrapper`                         | Wrap selected html tags by pressing CTRL+i                                                     |
 | `Auto Close Tag`                           | Automatically add HTML/XML close tag, same as Visual Studio IDE does                           |
 | `Auto Rename Tag`                          | Renames the corresponding html tag                                                             |
 | `Auto Import`                              | Provides code actions and code completion for all available Typescript                         |
+| `ABPx`                                     | Snippets for ABP that start with an x                                                          |
+| `Prettier`                                 | Code Formatter for Visual Studio Code                                                          |
 | `Lorem Ipsum`                              | Generates and inserts lorem ipsum text into Visual Studio Code                                 |
 | `Markdown Extension Pack`                  | Extension pack with some of the most popular Markdown extensions                               |
 | `vscode-pdf`                               | Display PDF files in Visual Studio Code                                                        |
@@ -112,4 +113,4 @@
 ```bash
     // Navigate to folder below on WINDOWS machine
     // C:\Users\<YourUserName>\.vscode\extensions\eservice-online.vs-sharper-0.2.0\templates
-    // Edit file csharpInterface.vstpl -> Update Interface to interface
+    // Edit file csharpInterface.vstpl -> Update **Interface** to **interface**

@@ -1,4 +1,4 @@
-[Git](Documents/Git.md)
+[Gitgit ](Documents/Git.md)
 
 [EF Core](Documents/EntityFrameworkCore.md)
 
@@ -9,6 +9,8 @@
 [Vim Editor](VimEditor.md)
 
 [Visual Studio Code](Documents/VsCode.md)
+
+[Notepad++](Documents/NotepadPlusPlus.md)
 
 [Ngrok](Documents/Ngrok.md)
 
