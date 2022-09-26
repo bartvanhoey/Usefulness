@@ -104,13 +104,24 @@
 ### Change Shortcut to Toggle Explorer in VSCode
 
 ```bash
+    // File -> Preferences -> Settings
+    search for debug tool bar :  change from **floating** to **docked**
+```
+
+### Change Location Debug Toolbar
+
+```bash
     // File -> Preferences -> Keyboard Shortcuts (CTRL+K, CTRL+S )
     search for workbench.action.toggleSidebarVisibility : assign shortcut key (CTRL+SHIFT+E)
 ```
 
-## VS Sharper for C# (Capital letter generating interface issue)
+
+### VS Sharper for C# (Capital letter generating interface issue)
 
 ```bash
     // Navigate to folder below on WINDOWS machine
     // C:\Users\<YourUserName>\.vscode\extensions\eservice-online.vs-sharper-0.2.0\templates
     // Edit file csharpInterface.vstpl -> Update **Interface** to **interface**
+```
+
+
