@@ -115,6 +115,12 @@
     search for workbench.action.toggleSidebarVisibility : assign shortcut key (CTRL+SHIFT+E)
 ```
 
+### Set Command Prompt as default terminal
+
+```bash
+    // File -> Preferences -> Settings -> Terminal
+    search for "terminal.integrated.defaultProfile.windows" set to  "Command Prompt"
+```
 
 ### VS Sharper for C# (Capital letter generating interface issue)
 
