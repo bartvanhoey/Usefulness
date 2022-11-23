@@ -130,4 +130,12 @@
     // Edit file csharpInterface.vstpl -> Update **Interface** to **interface**
 ```
 
+### Autoclose Brackets
+
+```bash
+    // File -> Preferences -> Settings  
+    search for "autoclose" set Editor: Auto Closing Brackets to  "always"
+```
+
+
 
