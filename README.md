@@ -15,6 +15,7 @@
 3. Update EF tool
 
     ```bash
+    dotnet ef --version
     dotnet tool update --global dotnet-ef
     ```
 
