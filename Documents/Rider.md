@@ -18,6 +18,7 @@
 | `Double SHIFT (CTRL+T)`      | Search Everywhere
 | `CTRL+SHIFT+T`               | Find File
 | `CTRL+S`                     | Pin Active Tab (custom defined)
+| `CTRL+SHIFT+S`               | Close Unpinned Tabs (custom defined)
 | `CTRL+W`                     | Extend Selection
 | `CTRL+R,M`                   | Extract Method
 | `CTRL+U,L`                   | Run All Tests from Solution
