@@ -19,7 +19,6 @@
 | `CTRL+D`                                 | Duplicate Line (no need to select line)                                                          |
 | `CTRL+F`                                 | Search in File                                                                                   |
 | `CTRL+H`                                 | Search and Replace in File                                                                       |
-| `CTRL+J`                                 | Show/Hide Bottom Panel                                                                           |
 | `CTRL+K+C` or `CTRL+/`                   | Comment/Uncomment Line                                                                           |
 | `CTRL+K+D`                               | Format Document                                                                                  |
 | `CTRL+K+W`                               | Close All Documents                                                                              |
@@ -42,7 +41,7 @@
 | `CTRL+SHIFT+W`                           | Selection Shrink                                                                                 |
 | `CTRL+SHIFT+backtick`                    | Open New Terminal                                                                                |
 | `CTRL+S`                                 | Pin tab/Unpin tab                                                                                |
-| `CTRL+J`                                 | Toggle Panel Visibility                                                                          |
+| `CTRL+J`                                 | Toggle Bottom Panel Visibility                                                                          |
 | `CTRL+TAB`                               | Toggle through Tabs                                                                              |
 | `CTRL+W`                                 | Close Active Document                                                                            |
 | `CTRL+X`                                 | Cut (no need to select line)                                                                     |
