@@ -42,6 +42,7 @@
 | `CTRL+SHIFT+W`                           | Selection Shrink                                                                                 |
 | `CTRL+SHIFT+backtick`                    | Open New Terminal                                                                                |
 | `CTRL+S`                                 | Pin tab/Unpin tab                                                                                |
+| `CTRL+J`                                 | Toggle Panel Visibility                                                                          |
 | `CTRL+TAB`                               | Toggle through Tabs                                                                              |
 | `CTRL+W`                                 | Close Active Document                                                                            |
 | `CTRL+X`                                 | Cut (no need to select line)                                                                     |
