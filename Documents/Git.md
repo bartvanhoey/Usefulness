@@ -227,6 +227,13 @@ git clean -f
 git clean -n -f 
 ```
 
+
+### Howto checkout a specific commit
+
+```bash
+git checkout <sha>
+```
+
 ### Howto revert to a specific commit
 
 ```bash
