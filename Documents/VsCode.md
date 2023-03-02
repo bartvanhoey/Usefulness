@@ -137,5 +137,9 @@
     search for "autoclose" set Editor: Auto Closing Brackets to  "always"
 ```
 
+### Get rid off annoying sounds when working on a project
 
-
+```bash
+    // File -> Preferences -> Settings  
+    search for "editor.accessibilitySupport" set to "off"
+```
