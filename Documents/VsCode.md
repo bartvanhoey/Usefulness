@@ -101,14 +101,14 @@
     search for workbench.action.unpinEditor : assign shortcut key (CTRL+S)
 ```
 
-### Change Shortcut to Toggle Explorer in VSCode
+### Change Location Debug Toolbar
 
 ```bash
     // File -> Preferences -> Settings
     search for debug tool bar :  change from **floating** to **docked**
 ```
 
-### Change Location Debug Toolbar
+### Change Shortcut to Toggle Explorer in VSCode
 
 ```bash
     // File -> Preferences -> Keyboard Shortcuts (CTRL+K, CTRL+S )
