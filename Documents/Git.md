@@ -1,4 +1,4 @@
-## Git Tips and Tricks
+## Git and GitHub Tips and Tricks
 
 ### Howto handle Support for password authentication was removed ... Please use a personal access token instead
 
@@ -23,6 +23,11 @@ admin:repo_hook Full control of repository hooks
 
 ```bash
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
+```
+
+### Howto Clone your Private Repository 
+```bash
+  git clone https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
 ```
 
 ### Howto handle Write access to repository not granted
