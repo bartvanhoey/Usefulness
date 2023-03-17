@@ -10,6 +10,8 @@
 | `ALT+F12`                                | Find All References                                                                              |
 | `ALT+O`                                  | Switch from Code-behind to/from razor files (ASP.NET Core Switcher Extension - adrianwilczynski) |
 | `ALT+SHIFT+ARROW UP/DOWN`                | Moves (selected) line/lines up or down                                                           |
+| `CTRL+`                                  | Zoom in                                                                                          |
+| `CTRL-`                                  | Zoom out                                                                                         |
 | `CTRL+-`                                 | Navigate Back                                                                                    |
 | `CTRL+.`                                 | Quick Fix                                                                                        |
 | `CTRL+7`                                 | Comment Line (toggle)                                                                            |
@@ -21,22 +23,19 @@
 | `CTRL+H`                                 | Search and Replace in File                                                                       |
 | `CTRL+K+C` or `CTRL+/`                   | Comment/Uncomment Line                                                                           |
 | `CTRL+K+D`                               | Format Document                                                                                  |
-| `CTRL+K+W`                               | Close All Documents                                                                              |
 | `CTRL+K,CTRL+S`                          | Keyboard Shortcuts                                                                               |
 | `CTRL+L`                                 | Delete Line (no need to select line)                                                             |
 | `CTRL+M`                                 | Go to Type Declaration                                                                           |
 | `CTRL+P` or `CTRL+,`                     | Go to File                                                                                       |
 | `CTRL+SHIFT+R`                           | Rename                                                                                           |
 | `F2`                                     | Rename                                                                                           |
-| `CTRL+SHIFT+C`                           | Opens External Terminal in Project Root                                                          |
+| `CTRL+SHIFT+ö`                           | Opens External Terminal in Project Root                                                          |
 | `CTRL+SHIFT+D`                           | Focus Debugger                                                                                   |
 | `CTRL+SHIFT+E`                           | Toggle Solution Explorer (toggleSideBarVisibility)                                               |
 | `CTRL+SHIFT+F`                           | Search in All Files                                                                              |
 | `CTRL+SHIFT+H`                           | Search and Replace in All Files                                                                  |
-| `CTRL+SHIFT+MinusSign`                   | Decrease font size                                                                               |
 | `CTRL+SHIFT+O`                           | Shows list of methods, properties, fields of active field                                        |
 | `CTRL+SHIFT+P`                           | Command Palette                                                                                  |
-| `CTRL+SHIFT+PlusSign`                    | Increase font size                                                                               |
 | `CTRL+SHIFT+TAB`                         | Toggle backwards through Tabs                                                                    |
 | `CTRL+SHIFT+W`                           | Selection Shrink                                                                                 |
 | `CTRL+SHIFT+ö`                           | Open New Terminal                                                                                |
@@ -44,6 +43,7 @@
 | `CTRL+J`                                 | Toggle Bottom Panel Visibility                                                                   |
 | `CTRL+TAB`                               | Toggle through Tabs                                                                              |
 | `CTRL+W`                                 | Close Active Document                                                                            |
+| `CTRL+K+W`                               | Close All Documents                                                                              |
 | `CTRL+X`                                 | Cut (no need to select line)                                                                     |
 | `CTRL+\`                                 | Split Editor                                                                                     |
 | `CTRL+backtick`                          | Show/Hide Terminal                                                                               |
@@ -54,10 +54,10 @@
 | `CTRl+SHIFT+P -> Balance (outward)`      | Select a whole HTML tag                                                                          |
 | `CTRl+ALT+T`                             | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
 | `CTRl+B, CTRL+B`                         | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
+| `SHIFT+ALT+ENTER`                        | Toggle Zen Mode                                                                                  |
 | `ESC+ESC`                                | Exit Zen Mode                                                                                    |
 | `SHIFT+ALT+(arrow key)`                  | Column (box) selection                                                                           |
 | `SHIFT+ALT+(drag mouse)`                 | Column (box) selection                                                                           |
-| `SHIFT+ALT+ENTER`                        | Toggle Zen Mode                                                                                  |
 | `SHIFT+ALT+F12`                          | Find all References                                                                              |
 
 ## My Favorite Visual Studio Code Extensions
