@@ -20,9 +20,9 @@
 | `CTRL+S`                     | Pin Active Tab (custom defined)
 | `CTRL+SHIFT+S`               | Close Unpinned Tabs (custom defined)
 | `CTRL+W`                     | Extend Selection
+| `CTRL+R,V`                   | Introduce Variable...
 | `CTRL+R,M`                   | Extract Method
 | `CTRL+U,L`                   | Run All Tests from Solution
-| `CTRL+R,V`                   | Introduce Variable...
 | `CTRL+R,F`                   | Introduce Field...
 | `CTRL+R,R`                   | Rename
 | `CTRL+R,S`                   | Change Method Signature

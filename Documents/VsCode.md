@@ -45,7 +45,7 @@
 | `CTRL+W`                                 | Close Active Document                                                                            |
 | `CTRL+K+W`                               | Close All Documents                                                                              |
 | `CTRL+X`                                 | Cut (no need to select line)                                                                     |
-| `CTRL+\`                                 | Split Editor                                                                                     |
+| `CTRL+/`                                 | Split Editor                                                                                     |
 | `CTRL+backtick`                          | Show/Hide Terminal                                                                               |
 | `CTRl+ALT+C`                             | Create New Git Branch (own Keyboard short cut)                                                   |
 | `CTRl+K+S`                               | Shows VS Code shortcuts                                                                          |
@@ -96,7 +96,7 @@
 ### Change Shortcut to Pin/Unpin Tabs in VSCode
 
 ```bash
-    // File -> Preferences -> Keyboard Shortcuts (CTRL+K, CTRL+S )
+    // File -> Preferences -> Keyboard Shortcuts (CTRL+K, CTRL+S)
     search for workbench.action.pinEditor : assign shortcut key (CTRL+S)
     search for workbench.action.unpinEditor : assign shortcut key (CTRL+S)
 ```
@@ -105,7 +105,7 @@
 
 ```bash
     // File -> Preferences -> Settings
-    search for debug tool bar :  change from **floating** to **docked**
+    search for debug tool bar: change from **floating** to **docked**
 ```
 
 ### Change Shortcut to Toggle Explorer in VSCode
