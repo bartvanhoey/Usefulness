@@ -59,6 +59,7 @@
 | `SHIFT+ALT+(arrow key)`                  | Column (box) selection                                                                           |
 | `SHIFT+ALT+(drag mouse)`                 | Column (box) selection                                                                           |
 | `SHIFT+ALT+F12`                          | Find all References                                                                              |
+| `CTRL+C,C`                               | Clear Console                                                                                    |
 
 ## My Favorite Visual Studio Code Extensions
 
