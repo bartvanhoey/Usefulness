@@ -56,7 +56,7 @@
 | `CTRl+B, CTRL+B`                         | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
 | `SHIFT+ALT+ENTER`                        | Toggle Zen Mode                                                                                  |
 | `ESC+ESC`                                | Exit Zen Mode                                                                                    |
-| `SHIFT+ALT+(arrow key)`                  | Column (box) selection                                                                           |
+| `SHIFT+ALT+(arrow key)`                  | Column (box) selection `SHIFT+option+(arrow key)` on mac mini                                    |
 | `SHIFT+ALT+(drag mouse)`                 | Column (box) selection                                                                           |
 | `SHIFT+ALT+F12`                          | Find all References                                                                              |
 | `CTRL+C,C`                               | Clear Console                                                                                    |
