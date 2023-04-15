@@ -91,6 +91,9 @@
 | `.NET Core Test Explorer`                  | Text Explorer for .NET Core (MSTest, xUnit, NUnit)                                             |
 | `vscode-icons`                             | Icons for Visual Studio Code                                                                   |
 | `TabNine`                                  | Code Faster with the All-Language AI Assistant for Code Completion                             |
+| `ColorTabs - Ore Poran`                    | Changes the active tab/status-bar/title-background                                             |
+| `Error Lens - ALexander`                   | Improve highlighting of errors warnings and other language diagnostics                         |
+| `Remove Comments - plibither8`             | Remove all comments from your code at once!                                                    |
 
 ## Customize Settings
 
