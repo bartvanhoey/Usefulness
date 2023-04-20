@@ -60,7 +60,7 @@
 | `SHIFT+ALT+(drag mouse)`                 | Column (box) selection                                                                           |
 | `SHIFT+ALT+F12`                          | Find all References                                                                              |
 | `CTRL+C,C`                               | Clear Console                                                                                    |
-| `CTRL+F,F`                               | Focus Editor (workbench.action.focusActiveEditorGroup)commi                                           |
+| `CTRL+F,F`                               | Focus Editor (workbench.action.focusActiveEditorGroup)                                           |
 
 ## My Favorite Visual Studio Code Extensions
 
