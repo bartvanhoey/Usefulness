@@ -148,6 +148,7 @@
     // File -> Preferences -> Settings  
     search for "editor.accessibilitySupport" set to "off"
 ```
+
 ### ColorTabs settings in settings.json file
 
 ```bash
