@@ -61,6 +61,7 @@
 | `SHIFT+ALT+F12`                          | Find all References                                                                              |
 | `CTRL+C,C`                               | Clear Console                                                                                    |
 | `CTRL+F,F`                               | Focus Editor (workbench.action.focusActiveEditorGroup)                                           |
+| `CTRL+N,N`                               | New File...                                                                                      |
 
 ## My Favorite Visual Studio Code Extensions
 
