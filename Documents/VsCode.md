@@ -97,6 +97,7 @@
 | `Error Lens - ALexander`                   | Improve highlighting of errors warnings and other language diagnostics                         |
 | `Remove Comments - plibither8`             | Remove all comments from your code at once!                                                    |
 | `C# Dev Kist`                              | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities                     |
+| `C# Extensions - JosKreativ`               | C# IDE Extensions for VSCode                                                                   |
 
 ## Customize Settings
 
