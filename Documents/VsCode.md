@@ -98,6 +98,7 @@
 | `Remove Comments - plibither8`             | Remove all comments from your code at once!                                                    |
 | `C# Dev Kist`                              | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities                     |
 | `C# Extensions - JosKreativ`               | C# IDE Extensions for VSCode                                                                   |
+| `ES7+ React/Redux/React-Native snippets`   | ES7 Extension by dsznajder                                                                     |
 
 ## Customize Settings
 
