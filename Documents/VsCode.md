@@ -99,6 +99,7 @@
 | `C# Dev Kist`                              | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities                     |
 | `C# Extensions - JosKreativ`               | C# IDE Extensions for VSCode                                                                   |
 | `ES7+ React/Redux/React-Native snippets`   | ES7 Extension by dsznajder                                                                     |
+| `Thunder Client`                           | Lightweight Rest API Client for VS Code                                                        |
 
 ## Customize Settings
 
