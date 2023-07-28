@@ -7,11 +7,11 @@
 | `.NET`                                 | [.NET](Documents/DotNet.md)                                                                    |
 | `VIM`                                  | [Vim Editor](Documents/VimEditor.md)                                                           |
 | `VSCode Tips & Tricks`                 | [VsCode](Documents/VsCode.md)                                                                  |
-| `Notepad++  Tips & Tricks              | [Notepad++](Documents/NotepadPlusPlus.md)                                                      |  
+| `Notepad++ Tips & Tricks`              | [Notepad++](Documents/NotepadPlusPlus.md)                                                      |  
 | `Ngrok`                                | [Ngrok](Documents/Ngrok.md)                                                                    |  
 | `Docker`                               | [Docker](Documents/Docker.md)                                                                  |
 | `Kubernetes`                           | [Kubernetes](Documents/Kubernetes.md)                                                          |
-| `Rider`                                | [Rider](Documents/Rider.md)                                                                    |
+| `Rider Tips & Tricks`                  | [Rider](Documents/Rider.md)                                                                    |
 | `AKS`                                  | [Azure Kubernetes Service](Documents/AKS.md)                                                   |
 | `Powershell`                           | [Powershell](Documents/PowerShell.md)                                                          |
 | `Useful Chrome Extensions`             | [Chrome extensions](Documents/ChromeExtensions.md)                                             |
