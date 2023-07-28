@@ -100,6 +100,8 @@
 | `C# Extensions - JosKreativ`               | C# IDE Extensions for VSCode                                                                   |
 | `ES7+ React/Redux/React-Native snippets`   | ES7 Extension by dsznajder                                                                     |
 | `Thunder Client`                           | Lightweight Rest API Client for VS Code                                                        |
+| `Inline Fold - Mohammed Alamri`            | A custom decorator that "fold" matching content in single line                                 |
+| `Tailwind CSS Intellisense - Tailwind Labs`| Intelligent Tailwind CSS tooling for VS Code                                                   |
 
 ## Customize Settings
 
