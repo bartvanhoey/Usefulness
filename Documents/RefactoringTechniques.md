@@ -28,24 +28,24 @@ Refactoring is the concept of improving the structure and readability of code wi
 
 ## Arm Yourself! The best warriors have the best weapons
 
-1 Unit Tests (Armor)
-2 Tools -> Resharper, NCrunch, MsTest
-3 Skills (Patterns)
-4 Source control
+1. Unit Tests (Armor)
+2. Tools -> Rider, Resharper, NCrunch, MsTest, xUnit
+3. Skills (Patterns)
+4. Source control
 
 ## What makes code hard to work with
 
-1 No documentation
-2 Poor coding standards
-3 Other people code
-4 Magic numbers
-5 Tightly coupled
-6 Large Classes
-7 Global Variables
-8 Bad Names
-8 Broken Code
-9 Bad Formatting
-10 Improper scoping
+1. No documentation
+2. Poor coding standards
+3. Other people code
+4. Magic numbers
+5. Tightly coupled
+6. Large Classes
+7. Global Variables
+8. Bad Names
+9. Broken Code
+10. Bad Formatting
+11. Improper scoping
 
 ## Remove the 3 C's
 
@@ -53,36 +53,36 @@ Refactoring is the concept of improving the structure and readability of code wi
 
 Clutter is anything in your code that does not add value. Harder to read/understand the code
 
-1 Format your code. Choose a default formatting style but be consistent!
-2 Delete comments
-3 Delete dead code
-4 Delete unnecessary code
+1. Format your code. Choose a default formatting style but be consistent!
+2. Delete comments
+3. Delete dead code
+4. Delete unnecessary code
 
 Deleting the clutter will show you the pattern in the code. The code wants to talk to you.
 
 ### Complexity
 
-1 Bad Names
-2 Long Methods
-3 Deep Conditionals (if/for/while/switch)
-4 Magic Numbers
-5 Improper Variable Scoping
-6 Missing Encapsulation
-7 Obscure Code blocks
+1. Bad Names
+2. Long Methods
+3. Deep Conditionals (if/for/while/switch)
+4. Magic Numbers
+5. Improper Variable Scoping
+6. Missing Encapsulation
+7. Obscure Code blocks
 
 ### Cleverness
 
 If it's simple and elegant, you wouldn't refer to it as 'clever'
 
-1 Cryptic Code
-2 Abbreviated Code
-3 Hijacking a Method (changing its intent for your own purposes)
+1. Cryptic Code
+2. Abbreviated Code
+3. Hijacking a Method (changing its intent for your own purposes)
 
 ## Remove the 3 D's
 
-1 Remove Duplication
-2 Remove Duplication
-3 Remove Duplication
+1. Remove Duplication
+2. Remove Duplication
+3. Remove Duplication
 
 ## Next Steps
 
@@ -90,4 +90,3 @@ Start each task with 25 minutes of cleaning with a co-worker
 
 'Clean Code' by Robert Martin
 'Working Effectively with Legacy Code' by Michael Feathers
-
