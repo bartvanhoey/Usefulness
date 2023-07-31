@@ -168,3 +168,12 @@
     "colorTabs.titleLabel": true,
     "colorTabs.ignoreCase": true,
 ```
+
+### Prettier settings in settings.json file
+
+```bash
+  "prettier.jsxSingleQuote": true,
+  "prettier.bracketSameLine": true,
+  "prettier.bracketSpacing": true,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+```
