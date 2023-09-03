@@ -9,5 +9,8 @@
     "Resharper",
     "uncommit",
     "vstpl"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#0005BC"
+  }
 }

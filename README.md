@@ -15,4 +15,4 @@
 | [Azure Kubernetes Service](Documents/AKS.md)                                                   |
 | [Powershell](Documents/PowerShell.md)                                                          |
 | [Chrome extensions](Documents/ChromeExtensions.md)                                             |
-| [NEXT.js](Documents/NextJs.md)                                                                 |
+| [Tips & Tricks in NEXT.js](Documents/NextJs.md)                                                |
