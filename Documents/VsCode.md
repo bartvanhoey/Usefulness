@@ -177,3 +177,13 @@
   "prettier.bracketSpacing": true,
   "prettier.htmlWhitespaceSensitivity": "ignore",
 ```
+
+### Wrap an HTML-element with another HTML-element
+
+```bash
+    // File -> Preferences -> Settings -> Keyboard Shortcuts 
+    search for "editor.emmet.action.wrapWithAbbreviation" 
+    and assign a keyboard shortcut, is use CTRL+W,CTRL+W
+```
+
+
