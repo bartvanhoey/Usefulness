@@ -185,5 +185,13 @@
     search for "editor.emmet.action.wrapWithAbbreviation" 
     and assign a keyboard shortcut, I use CTRL+W,CTRL+W
 ```
+### Auto rename HTML tags
+
+```bash
+    // Open settings.json and add 
+    "editor.linkedEditing": true,
+```
+
+
 
 
