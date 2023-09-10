@@ -7,15 +7,17 @@
 | `ALT+SHIFT+ARROW UP/DOWN`    | Moves (selected) line/lines up or down
 | `CTRL+D`                     | Duplicate Line (no need to select line)
 | `CTRL+L`                     | Remove Line (no need to select line)
-| `CTRL+D,O`                   | Move To Folder
+| `F6`                         | Move To Folder
 | `SHIFT+ALT+S`                | Locate in Solution Explorer
+| `CTRL+SHIFT+E`               | Hide all Tool Windows
 | `CTRL+ALT+S`                 | Open Settings Window
-| `CTRL+SHIFT+R`               | Refactor this...
+| `ALT+ENTER`                  | Refactor this...
+| `CTRL+K+D`                   | Reformat code
 | `ALT ARROW DOWN/PREVIOUS`    | Go to Next Method/Previous Method
-| `CTRL+,`                     | Open Recent Files Window
+| `CTRL+,`                     | Open Context Actions
 | `CTRL+-`                     | Back
 | `CTRL+SHIFT+-`               | Forward
-| `Double SHIFT (CTRL+T)`      | Search Everywhere
+| `CTRL+T`                     | Search Everywhere
 | `CTRL+SHIFT+T`               | Find File
 | `CTRL+S`                     | Pin Active Tab (custom defined)
 | `CTRL+SHIFT+S`               | Close Unpinned Tabs (custom defined)
@@ -24,12 +26,12 @@
 | `CTRL+R,M`                   | Extract Method
 | `CTRL+U,L`                   | Run All Tests from Solution
 | `CTRL+R,F`                   | Introduce Field...
-| `CTRL+R,R`                   | Rename
+| `CTRL+SHIFT,R`               | Rename
 | `CTRL+R,S`                   | Change Method Signature
 | `CTRL+ALT+K`                 | Commit Changes
 | `CTRL+SHIFT,P`               | Push commit
 | `CTRL+SHIFT,K`               | Git Push
-| `CTRL+ALT+1`                 | Show/Hide Embedded Console Terminal
+| `CTRL+J`                     | Show/Hide Embedded Console Terminal
 | `CTRL+SHIFT+B`               | Build Solution
 | `CTRL+R,I`                   | Inline Variable
 | `CTRL+K,D`                   | Reformat Code
@@ -38,7 +40,6 @@
 | `CTRL+SHIFT+V`               | Paste from History...
 | `ALT+8`                      | Show/Hide Unit Tests Window
 | `ALT+7`                      | Show/Hide Nuget Packages Window
-| `CTRL+U,L`                   | Run All Tests from Solution
 | `CTRL+U,S`                   | Stop Unit Tests Execution
 | `CTRL+E,U`                   | Surround with Live Template
 | `SHIFT+ESC`                  | Hide Active Pane
