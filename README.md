@@ -14,5 +14,5 @@
 | [Tips & Tricks in  Rider](Documents/Rider.md)                                                  |
 | [Azure Kubernetes Service](Documents/AKS.md)                                                   |
 | [Powershell](Documents/PowerShell.md)                                                          |
-| [Useful Chrome extensions](Documents/ChromeExtensions.md)                                      |
+| [Chrome extensions](Documents/ChromeExtensions.md)                                      |
 | [Tips & Tricks in NEXT.js](Documents/NextJs.md)                                                |
