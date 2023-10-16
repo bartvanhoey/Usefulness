@@ -4,9 +4,56 @@
 
 | Shortcut Key                 | Action                                         |
 |------------------------------|------------------------------------------------|
-| `ALT+SHIFT+ARROW UP/DOWN`    | Moves (selected) line/lines up or down
-| `CTRL+D`                     | Duplicate Line (no need to select line)
-| `CTRL+L`                     | Remove Line (no need to select line)
+| `ALT+ARROW UP/DOWN`                      | Moves (selected) line/lines up or down                                                           |
+| `F12`                                    | Find All References                                                                              |
+| `CTRL+-`                                 | Navigate Back                                                                                    |
+| `CTRL+.`                                 | Quick Fix                                                                                        |
+| `CTRL+ARROW LEFT/RIGHT`                  | Move to Next Word                                                                                |
+| `CTRL+C`                                 | Copy (no need to select line)                                                                    |
+| `CTRL+D`                                 | Duplicate Line (no need to select line)                                                          |
+| `CTRL+F`                                 | Search in File                                                                                   |
+| `CTRL+H`                                 | Search and Replace in File                                                                       |
+| `CTRL+K+C` or `CTRL+/`                   | Comment/Uncomment Line                                                                           |
+| `CTRL+K+D`                               | Format Document                                                                                  |
+| `CTRL+;`                                 | Open Settings                                                                                    |
+| `CTRL+L`                                 | Delete Line (no need to select line)                                                             |
+| `F12`                                    | Go to Type Declaration                                                                           |
+| `SHIFT+SHIFT`                            | Go to File                                                                                       |
+| `CTRL+SHIFT+R`                           | Rename                                                                                           |
+| `F2`                                     | Rename                                                                                           |
+| `CTRL+SHIFT+ö`                           | Opens External Terminal in Project Root                                                          |
+| `CTRL+SHIFT+D`                           | Focus Debugger                                                                                   |
+| `CTRL+SHIFT+E`                           | Toggle Solution Explorer (toggleSideBarVisibility)                                               |
+| `CTRL+SHIFT+F`                           | Search in All Files                                                                              |
+| `CTRL+SHIFT+H`                           | Search and Replace in All Files                                                                  |
+| `CTRL+SHIFT+O`                           | Shows list of methods, properties, fields of active field                                        |
+| `CTRL+SHIFT+P`                           | Command Palette                                                                                  |
+| `CTRL+SHIFT+TAB`                         | Show Switcher: Toggle backwards through                                                          |
+| `CTRL+SHIFT+W`                           | Selection Shrink                                                                                 |
+| `CTRL+SHIFT+ö`                           | Open New Terminal                                                                                |
+| `CTRL+S`                                 | Pin tab/Unpin tab                                                                                |
+| `CTRL+J`                                 | Toggle Bottom Panel Visibility                                                                   |
+| `CTRL+TAB`                               | Toggle through Tabs                                                                              |
+| `CTRL+W`                                 | Close Active Document                                                                            |
+| `CTRL+K+W`                               | Close All Documents                                                                              |
+| `CTRL+X`                                 | Cut (no need to select line)                                                                     |
+| `CTRL+/`                                 | Split Editor                                                                                     |
+| `CTRL+backtick`                          | Show/Hide Terminal                                                                               |
+| `CTRl+ALT+C`                             | Create New Git Branch (own Keyboard short cut)                                                   |
+| `CTRl+K+S`                               | Shows VS Code shortcuts                                                                          |
+| `CTRl+SHIFT+.`                           | Show methods, properties, fields of a TypeScript class                                           |
+| `CTRl+SHIFT+G`                           | Open Source Control Panel                                                                        |
+| `CTRl+SHIFT+P -> Balance (outward)`      | Select a whole HTML tag                                                                          |
+| `CTRl+ALT+T`                             | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
+| `CTRl+B, CTRL+B`                         | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
+| `SHIFT+ALT+ENTER`                        | Toggle Zen Mode                                                                                  |
+| `ESC+ESC`                                | Exit Zen Mode                                                                                    |
+| `SHIFT+ALT+(arrow key)`                  | Column (box) selection `SHIFT+option+(arrow key)` on mac mini                                    |
+| `SHIFT+ALT+(drag mouse)`                 | Column (box) selection                                                                           |
+| `SHIFT+ALT+F12`                          | Find all References                                                                              |
+| `CTRL+C,C`                               | Clear Console                                                                                    |
+| `CTRL+F,F`                               | Focus Editor (workbench.action.focusActiveEditorGroup)                                           |
+| `CTRL+N,N`                               | New File...                                                                                      |
 | `F6`                         | Move To Folder
 | `SHIFT+ALT+S`                | Locate in Solution Explorer
 | `CTRL+SHIFT+E`               | Hide all Tool Windows
