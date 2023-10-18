@@ -24,9 +24,10 @@
 | `CTRL+K+C` or `CTRL+/`                   | Comment/Uncomment Line                                                                           |
 | `CTRL+K+D`                               | Format Document                                                                                  |
 | `CTRL+K,CTRL+S`                          | Keyboard Shortcuts                                                                               |
+| `CTRL+,`                                 | Open Settings                                                                                    |
 | `CTRL+L`                                 | Delete Line (no need to select line)                                                             |
 | `CTRL+M`                                 | Go to Type Declaration                                                                           |
-| `CTRL+P` or `CTRL+,`                     | Go to File                                                                                       |
+| `CTRL+P`                                 | Go to File                                                                                       |
 | `CTRL+SHIFT+R`                           | Rename                                                                                           |
 | `F2`                                     | Rename                                                                                           |
 | `CTRL+SHIFT+ö`                           | Opens External Terminal in Project Root                                                          |
