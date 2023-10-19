@@ -190,8 +190,13 @@
 
 ```bash
     // Open settings.json and add 
-    "editor.linkedEditing": true,
+    "editor.linkedEditing": true
 ```
+
+### How to Commit and Push ad the same time
+
+Go to File -> Preferences -> Settings -> Keyboard Shortcuts 
+Search for: **Git: Post Commit Command** and select **push**
 
 
 
