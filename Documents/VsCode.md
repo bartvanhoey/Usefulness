@@ -38,7 +38,7 @@
 | `CTRL+SHIFT+P`                           | Command Palette                                                                                  |
 | `CTRL+SHIFT+TAB`                         | Toggle backwards through Tabs                                                                    |
 | `CTRL+SHIFT+W`                           | Selection Shrink                                                                                 |
-| `CTRL+SHIFT+ö`                           | Open New Terminal                                                                                |
+| `CTRL+SHIFT+T`                           | Open New Terminal                                                                                |
 | `CTRL+S`                                 | Pin tab/Unpin tab                                                                                |
 | `CTRL+J`                                 | Toggle Bottom Panel Visibility                                                                   |
 | `CTRL+TAB`                               | Toggle through Tabs                                                                              |
