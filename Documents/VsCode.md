@@ -104,6 +104,7 @@
 | `Inline Fold - Mohammed Alamri`            | A custom decorator that "fold" matching content in single line                                 |
 | `Tailwind CSS Intellisense - Tailwind Labs`| Intelligent Tailwind CSS tooling for VS Code                                                   |
 | `Mintlify Doc Writer`                      | AI powered documentation writer                                                                |
+| `CodiumAI`                                 | Integrity Agent powered by GPT3.5&4                                                            |
 
 ## Customize Settings
 
