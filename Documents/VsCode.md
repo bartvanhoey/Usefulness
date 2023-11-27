@@ -206,7 +206,10 @@ Go to File -> Preferences -> Settings
 Search for **Unknown** and select **ignore** in CSS>Lint:Unknown At Rules
 
 
+### How get Tailwind Intellisense when using Emmet
 
+Go to  Settings of **Tailwind CSS Intellisense** 
+and enable **Tailwind CSS > Emmet Completions**
 
 
 
