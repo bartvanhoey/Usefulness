@@ -64,7 +64,7 @@
 | `CTRL+F,F`                               | Focus Editor (workbench.action.focusActiveEditorGroup)                                           |
 | `CTRL+N,N`                               | New File...                                                                                      |
 
-## My Favorite Visual Studio Code Extensions
+## My Favorite VsCode Extensions
 
 | Extension                                  | Description                                                                                    |
 |--------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -204,7 +204,6 @@ Search for: **Git: Post Commit Command** and select **push**
 
 Go to File -> Preferences -> Settings 
 Search for **Unknown** and select **ignore** in CSS>Lint:Unknown At Rules
-
 
 ### How get Tailwind Intellisense when using Emmet
 
