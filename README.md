@@ -3,7 +3,7 @@
 | [Tips & Tricks in VsCode](Documents/VsCode.md)                                                 |
 | [All about Git](Documents/Git.md)                                                              |
 | [My most used Command Line Commands](Documents/TopTenCommandLineCommands.md)                   |
-| [Tailwind CSS](Documents/TailaindCss.md)                   |
+| [Tailwind CSS](Documents/TailwindCss.md)                   |
 | [EF Core](Documents/EntityFrameworkCore.md)                                                    |
 | [ABP cli](Documents/ABPcli.md)                                                                 |
 | [.NET](Documents/DotNet.md)                                                                    |
