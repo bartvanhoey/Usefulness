@@ -10,6 +10,8 @@
 | `ALT+F12`                                | Find All References                                                                              |
 | `ALT+O`                                  | Switch from Code-behind to/from razor files (ASP.NET Core Switcher Extension - adrianwilczynski) |
 | `ALT+SHIFT+ARROW UP/DOWN`                | Moves (selected) line/lines up or down                                                           |
+| `ALT+Insert`                             | Insert New File                                                                                  |
+| `ALT+Insert+F`                           | Insert New Folder                                                                                |
 | `CTRL+`                                  | Zoom in                                                                                          |
 | `CTRL-`                                  | Zoom out                                                                                         |
 | `CTRL+-`                                 | Navigate Back                                                                                    |
