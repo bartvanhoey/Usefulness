@@ -65,9 +65,11 @@
 | `CTRL+C,C`                               | Clear Console                                                                                    |
 | `CTRL+F,F`                               | Focus Editor (workbench.action.focusActiveEditorGroup)                                           |
 | `CTRL+N,N`                               | New File...                                                                                      |
+| `SHIFT+F1`                               | Starting Live Server                                                                             |
+| `SHIFT+F2`                               | Stopping Live Server                                                                             |
 
 ## My Favorite VsCode Extensions
-
+1
 | Extension                                  | Description                                                                                    |
 |--------------------------------------------|------------------------------------------------------------------------------------------------|
 | `C#`                                       | C# for Visual Studio Code (powered by OmniSharp)                                               |
