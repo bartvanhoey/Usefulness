@@ -69,7 +69,7 @@
 | `SHIFT+F2`                               | Stopping Live Server                                                                             |
 
 ## My Favorite VsCode Extensions
-1
+
 | Extension                                  | Description                                                                                    |
 |--------------------------------------------|------------------------------------------------------------------------------------------------|
 | `C#`                                       | C# for Visual Studio Code (powered by OmniSharp)                                               |
@@ -192,6 +192,7 @@
     search for "editor.emmet.action.wrapWithAbbreviation" 
     and assign a keyboard shortcut, I use CTRL+W,CTRL+W
 ```
+
 ### Auto rename HTML tags
 
 ```bash
@@ -201,18 +202,24 @@
 
 ### How to Commit and Push ad the same time
 
-Go to File -> Preferences -> Settings -> Keyboard Shortcuts 
+Go to File -> Preferences -> Settings -> Keyboard Shortcuts
 Search for: **Git: Post Commit Command** and select **push**
 
 ### How to get rid off the underlined Unknown errors in tailwind
 
-Go to File -> Preferences -> Settings 
+Go to File -> Preferences -> Settings
 Search for **Unknown** and select **ignore** in CSS>Lint:Unknown At Rules
 
 ### How get Tailwind Intellisense when using Emmet
 
-Go to  Settings of **Tailwind CSS Intellisense** 
+Go to  Settings of **Tailwind CSS Intellisense**
 and enable **Tailwind CSS > Emmet Completions**
 
+### File Nesting
 
+Controls whether files are automatically nested
 
+Go to File -> Preferences -> Settings -> Search for: **File Nesting**
+Explorer > File Nesting: Enabled
+
+Check -> Controls whether file nesting is enabled in the Explorer
