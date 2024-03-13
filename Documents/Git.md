@@ -25,7 +25,8 @@ admin:repo_hook Full control of repository hooks
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
 ```
 
-### Howto Clone your Private Repository 
+### Howto Clone your Private Repository
+
 ```bash
   git clone https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
 ```
@@ -232,7 +233,6 @@ git clean -f
 git clean -n -f 
 ```
 
-
 ### Howto checkout a specific commit
 
 ```bash
@@ -362,6 +362,7 @@ git apply
 git update-index --assume-unchanged <project-name><file-name>
 ## git update-index --assume-unchanged src/AbpFrameworkProjectName.HttpApi.Host/appsettings.json
 ```
+
 ### Howto to track changes again of an untracked file in a git repo
 
 `git update-index --no-assume-unchanged <project-name><file-name>`
