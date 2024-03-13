@@ -11,8 +11,8 @@
 | `ALT+ENTER`                  | Open Context Actions                                          |
 | `ALT+SHIFT+INSERT`           | Enable Column Selection ... edit multiple lines at once       |
 | `CTRL+-`                     | Navigate Back                                                 |
-| `CTRL++`                     | Open Context Actions                                          |
-| `CTRL+;`                     | Open Settings                                                 |
+| `CTRL+.`                     | Open Context Actions                                          |
+| `CTRL+,`                     | Open Settings                                                 |
 | `CTRL+.`                     | Quick Fix                                                     |
 | `CTRL+/`                     | Split Editor                                                  |
 | `CTRl+ALT+N`                 | Create New Git Branch (own Keyboard short cut)                |
