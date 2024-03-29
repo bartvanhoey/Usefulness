@@ -84,12 +84,12 @@
 | `Code Spell Checker`                        | Spelling Checker for Visual Studio Code                                    |
 | `CodiumAI`                                  | Integrity Agent powered by GPT3.5&4                                        |
 | `ColorTabs - Ore Poran`                     | Changes the active tab/status-bar/title-background                         |
-| `Copy name of current git branch`           | Copy name of current git branch [do not forget to assign shortcut key ode] |
+| `Copy name of current git branch`           | Copy name of current git branch [do not forget to assign shortcut key]     |
 | `Error Lens - ALexander`                    | Improve highlighting of errors warnings and other language diagnostics     |
 | `ES7+ React/Redux/React-Native snippets`    | ES7 Extension by dsznajder                                                 |
 | `GitHub Pull Requests`                      | Manage Your Pull Requests for a Repository from VSCode                     |
 | `html tag wrapper`                          | Wrap selected html tags by pressing CTRL+i                                 |
-| `Inline Fold - Mohammed Alamri`             | A custom decorator that "fold" matching content in single line             |
+| `Inline Fold - Mohammed Alamri`             | A custom decorator that "fold" matching content in a single line           |
 | `Lorem Ipsum`                               | Generates and inserts lorem ipsum text into Visual Studio Code             |
 | `Markdown Extension Pack`                   | Extension pack with some of the most popular Markdown extensions           |
 | `Markdown Table Sort`                       | Sorts a Markdown Table                                                     |

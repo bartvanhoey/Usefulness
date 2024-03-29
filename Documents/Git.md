@@ -25,7 +25,7 @@ admin:repo_hook Full control of repository hooks
   git remote set-url origin https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
 ```
 
-### Howto Clone your Private Repository
+### Howto Clone a Private Repository
 
 ```bash
   git clone https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
