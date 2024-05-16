@@ -56,14 +56,14 @@
 | `CTRL+SHIFT+R`               | Rename                                                        |
 | `CTRL+SHIFT+S`               | Close Unpinned Tabs (custom defined)                          |
 | `CTRL+SHIFT+TAB`             | Show Switcher: Toggle backwards through                       |
-| `CTRL+SHIFT+W`               | Selection Shrink                                              |
+| `CTRL+W`                     | Extend Selection                                              |
+| `CTRL+SHIFT+W`               | Shrink Selection                                              |
 | `CTRL+SHIFT+E`               | Hide all Tool Windows                                         |
 | `CTRL+SHIFT+V`               | Paste from History...                                         |
 | `CTRL+T`                     | Search Everywhere                                             |
-| `CTRL+TAB`                   | Toggle through Tabs                                           |
+| `CTRL+TAB`                   | Toggle through Tabs (Switcher)                                |
 | `CTRL+U+L`                   | Run All Tests from Solution                                   |
-| `CTRL+U+S`                   | Stop Unit Tests Execution                                     |
-| `CTRL+W`                     | Close Active Document                                         |
+| `CTRL+ALT+W`                 | Close Active Document                                         |
 | `CTRL+X`                     | Cut (no need to select line)                                  |
 | `F12`                        | Go to Type Declaration                                        |
 | `F2`                         | Rename                                                        |
@@ -73,12 +73,3 @@
 | `SHIFT+ALT+F12`              | Find all References                                           |
 | `SHIFT+F12`                  | Find Usages                                                   |
 | `SHIFT+SHIFT`                | Go to File                                                    |
-
-# My Favorite Rider Plugins
-
-| Shortcut Key | Action                                                               |
-| ------------ | -------------------------------------------------------------------- |
-| `GitLive`    | enhance the IDE’s built-in Git functionality                         |
-| `Kite`       | Artificial Code Assistance                                           |
-| `StepSize`   | IDE Issue tracker for managing technical debt and maintenance issues |
-| `WakaTime`   | Code Stats                                                           |
