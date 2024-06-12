@@ -4,6 +4,10 @@
 
 GitHub Copilot is a tool that helps you to write code faster. It is a powerful tool that can help you to write code faster.
 
+## ChatGPT
+
+ChatGPT is a tool that helps you to generate text. It is a powerful tool that can help you to generate text.
+
 ## Semantic Kernel
 
 Semantic Kernel is a tool that helps you to understand the context of the text you are reading. It is a powerful tool that can help you to understand the meaning
