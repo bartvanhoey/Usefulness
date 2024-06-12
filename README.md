@@ -1,9 +1,11 @@
 | Topic                                                                                          |
 |------------------------------------------------------------------------------------------------|
+| [Boost your Productivity](Documents/BoostProductivity.md)                                      |
 | [Tips & Tricks in VsCode](Documents/VsCode.md)                                                 |
+| [Useful AI Tools](Documents/UsefulAiTools.md)                                                  |
 | [All about Git](Documents/Git.md)                                                              |
 | [My most used Command Line Commands](Documents/TopTenCommandLineCommands.md)                   |
-| [Tailwind CSS](Documents/TailwindCss.md)                   |
+| [Tailwind CSS](Documents/TailwindCss.md)                                                       |
 | [EF Core](Documents/EntityFrameworkCore.md)                                                    |
 | [ABP cli](Documents/ABPcli.md)                                                                 |
 | [.NET](Documents/DotNet.md)                                                                    |
@@ -18,3 +20,4 @@
 | [Chrome extensions](Documents/ChromeExtensions.md)                                             |
 | [Tips & Tricks in NEXT.js](Documents/NextJs.md)                                                |
 | [Tips & Tricks in Blazor](Documents/Blazor.md)                                                 |
+| [Artificial Intelligence](Documents/AI.md)                                                     |
