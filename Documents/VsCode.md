@@ -22,6 +22,7 @@
 | `CTRl+ALT+C`                        | Create New Git Branch (own Keyboard short cut)                                                   |
 | `CTRL+ALT+L`                        | Reveal Active File in Explorer                                                                   |
 | `CTRL+ALT+B`                        | Toggle GitHub Copilot Chat Window                                                                |
+| `CTRL+K, I`                         | GitHub Copilot Fix This                                                                          |
 | `CTRl+ALT+T`                        | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
 | `CTRL+ARROW LEFT/RIGHT`             | Move to Next Word                                                                                |
 | `CTRl+B, CTRL+B`                    | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
