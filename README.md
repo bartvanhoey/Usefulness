@@ -1,7 +1,7 @@
 | Topic                                                                                          |
 |------------------------------------------------------------------------------------------------|
 | [Boost your Productivity](Documents/BoostProductivity.md)                                      |
-| [Tips & Tricks in Rider](Documents/Rider.md)                                                   |
+| [My keyboard shortcuts in Rider](Documents/Rider.md)                                           |
 | [Tips & Tricks in VsCode](Documents/VsCode.md)                                                 |
 | [Useful AI Tools](Documents/UsefulAiTools.md)                                                  |
 | [All about Git](Documents/Git.md)                                                              |
