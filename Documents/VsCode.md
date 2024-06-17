@@ -202,11 +202,6 @@
     "editor.linkedEditing": true
 ```
 
-### How to Commit and Push ad the same time
-
-Go to File -> Preferences -> Settings -> Keyboard Shortcuts
-Search for: **Git: Post Commit Command** and select **push**
-
 ### How to get rid off the underlined Unknown errors in tailwind
 
 Go to File -> Preferences -> Settings
