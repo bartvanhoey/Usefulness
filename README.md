@@ -1,6 +1,7 @@
 | Topic                                                                                          |
 |------------------------------------------------------------------------------------------------|
 | [Boost your Productivity](Documents/BoostProductivity.md)                                      |
+| [Tips & Tricks in Rider](Documents/Rider.md)                                                   |
 | [Tips & Tricks in VsCode](Documents/VsCode.md)                                                 |
 | [Useful AI Tools](Documents/UsefulAiTools.md)                                                  |
 | [All about Git](Documents/Git.md)                                                              |
@@ -14,7 +15,6 @@
 | [Ngrok](Documents/Ngrok.md)                                                                    |  
 | [Docker](Documents/Docker.md)                                                                  |
 | [Kubernetes](Documents/Kubernetes.md)                                                          |
-| [Tips & Tricks in  Rider](Documents/Rider.md)                                                  |
 | [Azure Kubernetes Service](Documents/AKS.md)                                                   |
 | [Powershell](Documents/PowerShell.md)                                                          |
 | [Chrome extensions](Documents/ChromeExtensions.md)                                             |
