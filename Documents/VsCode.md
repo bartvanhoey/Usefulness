@@ -26,7 +26,7 @@
 | `CTRl+ALT+T`                        | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
 | `CTRL+ARROW LEFT/RIGHT`             | Move to Next Word                                                                                |
 | `CTRl+B, CTRL+B`                    | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
-| `CTRL+backtick`                     | Show/Hide Terminal                                                                               |
+| `CTRL+Q`                            | Show/Hide Terminal                                                                               |
 | `CTRL+C,C`                          | Clear Console                                                                                    |
 | `CTRL+C`                            | Copy (no need to select line)                                                                    |
 | `CTRL+D`                            | Duplicate Line (no need to select line)                                                          |
