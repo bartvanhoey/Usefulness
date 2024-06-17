@@ -126,7 +126,7 @@
 
 ```bash
     // File -> Preferences -> Settings
-    search for debug tool bar: change from **floating** to **docked**
+    search for **Tool Bar Location**: change from **floating** to **docked**
 ```
 
 ### Change Shortcut to Toggle Explorer in VSCode
