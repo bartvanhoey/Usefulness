@@ -21,6 +21,7 @@
 | `CTRL+.`                     | Quick Fix                                                     |
 | `CTRL+/`                     | Split Editor (Split and move right)                           |
 | `CTRl+ALT+N`                 | Create New Git Branch (own Keyboard short cut)                |
+| `CTRL+G+P`                   | Git Pull                                                      |
 | `ALT+0`                      | Toggle Git Window                                             |
 | `CTRL+ALT+K`                 | Commit and Push...                                            |
 | `ALT+P`                      | Push...                                                       |
