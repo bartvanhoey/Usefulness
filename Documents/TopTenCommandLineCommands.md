@@ -68,3 +68,8 @@
     dotnet add package [PackageName]
     ```
 
+12. Create a new Blazor Webassembly app
+
+    ```bash
+    dotnet new blazorwasm -o [yourAppName]
+    ```
