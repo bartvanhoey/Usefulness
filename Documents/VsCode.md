@@ -217,7 +217,9 @@ and enable **Tailwind CSS > Emmet Completions**
 
 Controls whether files are automatically nested
 
-Go to File -> Preferences -> Settings -> Search for: **File Nesting**
-Explorer > File Nesting: Enabled
+Go to File -> Preferences -> Settings -> Search for: **File Nesting Explore** > Check File Nesting: Enabled
 
-Check -> Controls whether file nesting is enabled in the Explorer
+Add a Pattern in Explore > File Nesting Patterns
+
+- Item: *.razor
+- Value: ${capture}.razor.cs, ${capture}.razor.css
