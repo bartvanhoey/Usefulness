@@ -27,7 +27,7 @@
 | `ALT+P`                      | Push...                                                       |
 | `CTRL+SHIFT+P`               | Push commit                                                   |
 | `CTRL+ALT+T`                 | Surround with...                                              |
-| `CTRL+ALT+B`                 | Toggle GitHub Copilot Chat Window                             |
+| `CTRL+ALT+B`                 | Toggle AI Assistant (Jetbrains) Chat Window                   |
 | `CTRL+C`                     | Copy (no need to select line)                                 |
 | `CTRL+D`                     | Duplicate Line (no need to select line)                       |
 | `CTRL+F`                     | Search in File                                                |
