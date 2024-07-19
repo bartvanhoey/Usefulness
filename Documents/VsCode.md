@@ -223,3 +223,8 @@ Add a Pattern in Explore > File Nesting Patterns
 
 - Item: *.razor
 - Value: ${capture}.razor.cs, ${capture}.razor.css
+
+### Set the Commit button to Commit & Push in Source Control window
+
+Go to File -> Preferences -> Settings
+Search for **Post Commit Command** and select **push** in Git:Post Commit Command dropdown
