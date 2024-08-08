@@ -18,10 +18,8 @@
 7. Try to avoid distractions
    - Turn off notifications on your mobile
    - Use Addblockers to block annoying advertisements
-  
-8.  
 
-9.  **Optimize Laptop Usage:**
+8.  **Optimize Laptop Usage:**
    - Use a docking station and the same keyboard and mouse from your desk setup when working on a laptop.
 
 10. **Invest in an Ergonomic Office Chair:**
