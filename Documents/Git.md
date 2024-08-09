@@ -205,6 +205,12 @@ Then set personal-access-Token (Find it in AzureDevops -> User Settings -> Perso
   git checkout -b <branch-name> <sha>
 ```
 
+### Howto fix Error "Fatal: Not possible to fast-forward, aborting"
+
+```bash
+  git pull --rebase
+```
+
 ### Howto deal with 'error: failed to push some refs to '<https://github.com/your-username/repository-name.git>'
 
 hint: Updates were rejected because the tip of your current branch is behind
