@@ -229,12 +229,11 @@ Add a Pattern in Explore > File Nesting Patterns
 Go to File -> Preferences -> Settings
 Search for **Post Commit Command** and select **push** in Git:Post Commit Command dropdown
 
-
 ## On a Mac
 
 ### Create a Quick Action to open a Folder in VsCode with Finder
 
-1. Open Launchpad 
+1. Open Launchpad
 2. Search for `Automator`and open it
 3. Select Quick Action
 4. Search for `Open Finder items` and drag and drop it
@@ -245,10 +244,11 @@ Search for **Post Commit Command** and select **push** in Git:Post Commit Comman
 
 ### Remove Keybinding that closes Application keyboard shortcut in VS Code
 
-1. Settings -> Keyboard Shortcuts -> Search for CTRL+Q that closes Application 
+1. Settings -> Keyboard Shortcuts -> Search for CTRL+Q that closes Application
 2. Remove the keybinding
 
 ### Remove CTRL+C Keybinding that closes Terminal
+
 1. Settings -> Keyboard Shortcuts -> Search for CTRL+C that closes Terminal
 2. Remove the keybinding
 
