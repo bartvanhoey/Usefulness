@@ -15,7 +15,11 @@
 
 6. Use the same keyboard at home as at work and use the same shortcut keys
 
-7.  **Optimize Laptop Usage:**
+7. Try to avoid distractions
+   - Turn off notifications on your mobile
+   - Use Addblockers to block annoying advertisements
+
+8.  **Optimize Laptop Usage:**
    - Use a docking station and the same keyboard and mouse from your desk setup when working on a laptop.
 
 8.  **Invest in an Ergonomic Office Chair:**
