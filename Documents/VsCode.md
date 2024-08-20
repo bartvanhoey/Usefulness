@@ -30,7 +30,7 @@
 | `CTRL+Q`                            | Show/Hide Terminal                                                                               |
 | `CTRL+C,C`                          | Clear Console                                                                                    |
 | `CTRL+C`                            | Copy (no need to select line)                                                                    |
-| `CTRL+D`                            | Duplicate Line (no need to select line)                                                          |
+| `CTRL+D`                            | Copy Line Down (no need to select line)                                                          |
 | `CTRL+F,F`                          | Focus Editor (workbench.action.focusActiveEditorGroup)                                           |
 | `CTRL+F`                            | Search in File                                                                                   |
 | `CTRL+H`                            | Search and Replace in File                                                                       |
