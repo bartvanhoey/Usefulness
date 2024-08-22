@@ -55,7 +55,7 @@
 | `CTRL+SHIFT+ö`                      | Opens External Terminal in Project Root                                                          |
 | `CTRl+SHIFT+P -> Balance (outward)` | Select a whole HTML tag                                                                          |
 | `CTRL+SHIFT+P`                      | Command Palette                                                                                  |
-| `CTRL+SHIFT+R`                      | Rename                                                                                           |
+| `CTRL+SHIFT+R`                      | Rename Symbol                                                                                    |
 | `CTRL+SHIFT+T`                      | Open New Terminal                                                                                |
 | `CTRL+SHIFT+TAB`                    | Toggle backwards through Tabs                                                                    |
 | `CTRL+SHIFT+W`                      | Selection Shrink                                                                                 |
@@ -63,7 +63,7 @@
 | `CTRL+W`                            | Close Active Document                                                                            |
 | `CTRL+X`                            | Cut (no need to select line)                                                                     |
 | `ESC+ESC`                           | Exit Zen Mode                                                                                    |
-| `F2`                                | Rename                                                                                           |
+| `F2`                                | Rename Symbol                                                                                    |
 | `SHIFT+ALT+(arrow key)`             | Column (box) selection `SHIFT+option+(arrow key)` on mac mini                                    |
 | `SHIFT+ALT+(drag mouse)`            | Column (box) selection                                                                           |
 | `SHIFT+ALT+ENTER`                   | Toggle Zen Mode                                                                                  |
