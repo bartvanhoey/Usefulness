@@ -68,8 +68,8 @@
 | `SHIFT+ALT+(drag mouse)`            | Column (box) selection                                                                           |
 | `SHIFT+ALT+ENTER`                   | Toggle Zen Mode                                                                                  |
 | `SHIFT+ALT+F12`                     | Find all References                                                                              |
-| `SHIFT+F1`                          | Starting Live Server                                                                             |
-| `SHIFT+F2`                          | Stopping Live Server                                                                             |
+| `ALT+F5`                            | Starting Live Server                                                                             |
+| `SHIFT+ALT+F5`                      | Stopping Live Server                                                                             |
 
 ## My Favorite VsCode Extensions
 
