@@ -1,9 +1,5 @@
 # Browser Extensions
 
-## My Favorite Visual Studio Code Shortcut Keys
-
-(with Resharper 9 Keybindings and Visual Studio Keymap extensions )
-
 | Extension                           | Description                                                                                      |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------ |
 | `Colorzilla`                        | Get HexCode RGB value                                                                            |

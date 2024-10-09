@@ -118,11 +118,17 @@ And then git removed-branches will show you all the stale local branches, and gi
 
 ### Howto uncommit last un-pushed git commits without losing changes (~gN N=number of commits)
 
-* uncommit last un-pushed git commit without losing changes
+```csharp
+  // KEEP CHANGES
+  git reset HEAD~1 --soft
+  git log origin/master..HEAD` view unpushed git commits
+```
+
+### Howto uncommit last un-pushed git-commit DELETE CHANGES (~gN N=number of commits)
 
 ```csharp
-git reset HEAD~1 --soft
-git log origin/master..HEAD` view unpushed git commits
+  // DELETE CHANGES
+  git reset --hard HEAD~1
 ```
 
 ### Howto stash changes
