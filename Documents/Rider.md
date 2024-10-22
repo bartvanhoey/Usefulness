@@ -75,3 +75,4 @@
 | `SHIFT+ALT+F12`              | Find all References                                           |
 | `SHIFT+F12`                  | Find Usages                                                   |
 | `SHIFT+SHIFT`                | Go to File                                                    |
+| `CTRL+ALT+C`                 | Generate Tests for method with Qodo-extension                 |
