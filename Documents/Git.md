@@ -368,6 +368,15 @@ git checkout <branch-name>
 git apply
 ```
 
+### Howto undo all local changes
+
+```bash
+git restore --source=HEAD --staged --worktree -- .
+```
+
+
+
+
 ### Howto keep a file in a git repo but don't track changes
 
 ```bash
