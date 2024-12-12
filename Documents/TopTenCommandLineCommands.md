@@ -73,3 +73,10 @@
     ```bash
     dotnet new blazorwasm -o [yourAppName]
     ```
+
+13. Update Node.js to the latest version
+
+    ```bash
+    n latest
+    ```
+
