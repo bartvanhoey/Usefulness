@@ -35,3 +35,15 @@ What is your project named? ./
 √ Would you like to use Turbopack for `next dev`?  Yes
 √ Would you like to customize the import alias (`@/*` by default)? No 
 ```
+
+### How to start a NextJs Project
+
+```bash
+    run npm dev
+```
+
+### React Fragment
+
+```bash
+    <><h1>Hello</h1>   <>
+```
