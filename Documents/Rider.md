@@ -23,7 +23,7 @@
 | `CTRl+ALT+N`                 | Create New Git Branch (own Keyboard short cut)                |
 | `CTRL+G+P`                   | Git Pull                                                      |
 | `ALT+0`                      | Toggle Git Window                                             |
-| `CTRL+ALT+K`                 | Commit and Push...                                            |
+| `CTRL+SHIFT+P`               | Commit and Push...                                            |
 | `ALT+P`                      | Push...                                                       |
 | `CTRL+SHIFT+P`               | Push commit                                                   |
 | `CTRL+ALT+T`                 | Surround with...                                              |
