@@ -28,6 +28,7 @@
 | `CTRL+SHIFT+P`               | Push commit                                                   |
 | `CTRL+ALT+T`                 | Surround with...                                              |
 | `CTRL+ALT+B`                 | Toggle AI Assistant (Jetbrains) Chat Window                   |
+| `CTRL+T+C`                   | Toggle Case  UpperCase to LowerCase / LowerCase to UpperCase  |
 | `CTRL+C`                     | Copy (no need to select line)                                 |
 | `CTRL+D`                     | Duplicate Line (no need to select line)                       |
 | `CTRL+F`                     | Search in File                                                |
