@@ -27,6 +27,7 @@
 | `ALT+P`                      | Push...                                                       |
 | `CTRL+SHIFT+P`               | Push commit                                                   |
 | `CTRL+ALT+T`                 | Surround with...                                              |
+| `SHIFT+F1`                   | Generate code with AI...                                      |
 | `CTRL+ALT+B`                 | Toggle AI Assistant (Jetbrains) Chat Window                   |
 | `CTRL+T+C`                   | Toggle Case  UpperCase to LowerCase / LowerCase to UpperCase  |
 | `CTRL+C`                     | Copy (no need to select line)                                 |
