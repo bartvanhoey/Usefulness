@@ -50,33 +50,38 @@
     dotnet ef migrations remove
     ```
 
-9. Add a project to your solution
+9. Create a new .NET Solution
+
+    ```bash
+    dotnet new sln --name mysolution
+    ```
+
+10. Add a project to your solution
 
     ```bash
     dotnet sln add [yourProjectName]\[yourProjectName].csproj
     ```
 
-10. Add a reference to a project from another project
+11. Add a reference to a project from another project
 
     ```bash
     dotnet add reference ../../src/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme/Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj
     ```
 
-11. Add a Nuget package to your project
+12. Add a Nuget package to your project
 
     ```bash
     dotnet add package [PackageName]
     ```
 
-12. Create a new Blazor Webassembly app
+13. Create a new Blazor Webassembly app
 
     ```bash
     dotnet new blazorwasm -o [yourAppName]
     ```
 
-13. Update Node.js to the latest version
+14. Update Node.js to the latest version
 
     ```bash
     n latest
     ```
-
