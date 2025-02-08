@@ -5,7 +5,7 @@
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`dotnet publish --os linux --arch x64 -t:PublishContainer -c Release`                           | Publish a docker image (see in docker desktop)                |
-|`docker build -t <image name>:<tag> .`                                                          | build docker container from Dockerfile                        |
+|`docker build -t <image name>:<tag> .`                                                          | build docker image from Dockerfile                            |
 |`docker images`  or `docker image list`                                                         | shows the list of container images on a machine               |
 |`docker rmi <image id>`                                                                         | remove image                                                  |
 |`docker image prune`                                                                            | remove images                                                 |
