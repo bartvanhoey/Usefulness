@@ -5,30 +5,31 @@
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`dotnet publish --os linux --arch x64 -t:PublishContainer -c Release`                           | Publish a docker image (see in docker desktop)                |
-|`docker build -t <image name>:<tag> .`                                                          | build docker image from Dockerfile                            |
+|`docker build -t <image-name>:<tag> .`                                                          | build docker image from Dockerfile                            |
 |`docker images`  or `docker image list`                                                         | shows the list of container images on a machine               |
 |`docker rmi <image id>`                                                                         | remove image                                                  |
 |`docker image prune`                                                                            | remove images                                                 |
 |`docker rmi $(docker images -q)`                                                                | delete all images (works only in Ubuntu terminal)             |
 |`docker tag <source image name>:<tag> <target image name>:<tag>`                                | push docker image to Docker Hub                               |
-|`docker push <image name>:<tag>`                                                                | push docker image to Docker Hub                               |
+|`docker push <image-name>:<tag>`                                                                | push docker image to Docker Hub                               |
 
 ### Containers
 
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-|`docker run -p [external port]:[internal port] <image name>:<tag>`                              | create and start docker container from image                  |
-|`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`          | create and start docker container from image                  |
-|`docker create <image name>:<tag>`                                                              | create docker container without starting it                   |
-|`docker run <image name>:<tag>` -p [external port]:[internal port]                              | create and start docker container from image                  |
-|`docker run -p [external port]:[internal port] --name my-container <image name>:<tag>`          | create and start docker container from image                  |
-|`docker run -it --rm <image name>:<tag>`                                                        | create/start container, remove after stop (CTRL+C)            |
+|`docker create <image-name>:<tag>`                                                              | create/start docker container from image w portforwarding     |
+|`docker run -p [external port]:[internal port] <image-name>:<tag>`                              | create/start docker container from image                      |
+|`docker run -p [external port]:[internal port] --name my-container <image-name>:<tag>`          | create/start and name docker container from image             |
+|`docker run <image-name>:<tag> -p [external port]:[internal port]`                              | create/start docker container from image                      |
+|`docker run -p [external port]:[internal port] --name my-container <image-name>:<tag>`          | create/start docker container from image                      |
+|`docker run --env ASPNETCORE_ENVIRONMENT=Staging <image-name>:<tag>`                            | create/start and set Environment docker container from image  |
+|`docker run -it --rm <image-name>:<tag>`                                                        | create/start container, remove after stop (CTRL+C)            |
 |`docker run -it --rm -p 3000:80 --name mymicroservicecontainer mymicroservice`                  | create/start container, remove after stop (CTRL+C)            |
 |`docker start <docker id>`                                                                      | start docker container                                        |
 |`docker ps`                                                                                     | display all running containers                                |
 |`docker ps -a`                                                                                  | display all containers with their status                      |
-|`docker build -t <image name>:<tag> .`                                                          | build docker container from Dockerfile                        |
-|`docker run -t <image name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specified Dockerfile              |
+|`docker build -t <image-name>:<tag> .`                                                          | build docker container from Dockerfile                        |
+|`docker run -t <image-name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specified Dockerfile              |
 |`docker exec -it <container-id> /bin/sh`    => `ls`                                             | Open a command in running container and display content       |
 |`docker exec -it <container-id> /bin/bash`                                                      | Open a command in running container and display content       |
 
@@ -94,7 +95,7 @@ container 302e8bd is using its referenced image 3334b287844 -> a stopped contain
 |`docker volume prune`                                                                           | delete all volumes that are not in use                        |
 |`docker volume rm <volume name>`                                                                | delete a volume by name                                       |
 |`docker inspect <volume name>`                                                                  | inspect a volume                                              |
-|`docker run -d -p 8083:3000 --name <container name> -v /d:/app:/<volume name> <image name>`     | Create and run container with volume path d:/app              |
+|`docker run -d -p 8083:3000 --name <container name> -v /d:/app:/<volume name> <image-name>`     | Create and run container with volume path d:/app              |
 
 ### Howto resize Docker Virtual Hard disk
 
