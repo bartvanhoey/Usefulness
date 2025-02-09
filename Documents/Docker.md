@@ -19,17 +19,17 @@
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`docker create <image-name>:<tag>`                                                              | create/start docker container from image w portforwarding     |
 |`docker run -p [external port]:[internal port] <image-name>:<tag>`                              | create/start docker container from image                      |
-|`docker run -p [external port]:[internal port] --name my-container <image-name>:<tag>`          | create/start and name docker container from image             |
+|`docker run -p [external port]:[internal port] --name <my-container> <image-name>:<tag>`        | create/start and name docker container from image             |
 |`docker run <image-name>:<tag> -p [external port]:[internal port]`                              | create/start docker container from image                      |
-|`docker run -p [external port]:[internal port] --name my-container <image-name>:<tag>`          | create/start docker container from image                      |
+|`docker run -p [external port]:[internal port] --name <my-container> <image-name>:<tag>`        | create/start docker container from image                      |
 |`docker run --env ASPNETCORE_ENVIRONMENT=Staging <image-name>:<tag>`                            | create/start and set Environment docker container from image  |
 |`docker run -it --rm <image-name>:<tag>`                                                        | create/start container, remove after stop (CTRL+C)            |
-|`docker run -it --rm -p 3000:80 --name mymicroservicecontainer mymicroservice`                  | create/start container, remove after stop (CTRL+C)            |
-|`docker start <docker id>`                                                                      | start docker container                                        |
+|`docker run -it --rm -p 3000:80 --name <my-container> <image-name>:<tag>`                       | create/start container, remove after stop (CTRL+C)            |
+|`docker start <docker-id>`                                                                      | start docker container by ID                                  |
+|`docker stop <docker-id>`                                                                       | stop docker container  by ID                                  |
 |`docker ps`                                                                                     | display all running containers                                |
 |`docker ps -a`                                                                                  | display all containers with their status                      |
-|`docker build -t <image-name>:<tag> .`                                                          | build docker container from Dockerfile                        |
-|`docker run -t <image-name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specified Dockerfile              |
+|`docker run -t <image-name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specific Dockerfile               |
 |`docker exec -it <container-id> /bin/sh`    => `ls`                                             | Open a command in running container and display content       |
 |`docker exec -it <container-id> /bin/bash`                                                      | Open a command in running container and display content       |
 
@@ -42,7 +42,6 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 |`docker exec -it <container id> bash`                                                           | interactive way to use terminal inside a container            |
 |`docker attach --sig-proxy=false <container-id>`                                                | peek at container output stream --sig-proxy=false parameter   |
 |                                                                                                | ensures CTRL+C will not stop process in container             |
-|`docker ps -a`                                                                                  | list of running containers (-a slso show exited containers)   |
 |`docker network`                                                                                | manage networking with Docker                                 |
 |`docker pull microsoft/windowsservercore`                                                       | pull latest windowsservercore image from Docker Hub           |
 |`docker rm <container-id>`                                                                      | remove a specific container                                   |
