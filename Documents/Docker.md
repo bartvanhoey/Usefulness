@@ -7,7 +7,7 @@
 |`dotnet publish --os linux --arch x64 -t:PublishContainer -c Release`                           | Publish a docker image (see in docker desktop)                |
 |`docker build -t <image-name>:<tag> .`                                                          | build docker image from Dockerfile                            |
 |`docker images`  or `docker image list`                                                         | shows the list of container images on a machine               |
-|`docker rmi <image id>`                                                                         | remove image                                                  |
+|`docker rmi <image-id>`                                                                         | remove image                                                  |
 |`docker image prune`                                                                            | remove images                                                 |
 |`docker rmi $(docker images -q)`                                                                | delete all images (works only in Ubuntu terminal)             |
 |`docker tag <source image name>:<tag> <target image name>:<tag>`                                | push docker image to Docker Hub                               |
@@ -48,7 +48,7 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 |`docker rm -f <container-id>`                                                                   | remove a specific running container                           |
 |`docker rm $(docker ps -a -q)`                                                                  | delete all containers                                         |
 |`docker system prune`                                                                           | clean up any resources — images, containers, volumes and      |
-|                                                                                                | network sthat are dangling (not associated with a container)  |
+|                                                                                                | network that are dangling (not associated with a container)   |
 |`docker system prune -a`                                                                        | to additionally remove any stopped containers and all unused  |
 |                                                                                                | images (not just dangling images)                             |
 |`docker stop $(docker ps -q)`                                                                   | stop all running containers  (in Git Bash command window)     |
@@ -60,6 +60,7 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 |`docker-compose build`                                                                          | build containers, volumes,.. specified in docker-compose.yaml |
 |`docker-compose up -d`                                                                          | spin up containers, volumes specified in docker-compos.yaml   |
 |`docker-compose up --build -d`                                                                  | build + spin up containers,... specified in docker-compos.yaml|
+|`docker compose up --build --force-recreate --no-deps [-d] [<service_name>..]`                  | build + force recreate + don't start linked services          |
 |`docker-compose down`                                                                           | tear down docker-compose session                              |
 |`docker-compose ps`                                                                             | overview of containers docker-compose session                 |
 |`docker exec <container name>_1 env`                                                            | show environment variables from inside a container            |
