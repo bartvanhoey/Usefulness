@@ -4,31 +4,42 @@
 
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-|`dotnet publish --os linux --arch x64 -t:PublishContainer -c Release`                           | Publish a docker image (see in docker desktop)                |
+|`docker pull <image-name>:<tag>`                                                                | Pull an image                                                 |
 |`docker build -t <image-name>:<tag> .`                                                          | build docker image from Dockerfile                            |
+<<<<<<< HEAD
 |`docker images`  or `docker image list`                                                         | shows the list of container images on a machine               |
 |`docker rmi <image-id>`                                                                         | remove image                                                  |
+=======
+|`docker images`                                                                                 | shows the list of container images on a machine               |
+|`docker image list`                                                                             | shows the list of container images on a machine               |
+|`docker rmi <image id>`                                                                         | remove image                                                  |
+>>>>>>> e8d6ddd3e5a463670f70c4d9a93dac865bb49b6b
 |`docker image prune`                                                                            | remove images                                                 |
 |`docker rmi $(docker images -q)`                                                                | delete all images (works only in Ubuntu terminal)             |
 |`docker tag <source image name>:<tag> <target image name>:<tag>`                                | push docker image to Docker Hub                               |
 |`docker push <image-name>:<tag>`                                                                | push docker image to Docker Hub                               |
+|`dotnet publish --os linux --arch x64 -t:PublishContainer -c Release`                           | Publish a docker image (see in docker desktop)                |
 
 ### Containers
 
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-|`docker create <image-name>:<tag>`                                                              | create/start docker container from image w portforwarding     |
-|`docker run -p [external port]:[internal port] <image-name>:<tag>`                              | create/start docker container from image                      |
+|`docker create <image-name>:<tag>`                                                              | create/start docker container from image                      |
+|`docker run -d <image-name>:<tag>`                                                              | start container in detached mode = give back terminal         |
+|`docker run -p [external port]:[internal port] <image-name>:<tag>`                              | create/start docker container from image w portforwarding     |
 |`docker run -p [external port]:[internal port] --name <my-container> <image-name>:<tag>`        | create/start and name docker container from image             |
 |`docker run <image-name>:<tag> -p [external port]:[internal port]`                              | create/start docker container from image                      |
 |`docker run -p [external port]:[internal port] --name <my-container> <image-name>:<tag>`        | create/start docker container from image                      |
 |`docker run --env ASPNETCORE_ENVIRONMENT=Staging <image-name>:<tag>`                            | create/start and set Environment docker container from image  |
 |`docker run -it --rm <image-name>:<tag>`                                                        | create/start container, remove after stop (CTRL+C)            |
 |`docker run -it --rm -p 3000:80 --name <my-container> <image-name>:<tag>`                       | create/start container, remove after stop (CTRL+C)            |
-|`docker start <docker-id>`                                                                      | start docker container by ID                                  |
-|`docker stop <docker-id>`                                                                       | stop docker container  by ID                                  |
+|`docker start <container-id>`                                                                   | start docker container by ID                                  |
+|`docker stop <container-id>`                                                                    | stop docker container by ID                                   |
+|`docker stop <container-id>`                                                                    | stop docker container by ID                                   |
+|`docker rm <container-id> <container-id> <container-id>`                                        | remove multiple docker containers by their IDs                |
+|`CTRL+C`                                                                                        | stop running container in Terminal                            |
 |`docker ps`                                                                                     | display all running containers                                |
-|`docker ps -a`                                                                                  | display all containers with their status                      |
+|`docker ps -a`                                                                                  | display all running/not running containers with their status  |
 |`docker run -t <image-name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specific Dockerfile               |
 |`docker exec -it <container-id> /bin/sh`    => `ls`                                             | Open a command in running container and display content       |
 |`docker exec -it <container-id> /bin/bash`                                                      | Open a command in running container and display content       |
@@ -38,9 +49,12 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-|`docker exec <container name> ipconfig`                                                         | get the IP address of a running container                     |
-|`docker exec -it <container id> bash`                                                           | interactive way to use terminal inside a container            |
+|`docker exec <container-name> ipconfig`                                                         | get the IP address of a running container                     |
+|`docker exec -it <container-id> bash`                                                           | interactive way to use terminal inside a container            |
 |`docker attach --sig-proxy=false <container-id>`                                                | peek at container output stream --sig-proxy=false parameter   |
+|                                                                                                |                                                               |
+|`docker logs`                                                                                   | shows the what is written to the logs from container start    |
+|`docker logs -f`                                                                                | show logs + follow (keep it open)                             |
 |                                                                                                | ensures CTRL+C will not stop process in container             |
 |`docker network`                                                                                | manage networking with Docker                                 |
 |`docker pull microsoft/windowsservercore`                                                       | pull latest windowsservercore image from Docker Hub           |
@@ -48,7 +62,7 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 |`docker rm -f <container-id>`                                                                   | remove a specific running container                           |
 |`docker rm $(docker ps -a -q)`                                                                  | delete all containers                                         |
 |`docker system prune`                                                                           | clean up any resources — images, containers, volumes and      |
-|                                                                                                | network that are dangling (not associated with a container)   |
+|                                                                                                | networks that are dangling (not associated with a container)  |
 |`docker system prune -a`                                                                        | to additionally remove any stopped containers and all unused  |
 |                                                                                                | images (not just dangling images)                             |
 |`docker stop $(docker ps -q)`                                                                   | stop all running containers  (in Git Bash command window)     |
@@ -63,7 +77,7 @@ Windows Containers on Docker -> Right Click on Docker Icon in Notification Area 
 |`docker compose up --build --force-recreate --no-deps [-d] [<service_name>..]`                  | build + force recreate + don't start linked services          |
 |`docker-compose down`                                                                           | tear down docker-compose session                              |
 |`docker-compose ps`                                                                             | overview of containers docker-compose session                 |
-|`docker exec <container name>_1 env`                                                            | show environment variables from inside a container            |
+|`docker exec <container-name>_1 env`                                                            | show environment variables from inside a container            |
 
 ATTENTION: You may get error like: Error response from daemon: conflict: unable to remove repository reference IMAGE NAME  (must force) -
 container 302e8bd is using its referenced image 3334b287844 -> a stopped container isn't actually removed.
@@ -90,12 +104,12 @@ container 302e8bd is using its referenced image 3334b287844 -> a stopped contain
 
 | Command                                                                                        |               Action                                          |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-|`docker volume create <volume name>`                                                            | create volume                                                 |
+|`docker volume create <volume-name>`                                                            | create volume                                                 |
 |`docker volume ls`                                                                              | overview volumes                                              |
 |`docker volume prune`                                                                           | delete all volumes that are not in use                        |
-|`docker volume rm <volume name>`                                                                | delete a volume by name                                       |
-|`docker inspect <volume name>`                                                                  | inspect a volume                                              |
-|`docker run -d -p 8083:3000 --name <container name> -v /d:/app:/<volume name> <image-name>`     | Create and run container with volume path d:/app              |
+|`docker volume rm <volume-name>`                                                                | delete a volume by name                                       |
+|`docker inspect <volume-name>`                                                                  | inspect a volume                                              |
+|`docker run -d -p 8083:3000 --name <container-name> -v /d:/app:/<volume-name> <image-name>`     | Create and run container with volume path d:/app              |
 
 ### Howto resize Docker Virtual Hard disk
 
