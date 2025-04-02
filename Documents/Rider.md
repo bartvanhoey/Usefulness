@@ -17,7 +17,6 @@
 | `ALT+SHIFT+INSERT`           | Enable Column Selection (Column Selection Mode)               |
 | `CTRL+-`                     | Navigate Back                                                 |
 | `CTRL+,`                     | Open Settings Window                                          |
-| `CTRL+ALT+S`                 | Open Settings Window                                          |
 | `CTRL+.`                     | Quick Fix                                                     |
 | `CTRL+/`                     | Split Editor (Split and move right)                           |
 | `CTRl+ALT+N`                 | Create New Git Branch (own Keyboard short cut)                |
