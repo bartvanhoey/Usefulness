@@ -1,6 +1,6 @@
 ## Rider Tips & Tricks
 
-# My Favorite Rider Shortcut Keys (Keymap Visual Studio)
+### My Favorite Rider Shortcut Keys (Keymap Visual Studio)
 
 | Shortcut Key                 | Action                                                        |
 | -----------------------------| ------------------------------------------------------------- |
@@ -27,8 +27,8 @@
 | `ALT+P`                      | Push...                                                       |
 | `CTRL+SHIFT+P`               | Push commit                                                   |
 | `CTRL+ALT+T`                 | Surround with...                                              |
-| `SHIFT+F1`                   | Generate code with AI...                                      |
-| `CTRL+ALT+B`                 | Toggle AI Assistant (Jetbrains) Chat Window                   |
+| `F1`                         | Generate code with AI...                                      |
+| `ALT+A+I`                    | Toggle AI Assistant (Jetbrains) Chat Window                   |
 | `CTRL+T+C`                   | Toggle Case  UpperCase to LowerCase / LowerCase to UpperCase  |
 | `CTRL+C`                     | Copy (no need to select line)                                 |
 | `CTRL+D`                     | Duplicate Line (no need to select line)                       |
@@ -47,6 +47,8 @@
 | `CTRL+ALT+M`                 | Extract Method                                                |
 | `CTRL+R+S`                   | Change Method Signature                                       |
 | `CTRL+S`                     | Pin Active Tab (custom defined)                               |
+| `CTRL+E`                     | Recent Files                                                  |
+| `CTRL+R+L`                   | Recent Locations                                              |
 | `CTRL+SHIFT+-`               | Forward                                                       |
 | `CTRL+SHIFT+B`               | Build Solution                                                |
 | `CTRL+SHIFT+D`               | Focus Debugger                                                |
@@ -58,7 +60,7 @@
 | `CTRL+SHIFT+ö`               | Toggle Terminal window                                        |
 | `CTRL+SHIFT+P`               | Command Palette                                               |
 | `CTRL+SHIFT+R`               | Rename                                                        |
-| `CTRL+SHIFT+S`               | Close Unpinned Tabs (custom defined)                          |
+| `CTRL+SHIFT+S`               | Close All but pinned (custom defined)                         |
 | `CTRL+SHIFT+TAB`             | Show Switcher: Toggle backwards through                       |
 | `CTRL+W`                     | Extend Selection                                              |
 | `CTRL+SHIFT+W`               | Shrink Selection                                              |
@@ -69,7 +71,8 @@
 | `CTRL+U+L`                   | Run All Tests from Solution                                   |
 | `CTRL+ALT+W`                 | Close Active Document                                         |
 | `CTRL+X`                     | Cut (no need to select line)                                  |
-| `F12`                        | Go to Type Declaration                                        |
+| `CTRL+ALT+B`                 | Go to Type Declaration                                        |
+| `F12`                        | Go to Implementation => Implementation(s)                     |  
 | `F2`                         | Rename                                                        |
 | `F6`                         | Move To Folder (Move...)                                      |
 | `F9`                         | Toggle Breakpoint                                             |
@@ -78,3 +81,13 @@
 | `SHIFT+F12`                  | Find Usages                                                   |
 | `SHIFT+SHIFT`                | Go to File                                                    |
 | `CTRL+ALT+C`                 | Generate Tests for method with Qodo-extension                 |
+
+### 9 Jetbrains Rider Secrets You Should Know
+
+1. Select Opened File
+2. Recent Files
+3. Recent Locations
+4. Quick Fixes
+5. Open On GitHub ?????
+6. Inline Watches
+7. Smart Step Into
