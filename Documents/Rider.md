@@ -35,7 +35,7 @@
 | `CTRL+H`                     | Search and Replace in File                                    |
 | `CTRL+J`                     | Hide Bottom Panel                                             |
 | `CTRL+K+C`                   | Comment/Uncomment Line                                        |
-| `CTRL+K+D`                   | Reformat code                                                 |
+| `CTRL+ALT+F`                 | Reformat code                                                 |
 | `CTRL+K+W`                   | Close All Documents                                           |
 | `CTRL+L`                     | Delete Line (no need to select line)                          |
 | `ALT+Insert`                 | New File...                                                   |
