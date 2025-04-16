@@ -6,14 +6,9 @@
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 |`docker pull <image-name>:<tag>`                                                                | Pull an image                                                 |
 |`docker build -t <image-name>:<tag> .`                                                          | build docker image from Dockerfile                            |
-<<<<<<< HEAD
-|`docker images`  or `docker image list`                                                         | shows the list of container images on a machine               |
-|`docker rmi <image-id>`                                                                         | remove image                                                  |
-=======
 |`docker images`                                                                                 | shows the list of container images on a machine               |
 |`docker image list`                                                                             | shows the list of container images on a machine               |
 |`docker rmi <image id>`                                                                         | remove image                                                  |
->>>>>>> e8d6ddd3e5a463670f70c4d9a93dac865bb49b6b
 |`docker image prune`                                                                            | remove images                                                 |
 |`docker rmi $(docker images -q)`                                                                | delete all images (works only in Ubuntu terminal)             |
 |`docker tag <source image name>:<tag> <target image name>:<tag>`                                | push docker image to Docker Hub                               |
