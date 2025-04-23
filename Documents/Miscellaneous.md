@@ -12,15 +12,3 @@ taskkill /F /pid 36684
 ```bash
 openssl rand -base64 32
 ```
-
-
-
-
-
-
-
-
-
-
-
-
