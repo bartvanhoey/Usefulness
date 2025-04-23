@@ -21,5 +21,6 @@
 | [Tips & Tricks in NEXT.js](Documents/NextJs.md)                                                |
 | [Tips & Tricks in Blazor](Documents/Blazor.md)                                                 |
 | [Artificial Intelligence](Documents/AI.md)                                                     |
-| [Maui](Documents/MAUI.md)                                                     |
+| [Maui](Documents/MAUI.md)                                                                      |
+| [Insomnia](Documents/Insomnia.md)                                                              |
 
