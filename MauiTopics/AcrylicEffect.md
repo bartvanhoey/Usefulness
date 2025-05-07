@@ -1,6 +1,6 @@
 # How to apply an Acrylic Effect in a MAUI app
 
-MauiPlayground => UdemyMauiScreenBuildingTechniques => AcrylicEffectApp
+MauiPlayground => UdemyMauiScreenBuildingTechniques => Section6_AcrylicEffect
 
 ## install nuget package AcrylicView.Maui
 

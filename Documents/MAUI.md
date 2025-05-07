@@ -18,4 +18,8 @@ Install nuget package AcrylicView.Maui to make use of Blur effects
 
 ### Section 7: Componentization
 
+### Section 8: Create your own TabView
+
+### Section 9: Using ControlTemplate
+
 

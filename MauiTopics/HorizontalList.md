@@ -1,6 +1,6 @@
 # Horizontal List
 
-MauiPlayground => UdemyMauiScreenBuildingTechniques => HorizontalListMauiApp
+MauiPlayground => UdemyMauiScreenBuildingTechniques => Section5_HorizontalList
 
 ## MainPage.xaml.cs
 

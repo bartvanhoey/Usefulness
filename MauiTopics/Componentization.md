@@ -1,6 +1,6 @@
 # How to create a usable component in MAUI
 
-MauiPlayground => UdemyMauiScreenBuildingTechniques => Componentization
+MauiPlayground => UdemyMauiScreenBuildingTechniques => Section7_Componentization
 
 ## Create a Card Component
 
