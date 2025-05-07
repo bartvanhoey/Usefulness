@@ -18,5 +18,4 @@ Install nuget package AcrylicView.Maui to make use of Blur effects
 
 ### Section 7: Componentization
 
-## Howto
 

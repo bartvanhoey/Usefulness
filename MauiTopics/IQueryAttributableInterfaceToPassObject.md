@@ -1,5 +1,7 @@
 # Use of IQueryAttributable interface to Pass an Object when Navigating to other Page
 
+MauiPlayground => MyMauiNewsApp
+
 ```bash
 // HomePage.xaml
 
