@@ -35,10 +35,9 @@
 | `CTRL+F`                            | Search in File                                                                                   |
 | `CTRL+H`                            | Search and Replace in File                                                                       |
 | `CTRL+J`                            | Toggle Bottom Panel Visibility                                                                   |
-| `CTRL+K,CTRL+S`                     | Keyboard Shortcuts                                                                               |
 | `CTRL+K+C` or `CTRL+/`              | Comment/Uncomment Line                                                                           |
 | `CTRL+K+D`                          | Format Document                                                                                  |
-| `CTRl+K+S`                          | Shows VS Code shortcuts                                                                          |
+| `CTRl+K+S`                          | Shows VsCode shortcuts                                                                          |
 | `CTRL+K+W`                          | Close All Documents                                                                              |
 | `CTRL+L`                            | Delete Line (no need to select line)                                                             |
 | `CTRL+M`                            | Go to Type Declaration                                                                           |
