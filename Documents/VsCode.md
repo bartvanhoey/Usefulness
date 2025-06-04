@@ -37,7 +37,7 @@
 | `CTRL+J`                            | Toggle Bottom Panel Visibility                                                                   |
 | `CTRL+K+C` or `CTRL+/`              | Comment/Uncomment Line                                                                           |
 | `CTRL+K+D`                          | Format Document                                                                                  |
-| `CTRl+K+S`                          | Shows VsCode shortcuts                                                                          |
+| `CTRl+K+S`                          | Shows VsCode shortcuts                                                                           |
 | `CTRL+K+W`                          | Close All Documents                                                                              |
 | `CTRL+L`                            | Delete Line (no need to select line)                                                             |
 | `CTRL+M`                            | Go to Type Declaration                                                                           |
@@ -78,6 +78,7 @@
 | `ABPx`                                      | Snippets for ABP that start with an x                                      |
 | `ASP.NET Core Switcher`                     | Switch from Code-behind to/from razor files                                |
 | `Auto Close Tag`                            | Automatically add HTML/XML close tag, same as Visual Studio IDE does       |
+| `Auto Self Close Tag` by Zeeshan Ahmad      | Automatically removes the closing tag when entering a slash in the first   |
 | `Auto Import`                               | Provides code actions and code completion for all available Typescript     |
 | `Auto Rename Tag`                           | Renames the corresponding html tag                                         |
 | `C# Dev Kist`                               | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities |
