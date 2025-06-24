@@ -40,35 +40,30 @@ package.json
     "prettier-plugin-tailwindcss": "^0.5.7"
   }
 }
-```	
+```
+
 add a **.gitignore** file to the root of the project directory to ignore the **node_modules** folder
 
-```javascript	
+```javascript
     node_modules
 ```
 
 Run **npm run tailwind** to run tailwind in watch mode
 
-
-
-
 ## Tailwind VSCode Extensions
 
-| Extension                                  | Description                                                                                    |
-|--------------------------------------------|------------------------------------------------------------------------------------------------|
-| `Inline Fold - Mohammed Alamri`            | A custom decorator that "fold" matching content in single line                                 |
-| `Tailwind CSS Intellisense - Tailwind Labs`| Intelligent Tailwind CSS tooling for VS Code                                                   |
-
-
-
-
+| Extension                                   | Description                                                                |
+|---------------------------------------------|----------------------------------------------------------------------------|
+| `Tailwind CSS Intellisense - Tailwind Labs` | Intelligent Tailwind CSS tooling for VS Code                               |
+| `Tailwind Fold - Stivo`                     | Intelligent Tailwind CSS tooling for VS Code                               |
+| `Headwind - Ryan Heybourn`                  | Sorts and organizes Tailwind CSS classes                                   |
 
 ### How to get rid off the underlined Unknown errors in tailwind
 
-Go to File -> Preferences -> Settings 
+Go to File -> Preferences -> Settings
 Search for **Unknown** and select **ignore** in CSS>Lint:Unknown At Rules
 
 ### How get Tailwind Intellisense when using Emmet
 
-Go to  Settings of **Tailwind CSS Intellisense** 
+Go to  Settings of **Tailwind CSS Intellisense**
 and enable **Tailwind CSS > Emmet Completions**

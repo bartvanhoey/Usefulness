@@ -6,5 +6,4 @@
 
 ## Verify
 
-https://github.com/VerifyTests/Verify/
-
+<!-- https://github.com/VerifyTests/Verify/ -->
