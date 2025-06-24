@@ -106,6 +106,8 @@
 | `Surround`                                  | Surround with ... (Surround Extension - Mehmet Yatkı)                      |
 | `TabNine`                                   | Code Faster with the All-Language AI Assistant for Code Completion         |
 | `Tailwind CSS Intellisense - Tailwind Labs` | Intelligent Tailwind CSS tooling for VS Code                               |
+| `Tailwind Fold - Stivo`                     | Intelligent Tailwind CSS tooling for VS Code                               |
+| `Headwind - Ryan Heybourn`                  | Sorts and organizes Tailwind CSS classes                                   |
 | `Thunder Client`                            | Lightweight Rest API Client for VS Code                                    |
 | `Todo Tree`                                 | Shows all the TODOs in your code                                           |
 | `Visual Studio Keymap`                      | Ports popular Visual Studio keyboard shortcuts to Visual Studio Code       |
