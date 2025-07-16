@@ -114,6 +114,7 @@
 | `VS Sharper for C#`                         | VS Sharper VS Code Extension for C#                                        |
 | `vscode-icons`                              | Icons for Visual Studio Code                                               |
 | `vscode-pdf`                                | Display PDF files in Visual Studio Code                                    |
+| `Prisma`                                    | Visual database management UI                                              |
 
 ## Customize Settings
 
