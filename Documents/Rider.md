@@ -78,6 +78,8 @@
 | `SHIFT+ALT+ENTER`            | Toggle Zen Mode                                               |
 | `SHIFT+ALT+F12`              | Find all References                                           |
 | `SHIFT+F12`                  | Find Usages                                                   |
+| `SHIFT+F1`                   | Open AI Assistant chat window                                 |
+| `F1`                         | Inline AI Question Input                                      |
 | `SHIFT+SHIFT`                | Go to File                                                    |
 | `CTRL+ALT+C`                 | Generate Tests for method with Qodo-extension                 |
 
