@@ -33,7 +33,7 @@
 | `CTRL+D`                     | Duplicate Line (no need to select line)                       |
 | `CTRL+F`                     | Search in File                                                |
 | `CTRL+H`                     | Search and Replace in File                                    |
-| `CTRL+J`                     | Hide Bottom Panel                                             |
+| `CTRL+J`                     | Hide Active Tool Window                                       |
 | `CTRL+K+C`                   | Comment/Uncomment Line                                        |
 | `CTRL+ALT+F`                 | Reformat code                                                 |
 | `CTRL+K+W`                   | Close All Documents                                           |
