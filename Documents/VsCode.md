@@ -21,7 +21,7 @@
 | `CTRL+7`                            | Comment Line (toggle)                                                                            |
 | `CTRl+ALT+C`                        | Create New Git Branch (own Keyboard short cut)                                                   |
 | `CTRL+ALT+L`                        | Reveal Active File in Explorer                                                                   |
-| `CTRL+ALT+B`                        | Show GitHub Copilot Chat Window                                                                  |
+| `CTRL+ALT+B`                        | Show/Hide GitHub Copilot Chat Window                                                             |
 | `CTRL+ALT+B+ENTER`                  | Hide GitHub Copilot Chat Window                                                                  |
 | `CTRL+K, I`                         | GitHub Copilot Fix This                                                                          |
 | `CTRl+ALT+T`                        | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
