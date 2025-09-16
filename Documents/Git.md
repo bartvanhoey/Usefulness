@@ -27,6 +27,9 @@ admin:repo_hook Full control of repository hooks
 
 ### Howto Clone a Private Repository
 
+Create Personal Access Token first.
+Go to your GitHub Repository Settings - Developer Settings - Personal Access Token (classic) - Select scopes: repo - Generate New Token
+
 ```bash
   git clone https://<personal-access-token>@github.com/<github-account>/<repo-name>.git
 ```

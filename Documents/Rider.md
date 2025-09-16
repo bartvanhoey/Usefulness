@@ -33,7 +33,7 @@
 | `CTRL+D`                     | Duplicate Line (no need to select line)                       |
 | `CTRL+F`                     | Search in File                                                |
 | `CTRL+H`                     | Search and Replace in File                                    |
-| `CTRL+J`                     | Hide Bottom Panel                                             |
+| `CTRL+J`                     | Hide Active Tool Window                                       |
 | `CTRL+K+C`                   | Comment/Uncomment Line                                        |
 | `CTRL+ALT+F`                 | Reformat code                                                 |
 | `CTRL+K+W`                   | Close All Documents                                           |
@@ -78,6 +78,8 @@
 | `SHIFT+ALT+ENTER`            | Toggle Zen Mode                                               |
 | `SHIFT+ALT+F12`              | Find all References                                           |
 | `SHIFT+F12`                  | Find Usages                                                   |
+| `SHIFT+F1`                   | Open AI Assistant chat window                                 |
+| `F1`                         | Inline AI Question Input                                      |
 | `SHIFT+SHIFT`                | Go to File                                                    |
 | `CTRL+ALT+C`                 | Generate Tests for method with Qodo-extension                 |
 
