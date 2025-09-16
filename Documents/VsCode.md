@@ -115,6 +115,7 @@
 | `vscode-icons`                              | Icons for Visual Studio Code                                               |
 | `vscode-pdf`                                | Display PDF files in Visual Studio Code                                    |
 | `Prisma`                                    | Visual database management UI                                              |
+| `indent-rainbow`                            | A simple extension to make indentation more readable                       |
 
 ## Customize Settings
 
