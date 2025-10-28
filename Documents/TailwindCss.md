@@ -1,54 +1,63 @@
 # TailwindCss
 
-## Create a Tailwind config file
+## Tailwind CLI Installation
 
-Run **npx tailwindcss init** in the root of your project to create a tailwind config file
+### Install Tailwind CSS via npm
 
-```js
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['./build/*.html', './build/js/*.js'],
-  theme: {
-    extend: {
- 
-    },
-  },
-  plugins: [],
-}
+```bash
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
 ```
 
-## Package json
+### import Tailwind in your CSS file
 
-Run **npm init -y** in the root of your project to create a package.json file
+```css
+    /* src/input.css */
+    @import "tailwindcss";
+```
 
-package.json
+### Start the Tailwind CLI build process
+
+```bash
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```
+
+### Start using Tailwind in your HTML
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+```
+
+### Add scripts section to package.json
 
 ```json
-{
-  "name": "lesson2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
-    "prettier": "npx prettier --write **/*.html"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.5.7"
+   "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   }
-}
+
+// Run the Tailwind build process via npm
+// npm start
 ```
 
-add a **.gitignore** file to the root of the project directory to ignore the **node_modules** folder
+## Tailwind Utility classes
 
-```javascript
-    node_modules
-```
-
-Run **npm run tailwind** to run tailwind in watch mode
+| Extension                                   | Description                                                                |
+|---------------------------------------------|----------------------------------------------------------------------------|
+| `flex-auto`                                 | Intelligent Tailwind CSS tooling for VS Code                               |
+| `flex-col` | Intelligent Tailwind CSS tooling for VS Code                               |
+| `flex-row` | Intelligent Tailwind CSS tooling for VS Code                                |
 
 ## Tailwind VSCode Extensions
 
