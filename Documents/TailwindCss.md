@@ -5,8 +5,7 @@
 ### Install Tailwind CSS via npm
 
 ```bash
-    npm install -D tailwindcss postcss autoprefixer
-    npx tailwindcss init -p
+    npm install tailwindcss @tailwindcss/cli
 ```
 
 ### import Tailwind in your CSS file
