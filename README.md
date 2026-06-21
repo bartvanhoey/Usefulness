@@ -4,6 +4,7 @@
 | [My keyboard shortcuts in Rider](Documents/Rider.md)                                           |
 | [Tips & Tricks in VsCode](Documents/VsCode.md)                                                 |
 | [Useful AI Tools](Documents/UsefulAiTools.md)                                                  |
+| [Useful Claude Code Skills](Documents/UsefulClaudeCodeSkills.md)                               |
 | [All about Git](Documents/Git.md)                                                              |
 | [My most used Command Line Commands](Documents/TopTenCommandLineCommands.md)                   |
 | [Tailwind CSS](Documents/TailwindCss.md)                                                       |
