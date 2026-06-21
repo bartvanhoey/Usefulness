@@ -208,19 +208,17 @@
     "editor.linkedEditing": true
 ```
 
-### How to get rid off the underlined Unknown errors in tailwind
-
-Go to File -> Preferences -> Settings
-Search for **Unknown** and select **ignore** in CSS>Lint:Unknown At Rules
-
-### How get Tailwind Intellisense when using Emmet
-
-Go to  Settings of **Tailwind CSS Intellisense**
-and enable **Tailwind CSS > Emmet Completions**
-
 ### File Nesting
 
 Controls whether files are automatically nested
+
+Open Settings in VsCode and enter File Nesting in the Search Bar
+
+![Enable File Nesting](/Images/Enable_FileNesting.png "Enable File Nesting").
+
+Search for File Nesting: **Patterns** and add the following entry
+
+![Patterns File Nesting](/Images/Patterns_FileNesting.png "Patterns File Nesting").
 
 Go to File -> Preferences -> Settings -> Search for: **File Nesting Explore** > Check File Nesting: Enabled
 

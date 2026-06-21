@@ -1,14 +1,8 @@
 ## Blazor Tips and Tricks
 
-### File Nesting in VS
+### File Nesting in VS Code
 
-Open Settings in VsCode and enter File Nesting in the Search Bar
-
-![Enable File Nesting](/Images/Enable_FileNesting.png "Enable File Nesting").
-
-Search for File Nesting: **Patterns** and add the following entry
-
-![Patterns File Nesting](/Images/Patterns_FileNesting.png "Patterns File Nesting").
+See [VsCode.md - File Nesting](VsCode.md#file-nesting) for setup instructions and Blazor-specific patterns.
 
 ### How to add Required assets to build and debug manually
 
@@ -16,6 +10,4 @@ Search for File Nesting: **Patterns** and add the following entry
 
 ### How to Trust the HTTPS development certificate
 
-```bash
-    dotnet dev-certs https --trust
-```
+See [DotNet.md - Generates a self-signed certificate to enable HTTPS use in development](DotNet.md#generates-a-self-signed-certificate-to-enable-https-use-in-development).

@@ -1,9 +1,13 @@
 # 10 Options for creating more maintainable .NET apps by Scott Sauber
 
-1. Feature folders
-2. Treat Warnings as Errors
+`"Every system tends towards complexity, slowness and difficulty
+Staying simple, fast and easy-to-use is a battle that must be fought everyday" - Guillermo Rauch`
 
-    add this section in the csproj file of a new Project
+1. Feature folders : put everything related to a feature in one folder
+   (Vertical slicing instead of horizontal slicing)
+
+2. Treat Warnings as Errors
+    Add this section in the csproj file of a new Project
 
     ```bash
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -14,19 +18,28 @@
     - use ILogger everywhere, not Serilog directly
     - use structured logging, not concatenation
     - each log should have key bits of information
+      (include correlation IDs, user IDs, Request URL, App Version, etc.)
+      use Serilog's LogContext to add these automatically
+    - log exceptions with the exception parameter of the logging method
     - logs vs metrics vs audits
+      (Developer Focused, log an exception, a response from external API)  
     - Log Levels: Debug, Info, Warn, Error, Critical
+    - Clean up your Warnings and Errors!
+    - Use a log viewer like Seq or Kibana
+    - How long should you keep logs? 30 days is common
+    - Don't put metrics in your logs
+    - Don't log sensitive information (PII, passwords, credit cards, etc.)
 
 4. Global Authorize Attribute via FallbackPolicy
 
     ```csharp
         
-        builder.Services.AddAuthorization(options => 
-        {
-            options.FallbackPolicy = new AuthorizePolicyBuilder
-                .RequireAuthenticatedUser()
-                .Build()
-        });
+        builder.Services.AddAuthorization(options =>
+    {
+        options.FallbackPolicy = new AuthorizationPolicyBuilder()
+            .RequireAuthenticatedUser()
+            .Build();
+    });
     ```
 
 5. Validation
@@ -65,7 +78,7 @@
         <Date><BuildNumber><ShortGitSha>    
     ```
 
-9. Structuring a method
+9.  Structuring a method
 
     Happy return Path always at the bottom of the method
 
