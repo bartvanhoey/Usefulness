@@ -1,5 +1,18 @@
 ## Git and GitHub Tips and Tricks
 
+### Install GitHub CLI
+
+```bash
+  winget install --id GitHub.cli
+  gh auth login
+```
+
+### Switch User in GitHub CLI
+
+```bash
+  gh auth switch --user <your-/username>
+```
+
 ### Howto handle Support for password authentication was removed ... Please use a personal access token instead
 
 ```bash
