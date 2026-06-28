@@ -18,7 +18,7 @@ git config core.hooksPath .githooks
 
 | Topic |
 |-------|
-| [Tips & Tricks in VS Code](Documents/VsCode.md) |
+| [VS Code](Documents/VsCode.md) |
 | [Rider Keyboard Shortcuts](Documents/Rider.md) |
 | [Vim Editor](Documents/VimEditor.md) |
 | [Notepad++](Documents/NotepadPlusPlus.md) |
@@ -42,7 +42,7 @@ git config core.hooksPath .githooks
 | [EF Core](Documents/EntityFrameworkCore.md) |
 | [ABP CLI](Documents/ABPcli.md) |
 | [Advanced C#](Documents/AdvancedCSharp.md) |
-| [Tips & Tricks in Blazor](Documents/Blazor.md) |
+| [Blazor](Documents/Blazor.md) |
 
 ## Frontend & CSS
 
@@ -50,7 +50,7 @@ git config core.hooksPath .githooks
 |-------|
 | [Tailwind CSS](Documents/TailwindCss.md) |
 | [CSS](Documents/Css.md) |
-| [Tips & Tricks in NEXT.js](Documents/NextJs.md) |
+| [Next.js](Documents/NextJs.md) |
 
 ## Productivity & Learning
 
