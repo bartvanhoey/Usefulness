@@ -9,7 +9,7 @@ Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
 | Topic |
 |-------|
 | [Tips & Tricks in VsCode](Documents/VsCode.md) |
-| [My keyboard shortcuts in Rider](Documents/Rider.md) |
+| [Rider Keyboard Shortcuts](Documents/Rider.md) |
 | [Vim Editor](Documents/VimEditor.md) |
 | [Notepad++](Documents/NotepadPlusPlus.md) |
 
@@ -57,7 +57,7 @@ Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
 | Topic |
 |-------|
 | [All about Git](Documents/Git.md) |
-| [My most used Command Line Commands](Documents/TopTenCommandLineCommands.md) |
+| [Command Line Commands](Documents/TopTenCommandLineCommands.md) |
 | [Powershell](Documents/PowerShell.md) |
 | [Chrome](Documents/Chrome.md) |
 | [Miscellaneous](Documents/Miscellaneous.md) |
