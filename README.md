@@ -1,7 +1,8 @@
 # Usefulness
 
-Personal cheat-sheet collection for developer tools, commands, and tips.
-Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, AI tools, and more.
+Personal cheat-sheet collection for developer tools, commands, and tips —
+primarily aimed at **.NET developers** working on **Windows** with **VS Code** or **Rider**.
+Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
 
 ## IDE & Editors
 
