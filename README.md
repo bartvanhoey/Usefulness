@@ -25,3 +25,12 @@
 | [Maui](Documents/MAUI.md)                                                                      |
 | [Insomnia](Documents/Insomnia.md)                                                              |
 | [Css](Documents/Css.md)                                                                        |
+| [Advanced C#](Documents/AdvancedCSharp.md)                                                     |
+| [Refactoring Techniques](Documents/RefactoringTechniques.md)                                   |
+| [10 Options for Maintainable .NET Apps](Documents/ScottSauber10OptionsToCreateMoreMaintainableDotNetApps.md) |
+| [Azurite](Documents/Azurite.md)                                                                |
+| [Unit Testing](Documents/UnitTesting.md)                                                       |
+| [Miscellaneous](Documents/Miscellaneous.md)                                                    |
+| [Chrome](Documents/Chrome.md)                                                                  |
+| [My MauiIsland](Documents/MyMauisland.md)                                                      |
+| [Legacy Code](Documents/LegacyCode.md)                                                         |
