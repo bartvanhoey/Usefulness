@@ -1,3 +1,8 @@
+# Usefulness
+
+Personal cheat-sheet collection for developer tools, commands, and tips.
+Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, AI tools, and more.
+
 | Topic                                                                                          |
 |------------------------------------------------------------------------------------------------|
 | [Boost your Productivity](Documents/BoostProductivity.md)                                      |
