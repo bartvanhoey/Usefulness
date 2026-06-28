@@ -1,9 +1,13 @@
+# Usefulness
+
+Personal cheat-sheet collection for developer tools, commands, and tips.
+Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, AI tools, and more.
+
 | Topic                                                                                          |
 |------------------------------------------------------------------------------------------------|
 | [Boost your Productivity](Documents/BoostProductivity.md)                                      |
 | [My keyboard shortcuts in Rider](Documents/Rider.md)                                           |
 | [Tips & Tricks in VsCode](Documents/VsCode.md)                                                 |
-| [Useful AI Tools](Documents/UsefulAiTools.md)                                                  |
 | [Useful Claude Code Skills](Documents/UsefulClaudeCodeSkills.md)                               |
 | [All about Git](Documents/Git.md)                                                              |
 | [My most used Command Line Commands](Documents/TopTenCommandLineCommands.md)                   |
@@ -18,10 +22,16 @@
 | [Kubernetes](Documents/Kubernetes.md)                                                          |
 | [Azure Kubernetes Service](Documents/AKS.md)                                                   |
 | [Powershell](Documents/PowerShell.md)                                                          |
-| [Chrome extensions](Documents/ChromeExtensions.md)                                             |
 | [Tips & Tricks in NEXT.js](Documents/NextJs.md)                                                |
 | [Tips & Tricks in Blazor](Documents/Blazor.md)                                                 |
-| [Artificial Intelligence](Documents/AI.md)                                                     |
 | [Maui](Documents/MAUI.md)                                                                      |
 | [Insomnia](Documents/Insomnia.md)                                                              |
 | [Css](Documents/Css.md)                                                                        |
+| [Advanced C#](Documents/AdvancedCSharp.md)                                                     |
+| [Refactoring Techniques](Documents/RefactoringTechniques.md)                                   |
+| [10 Options for Maintainable .NET Apps](Documents/ScottSauber10OptionsToCreateMoreMaintainableDotNetApps.md) |
+| [Azurite](Documents/Azurite.md)                                                                |
+| [Unit Testing](Documents/UnitTesting.md)                                                       |
+| [Miscellaneous](Documents/Miscellaneous.md)                                                    |
+| [Chrome](Documents/Chrome.md)                                                                  |
+| [My MauiIsland](Documents/MyMauisland.md)                                                      |

@@ -1,4 +1,4 @@
-# Refactoring Techniques
+## Refactoring Techniques
 
 Our code base is just a big mess, and no one is happy working in it.
 

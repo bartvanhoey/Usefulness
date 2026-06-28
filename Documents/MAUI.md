@@ -1,4 +1,4 @@
-# MAUI
+## MAUI
 
 ```bash
     dotnet new maui -n "MyMauiApp"

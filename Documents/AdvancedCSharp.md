@@ -1,4 +1,4 @@
-# Advanced C# Concepts a Senior Developer should use in his daily life
+## Advanced C# Concepts a Senior Developer should use in his daily life
 
 1. Generics
 2. Reflection
