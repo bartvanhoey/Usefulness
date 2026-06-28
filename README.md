@@ -1,5 +1,7 @@
 # Usefulness
 
+[![pages-build-deployment](https://github.com/bartvanhoey/Usefulness/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bartvanhoey/Usefulness/actions/workflows/pages/pages-build-deployment) [![pages-build-deployment](https://github.com/bartvanhoey/Usefulness/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bartvanhoey/Usefulness/actions/workflows/pages/pages-build-deployment)
+
 Personal cheat-sheet collection for developer tools, commands, and tips —
 primarily aimed at **.NET developers** working on **Windows** with **VS Code** or **Rider**.
 Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
