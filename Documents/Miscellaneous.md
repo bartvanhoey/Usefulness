@@ -1,4 +1,4 @@
-# Miscellaneous
+## Miscellaneous
 
 ## Check if specific port is in use and kill process
 

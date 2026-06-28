@@ -1,4 +1,4 @@
-# MyMauisland
+## MyMauisland
 
 ## Automatic Page and ViewModel registration -> RegisterPages
 

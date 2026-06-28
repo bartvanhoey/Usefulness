@@ -1,5 +1,5 @@
 
-# Chrome
+## Chrome
 
 ## Useful Keyboard Shortcuts
 

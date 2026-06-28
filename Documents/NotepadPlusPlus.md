@@ -1,4 +1,4 @@
-# Notepad++ Tips And Tricks
+## Notepad++ Tips And Tricks
 
 Blazing Story
 
