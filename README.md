@@ -6,19 +6,11 @@ Personal cheat-sheet collection for developer tools, commands, and tips —
 primarily aimed at **.NET developers** working on **Windows** with **VS Code** or **Rider**.
 Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
 
-## Setup
-
-After cloning, activate the pre-push validation hook:
-
-```bash
-git config core.hooksPath .githooks
-```
-
 ## IDE & Editors
 
 | Topic |
 |-------|
-| [Tips & Tricks in VsCode](Documents/VsCode.md) |
+| [VS Code](Documents/VsCode.md) |
 | [Rider Keyboard Shortcuts](Documents/Rider.md) |
 | [Vim Editor](Documents/VimEditor.md) |
 | [Notepad++](Documents/NotepadPlusPlus.md) |
@@ -40,9 +32,9 @@ git config core.hooksPath .githooks
 |-------|
 | [.NET](Documents/DotNet.md) |
 | [EF Core](Documents/EntityFrameworkCore.md) |
-| [ABP cli](Documents/ABPcli.md) |
+| [ABP CLI](Documents/ABPcli.md) |
 | [Advanced C#](Documents/AdvancedCSharp.md) |
-| [Tips & Tricks in Blazor](Documents/Blazor.md) |
+| [Blazor](Documents/Blazor.md) |
 
 ## Frontend & CSS
 
@@ -50,7 +42,7 @@ git config core.hooksPath .githooks
 |-------|
 | [Tailwind CSS](Documents/TailwindCss.md) |
 | [CSS](Documents/Css.md) |
-| [Tips & Tricks in NEXT.js](Documents/NextJs.md) |
+| [Next.js](Documents/NextJs.md) |
 
 ## Productivity & Learning
 
@@ -67,5 +59,13 @@ git config core.hooksPath .githooks
 |-------|
 | [All about Git](Documents/Git.md) |
 | [Command Line Commands](Documents/TopTenCommandLineCommands.md) |
-| [Powershell](Documents/PowerShell.md) |
+| [PowerShell](Documents/PowerShell.md) |
 | [Chrome](Documents/Chrome.md) |
+
+## Setup
+
+After cloning, activate the pre-push validation hook:
+
+```bash
+git config core.hooksPath .githooks
+```
