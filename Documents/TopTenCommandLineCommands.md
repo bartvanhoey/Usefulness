@@ -1,4 +1,4 @@
-## My Most Used Command Line Commands
+## Command Line Commands
 
 1. Find out which process runs on a given port
 
@@ -84,4 +84,10 @@
 
     ```bash
     n latest
+    ```
+
+15. Generate a random secret key
+
+    ```bash
+    openssl rand -base64 32
     ```

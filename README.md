@@ -60,4 +60,3 @@ Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
 | [Command Line Commands](Documents/TopTenCommandLineCommands.md) |
 | [Powershell](Documents/PowerShell.md) |
 | [Chrome](Documents/Chrome.md) |
-| [Miscellaneous](Documents/Miscellaneous.md) |
