@@ -17,7 +17,6 @@
 | [Kubernetes](Documents/Kubernetes.md)                                                          |
 | [Azure Kubernetes Service](Documents/AKS.md)                                                   |
 | [Powershell](Documents/PowerShell.md)                                                          |
-| [Browser Extensions](Documents/BrowserExtensions.md)                                           |
 | [Tips & Tricks in NEXT.js](Documents/NextJs.md)                                                |
 | [Tips & Tricks in Blazor](Documents/Blazor.md)                                                 |
 | [Maui](Documents/MAUI.md)                                                                      |
