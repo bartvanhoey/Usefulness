@@ -1,6 +1,6 @@
 # DevCheatSheets
 
-[![pages-build-deployment](https://github.com/bartvanhoey/DevCheatSheets/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bartvanhoey/DevCheatSheets/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/bartvanhoey/DevCheatSheets/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bartvanhoey/DevCheatSheets/actions/workflows/pages/pages-build-deployment) [![Validate](https://github.com/bartvanhoey/DevCheatSheets/actions/workflows/validate.yml/badge.svg)](https://github.com/bartvanhoey/DevCheatSheets/actions/workflows/validate.yml)
 
 Personal cheat-sheet collection for developer tools, commands, and tips —
 primarily aimed at **.NET developers** working on **Windows** with **VS Code** or **Rider**.
