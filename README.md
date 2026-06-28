@@ -18,7 +18,7 @@ git config core.hooksPath .githooks
 
 | Topic |
 |-------|
-| [Tips & Tricks in VsCode](Documents/VsCode.md) |
+| [Tips & Tricks in VS Code](Documents/VsCode.md) |
 | [Rider Keyboard Shortcuts](Documents/Rider.md) |
 | [Vim Editor](Documents/VimEditor.md) |
 | [Notepad++](Documents/NotepadPlusPlus.md) |
@@ -40,7 +40,7 @@ git config core.hooksPath .githooks
 |-------|
 | [.NET](Documents/DotNet.md) |
 | [EF Core](Documents/EntityFrameworkCore.md) |
-| [ABP cli](Documents/ABPcli.md) |
+| [ABP CLI](Documents/ABPcli.md) |
 | [Advanced C#](Documents/AdvancedCSharp.md) |
 | [Tips & Tricks in Blazor](Documents/Blazor.md) |
 
@@ -67,5 +67,5 @@ git config core.hooksPath .githooks
 |-------|
 | [All about Git](Documents/Git.md) |
 | [Command Line Commands](Documents/TopTenCommandLineCommands.md) |
-| [Powershell](Documents/PowerShell.md) |
+| [PowerShell](Documents/PowerShell.md) |
 | [Chrome](Documents/Chrome.md) |
