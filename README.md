@@ -3,7 +3,6 @@
 | [Boost your Productivity](Documents/BoostProductivity.md)                                      |
 | [My keyboard shortcuts in Rider](Documents/Rider.md)                                           |
 | [Tips & Tricks in VsCode](Documents/VsCode.md)                                                 |
-| [Useful AI Tools](Documents/UsefulAiTools.md)                                                  |
 | [Useful Claude Code Skills](Documents/UsefulClaudeCodeSkills.md)                               |
 | [All about Git](Documents/Git.md)                                                              |
 | [My most used Command Line Commands](Documents/TopTenCommandLineCommands.md)                   |
@@ -32,4 +31,3 @@
 | [Miscellaneous](Documents/Miscellaneous.md)                                                    |
 | [Chrome](Documents/Chrome.md)                                                                  |
 | [My MauiIsland](Documents/MyMauisland.md)                                                      |
-| [Legacy Code](Documents/LegacyCode.md)                                                         |
