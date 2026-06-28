@@ -6,14 +6,6 @@ Personal cheat-sheet collection for developer tools, commands, and tips —
 primarily aimed at **.NET developers** working on **Windows** with **VS Code** or **Rider**.
 Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
 
-## Setup
-
-After cloning, activate the pre-push validation hook:
-
-```bash
-git config core.hooksPath .githooks
-```
-
 ## IDE & Editors
 
 | Topic |
@@ -69,3 +61,11 @@ git config core.hooksPath .githooks
 | [Command Line Commands](Documents/TopTenCommandLineCommands.md) |
 | [PowerShell](Documents/PowerShell.md) |
 | [Chrome](Documents/Chrome.md) |
+
+## Setup
+
+After cloning, activate the pre-push validation hook:
+
+```bash
+git config core.hooksPath .githooks
+```
