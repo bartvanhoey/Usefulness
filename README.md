@@ -33,7 +33,6 @@ Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, and more.
 | [ABP cli](Documents/ABPcli.md) |
 | [Advanced C#](Documents/AdvancedCSharp.md) |
 | [Tips & Tricks in Blazor](Documents/Blazor.md) |
-| [Maui](Documents/MAUI.md) |
 
 ## Frontend & CSS
 
