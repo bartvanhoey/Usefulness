@@ -33,8 +33,6 @@ Topics include Git, Docker, Kubernetes, .NET, Blazor, VS Code, Rider, AI tools, 
 | [Advanced C#](Documents/AdvancedCSharp.md) |
 | [Tips & Tricks in Blazor](Documents/Blazor.md) |
 | [Maui](Documents/MAUI.md) |
-| [My MauiIsland](Documents/MyMauisland.md) |
-| [Unit Testing](Documents/UnitTesting.md) |
 
 ## Frontend & CSS
 
