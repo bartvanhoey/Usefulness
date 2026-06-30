@@ -34,7 +34,7 @@
 |`CTRL+C`                                                                                        | stop running container in Terminal                            |
 |`docker ps`                                                                                     | display all running containers                                |
 |`docker ps -a`                                                                                  | display all running/not running containers with their status  |
-|`docker run -t <image-name>:<tag> -f .\CreateTestDb.Dockerfile .`                               | build docker container from specific Dockerfile               |
+|`docker build -f .\CreateTestDb.Dockerfile -t <image-name>:<tag> .`                             | build docker image from specific Dockerfile                   |
 |`docker exec -it <container-id> /bin/sh`    => `ls`                                             | Open a command in running container and display content       |
 |`docker exec -it <container-id> /bin/bash`                                                      | Open a command in running container and display content       |
 

@@ -47,7 +47,7 @@
   - **Recommendation:** Delete the duplicate row.
   - **Effort:** 2 minutes
 
-- `Documents/Docker.md:38` — **Incorrect command and description.** `docker run -t <image-name>:<tag> -f .\CreateTestDb.Dockerfile .` is described as "build docker container from specific Dockerfile." The `-t` flag on `docker run` means *tag*, not Dockerfile specification. The correct command uses `docker build -f`. The syntax is also invalid (`-f` after the image name is not a valid `docker run` flag).
+- `Documents/Docker.md:38` — **Incorrect command and description.** `docker run -t <image-name>:<tag> -f .\CreateTestDb.Dockerfile .` is described as "build docker container from specific Dockerfile." ✅ Fixed 2026-06-30 The `-t` flag on `docker run` means *tag*, not Dockerfile specification. The correct command uses `docker build -f`. The syntax is also invalid (`-f` after the image name is not a valid `docker run` flag).
   - **Impact:** A developer following this command will get an error or unexpected behaviour.
   - **Recommendation:** Replace with: `docker build -f .\CreateTestDb.Dockerfile -t <image-name>:<tag> .`
   - **Effort:** 5 minutes
