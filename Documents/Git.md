@@ -137,7 +137,7 @@ And then git removed-branches will show you all the stale local branches, and gi
 ```csharp
   // KEEP CHANGES
   git reset HEAD~1 --soft
-  git log origin/master..HEAD` view unpushed git commits
+  git log origin/master..HEAD  // view unpushed git commits
 ```
 
 ### Howto uncommit last un-pushed git-commit DELETE CHANGES (~gN N=number of commits)
