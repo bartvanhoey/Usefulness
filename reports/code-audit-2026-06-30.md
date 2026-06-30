@@ -90,7 +90,7 @@
 
 #### 🟢 Low Priority / Observations
 
-- `Documents/Git.md:249,294` — Near-duplicate sections on reverting commits (`git reset --hard HEAD` vs `git reset --hard HEAD~1`). The distinction is meaningful but easy to miss. Add a one-liner clarifying `HEAD` vs `HEAD~1`.
+- `Documents/Git.md:249,294` — Near-duplicate sections on reverting commits (`git reset --hard HEAD` vs `git reset --hard HEAD~1`). The distinction is meaningful but easy to miss. Add a one-liner clarifying `HEAD` vs `HEAD~1`. ✅ Fixed 2026-06-30
 
 - `Documents/Git.md:279,298` — Near-duplicate sections on amending commit messages (un-pushed vs pushed). The pushed variant correctly adds `git push --force-with-lease`, but that command is erroneously placed inside the VIM `:wq` code block. Extract it to its own block after the VIM instructions.
 

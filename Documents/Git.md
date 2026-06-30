@@ -248,7 +248,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ### Howto revert to a previous commit
 
-`git reset --hard HEAD`
+`git reset --hard HEAD` — discards uncommitted working tree changes, stays on the same commit
 
 ### Howto set your branch to exactly match the remote branch
 
@@ -293,7 +293,7 @@ Esc
 
 ### Howto Delete the most recent commit, **destroying** the work you've done
 
-`git reset --hard HEAD~1`
+`git reset --hard HEAD~1` — moves back one commit; the commit and its changes are permanently gone
 
 ### Howto change a pushed commit message (not yet pulled from remote)
 
