@@ -58,7 +58,7 @@
   - **Recommendation:** Change all occurrences to `CTRL` (uppercase L).
   - **Effort:** 5 minutes
 
-- `Documents/VsCode.md:84` — **Typo in extension name.** `C# Dev Kist` should be `C# Dev Kit`.
+- `Documents/VsCode.md:84` — **Typo in extension name.** `C# Dev Kist` should be `C# Dev Kit`. ✅ Fixed 2026-06-30
   - **Impact:** Readers searching for this extension by name will not find it.
   - **Effort:** 1 minute
 

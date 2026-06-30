@@ -81,7 +81,7 @@
 | `Auto Self Close Tag` by Zeeshan Ahmad      | Automatically removes the closing tag when entering a slash in the first   |
 | `Auto Import`                               | Provides code actions and code completion for all available Typescript     |
 | `Auto Rename Tag`                           | Renames the corresponding html tag                                         |
-| `C# Dev Kist`                               | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities |
+| `C# Dev Kit`                                | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities |
 | `C# Extensions - JosKreativ`                | C# IDE Extensions for VSCode                                               |
 | `C#`                                        | C# for Visual Studio Code (powered by OmniSharp)                           |
 | `Code Spell Checker`                        | Spelling Checker for Visual Studio Code                                    |
