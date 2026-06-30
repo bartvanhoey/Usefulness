@@ -14,19 +14,19 @@ dotnet new sln -n [YourSolutionName]
 dotnet sln add [yourProjectName]\[yourProjectName].csproj
 ```
 
-### How to create a new class library project
+### Howto create a new class library project
 
 ```bash
 dotnet new classlib -n [YourProjectName]
 ```
 
-### How to see installed dotnet sdks
+### Howto see installed dotnet sdks
 
 ```bash
 dotnet --list-sdks
 ```
 
-### How to specify dotnet version with dotnet new
+### Howto specify dotnet version with dotnet new
 
 ```bash
 dotnet new web -h
@@ -57,7 +57,7 @@ dotnet new gitignore
 
 ## User Secrets
 
-You can find the user secrets in following folder: `C:\Users\bartv\AppData\Roaming\Microsoft\UserSecrets`
+You can find the user secrets in following folder: `%USERPROFILE%\AppData\Roaming\Microsoft\UserSecrets`
 
 ### Init
 

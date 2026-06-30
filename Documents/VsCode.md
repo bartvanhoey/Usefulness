@@ -19,14 +19,14 @@
 | `CTRL+/`                            | Split Editor                                                                                     |
 | `CTRL+`                             | Zoom in                                                                                          |
 | `CTRL+7`                            | Comment Line (toggle)                                                                            |
-| `CTRl+ALT+C`                        | Create New Git Branch (own Keyboard short cut)                                                   |
+| `CTRL+ALT+C`                        | Create New Git Branch (own Keyboard short cut)                                                   |
 | `CTRL+ALT+L`                        | Reveal Active File in Explorer                                                                   |
 | `CTRL+ALT+B`                        | Show/Hide GitHub Copilot Chat Window                                                             |
 | `CTRL+ALT+B+ENTER`                  | Hide GitHub Copilot Chat Window                                                                  |
 | `CTRL+K, I`                         | GitHub Copilot Fix This                                                                          |
-| `CTRl+ALT+T`                        | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
+| `CTRL+ALT+T`                        | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
 | `CTRL+ARROW LEFT/RIGHT`             | Move to Next Word                                                                                |
-| `CTRl+B, CTRL+B`                    | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
+| `CTRL+B, CTRL+B`                    | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
 | `CTRL+Q`                            | Show/Hide Terminal                                                                               |
 | `CTRL+C,C`                          | Clear Console                                                                                    |
 | `CTRL+C`                            | Copy (no need to select line)                                                                    |
@@ -37,22 +37,22 @@
 | `CTRL+J`                            | Toggle Bottom Panel Visibility                                                                   |
 | `CTRL+K+C` or `CTRL+/`              | Comment/Uncomment Line                                                                           |
 | `CTRL+K+D`                          | Format Document                                                                                  |
-| `CTRl+K+S`                          | Shows VsCode shortcuts                                                                           |
+| `CTRL+K+S`                          | Shows VsCode shortcuts                                                                           |
 | `CTRL+K+W`                          | Close All Documents                                                                              |
 | `CTRL+L`                            | Delete Line (no need to select line)                                                             |
 | `CTRL+M`                            | Go to Type Declaration                                                                           |
 | `CTRL+N,N`                          | New File...                                                                                      |
 | `CTRL+P`                            | Go to File                                                                                       |
 | `CTRL+S`                            | Pin tab/Unpin tab                                                                                |
-| `CTRl+SHIFT+.`                      | Show methods, properties, fields of a TypeScript class                                           |
+| `CTRL+SHIFT+.`                      | Show methods, properties, fields of a TypeScript class                                           |
 | `CTRL+SHIFT+D`                      | Focus Debugger                                                                                   |
 | `CTRL+SHIFT+E`                      | Toggle Solution Explorer (toggleSideBarVisibility)                                               |
 | `CTRL+SHIFT+F`                      | Search in All Files                                                                              |
-| `CTRl+SHIFT+G`                      | Open Source Control Panel                                                                        |
+| `CTRL+SHIFT+G`                      | Open Source Control Panel                                                                        |
 | `CTRL+SHIFT+H`                      | Search and Replace in All Files                                                                  |
 | `CTRL+SHIFT+O`                      | Shows list of methods, properties, fields of active field                                        |
 | `CTRL+SHIFT+ö`                      | Opens External Terminal in Project Root                                                          |
-| `CTRl+SHIFT+P -> Balance (outward)` | Select a whole HTML tag                                                                          |
+| `CTRL+SHIFT+P -> Balance (outward)` | Select a whole HTML tag                                                                          |
 | `CTRL+SHIFT+P`                      | Command Palette                                                                                  |
 | `CTRL+SHIFT+R`                      | Rename Symbol                                                                                    |
 | `CTRL+SHIFT+T`                      | Open New Terminal                                                                                |
@@ -81,17 +81,16 @@
 | `Auto Self Close Tag` by Zeeshan Ahmad      | Automatically removes the closing tag when entering a slash in the first   |
 | `Auto Import`                               | Provides code actions and code completion for all available Typescript     |
 | `Auto Rename Tag`                           | Renames the corresponding html tag                                         |
-| `C# Dev Kist`                               | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities |
+| `C# Dev Kit`                                | C# Dev Kit enhances VsCode by adding a set of powerful tools and utilities |
 | `C# Extensions - JosKreativ`                | C# IDE Extensions for VSCode                                               |
 | `C#`                                        | C# for Visual Studio Code (powered by OmniSharp)                           |
 | `Code Spell Checker`                        | Spelling Checker for Visual Studio Code                                    |
 | `CodiumAI`                                  | Integrity Agent powered by GPT3.5&4                                        |
 | `ColorTabs - Ore Poran`                     | Changes the active tab/status-bar/title-background                         |
 | `Copy name of current git branch`           | Copy name of current git branch [do not forget to assign shortcut key]     |
-| `Error Lens - ALexander`                    | Improve highlighting of errors warnings and other language diagnostics     |
+| `Error Lens - Alexander`                    | Improve highlighting of errors warnings and other language diagnostics     |
 | `ES7+ React/Redux/React-Native snippets`    | ES7 Extension by dsznajder                                                 |
 | `GitHub Pull Requests`                      | Manage Your Pull Requests for a Repository from VSCode                     |
-| `html tag wrapper`                          | Wrap selected html tags by pressing CTRL+i                                 |
 | `Inline Fold - Mohammed Alamri`             | A custom decorator that "fold" matching content in a single line           |
 | `html tag Wrapper - hwencc`                 | wrap selected html tag by press ctrl+i, change the wrapper tag name too    |
 | `Lorem Ipsum`                               | Generates and inserts lorem ipsum text into Visual Studio Code             |
@@ -181,7 +180,7 @@
 
 ### ColorTabs settings in settings.json file
 
-```bash
+```json
     "colorTabs.config": [
         {
             "regex": ".*",
@@ -194,7 +193,7 @@
 
 ### Prettier settings in settings.json file
 
-```bash
+```json
   "prettier.jsxSingleQuote": true,
   "prettier.bracketSameLine": true,
   "prettier.bracketSpacing": true,

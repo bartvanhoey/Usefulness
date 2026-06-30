@@ -82,7 +82,7 @@ admin:repo_hook Full control of repository hooks
 
 ### Howto check contributions from a git repository
 
-[Whodid]([https://](https://www.npmjs.com/package/whodid)) is a CLI contribution check tool that counts edited lines from all commits pro author
+[Whodid](https://www.npmjs.com/package/whodid) is a CLI contribution check tool that counts edited lines from all commits pro author
 
 ```bash
   npm install -g whodid
@@ -94,7 +94,7 @@ There's a neat NPM package that does it for you (and it should work cross-platfo
 
 Install it with:
 
-```batch
+```bash
   npm install -g git-removed-branches
 ```
 
@@ -102,19 +102,19 @@ And then git removed-branches will show you all the stale local branches, and gi
 
 * Run this command to see which branches will be deleted
 
-```batch
+```bash
   git removed-branches
 ```
 
 * Run this command to actually delete these branches
 
-```batch
+```bash
   git removed-branches --prune
 ```
 
 * Run this to actually delete these branches (forced)
 
-```batch
+```bash
   git removed-branches --prune --force
 ```
 
@@ -122,13 +122,13 @@ And then git removed-branches will show you all the stale local branches, and gi
 
 * Run this to see which branches will be deleted!
 
-```batch
+```bash
   git remote prune origin --dry-run
 ```
 
 * Run this command to delete these branches
   
-```batch
+```bash
   git remote prune origin
  ```
 
@@ -137,7 +137,7 @@ And then git removed-branches will show you all the stale local branches, and gi
 ```csharp
   // KEEP CHANGES
   git reset HEAD~1 --soft
-  git log origin/master..HEAD` view unpushed git commits
+  git log origin/master..HEAD  // view unpushed git commits
 ```
 
 ### Howto uncommit last un-pushed git-commit DELETE CHANGES (~gN N=number of commits)
@@ -189,6 +189,10 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 `git push --force`
+
+> **Prefer `--force-with-lease`** — it refuses to push if the remote has commits you haven't fetched, preventing accidental overwrite of a teammate's work.
+
+`git push --force-with-lease`
 
 ### Howto handle fatal: refusing to merge unrelated histories
 
@@ -248,7 +252,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ### Howto revert to a previous commit
 
-`git reset --hard HEAD`
+`git reset --hard HEAD` — discards uncommitted working tree changes, stays on the same commit
 
 ### Howto set your branch to exactly match the remote branch
 
@@ -293,7 +297,7 @@ Esc
 
 ### Howto Delete the most recent commit, **destroying** the work you've done
 
-`git reset --hard HEAD~1`
+`git reset --hard HEAD~1` — moves back one commit; the commit and its changes are permanently gone
 
 ### Howto change a pushed commit message (not yet pulled from remote)
 
@@ -304,6 +308,9 @@ After updating the message leave VIM editor by pressing
 ```csharp
 Esc
 :wq
+```
+
+```bash
 git push --force-with-lease <repository> <branch>
 ```
 
