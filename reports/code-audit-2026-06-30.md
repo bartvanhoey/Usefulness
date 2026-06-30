@@ -66,7 +66,7 @@
   - **Recommendation:** Change to `Error Lens - Alexander`.
   - **Effort:** 1 minute
 
-- `Documents/VsCode.md:94–96` — **Possible duplicate extension entries.** Both `html tag wrapper` (line 94) and `html tag Wrapper - hwencc` (line 96) appear to be the same extension listed twice; `-hwencc` is the author's marketplace ID.
+- `Documents/VsCode.md:94–96` — **Possible duplicate extension entries.** Both `html tag wrapper` (line 94) and `html tag Wrapper - hwencc` (line 96) appear to be the same extension listed twice; `-hwencc` is the author's marketplace ID. ✅ Fixed 2026-06-30
   - **Impact:** Redundant entries bloat the table and may confuse readers.
   - **Recommendation:** Verify whether these are distinct extensions; if the same, keep the `hwencc` entry (more specific) and remove the generic one.
   - **Effort:** 5 minutes
