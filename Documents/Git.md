@@ -190,6 +190,10 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 `git push --force`
 
+> **Prefer `--force-with-lease`** — it refuses to push if the remote has commits you haven't fetched, preventing accidental overwrite of a teammate's work.
+
+`git push --force-with-lease`
+
 ### Howto handle fatal: refusing to merge unrelated histories
 
 `git pull origin <branch-name> --allow-unrelated-histories`
