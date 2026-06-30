@@ -62,7 +62,7 @@
   - **Impact:** Readers searching for this extension by name will not find it.
   - **Effort:** 1 minute
 
-- `Documents/VsCode.md:91` — **Mid-word capitalisation in author name.** `Error Lens - ALexander` has a rogue capital (`ALexander`).
+- `Documents/VsCode.md:91` — **Mid-word capitalisation in author name.** `Error Lens - ALexander` has a rogue capital (`ALexander`). ✅ Fixed 2026-06-30
   - **Recommendation:** Change to `Error Lens - Alexander`.
   - **Effort:** 1 minute
 

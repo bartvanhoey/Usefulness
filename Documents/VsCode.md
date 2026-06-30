@@ -88,7 +88,7 @@
 | `CodiumAI`                                  | Integrity Agent powered by GPT3.5&4                                        |
 | `ColorTabs - Ore Poran`                     | Changes the active tab/status-bar/title-background                         |
 | `Copy name of current git branch`           | Copy name of current git branch [do not forget to assign shortcut key]     |
-| `Error Lens - ALexander`                    | Improve highlighting of errors warnings and other language diagnostics     |
+| `Error Lens - Alexander`                    | Improve highlighting of errors warnings and other language diagnostics     |
 | `ES7+ React/Redux/React-Native snippets`    | ES7 Extension by dsznajder                                                 |
 | `GitHub Pull Requests`                      | Manage Your Pull Requests for a Repository from VSCode                     |
 | `html tag wrapper`                          | Wrap selected html tags by pressing CTRL+i                                 |
