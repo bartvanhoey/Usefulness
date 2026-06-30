@@ -30,7 +30,6 @@
 |`docker run -it --rm -p 3000:80 --name <my-container> <image-name>:<tag>`                       | create/start container, remove after stop (CTRL+C)            |
 |`docker start <container-id>`                                                                   | start docker container by ID                                  |
 |`docker stop <container-id>`                                                                    | stop docker container by ID                                   |
-|`docker stop <container-id>`                                                                    | stop docker container by ID                                   |
 |`docker rm <container-id> <container-id> <container-id>`                                        | remove multiple docker containers by their IDs                |
 |`CTRL+C`                                                                                        | stop running container in Terminal                            |
 |`docker ps`                                                                                     | display all running containers                                |

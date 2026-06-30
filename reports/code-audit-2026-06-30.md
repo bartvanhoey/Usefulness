@@ -42,7 +42,7 @@
   - **Recommendation:** Change to `[Whodid](https://www.npmjs.com/package/whodid)`
   - **Effort:** 2 minutes
 
-- `Documents/Docker.md:33` — **Duplicate table row.** `docker stop <container-id>` appears twice (lines 32–33) with identical descriptions.
+- `Documents/Docker.md:33` — **Duplicate table row.** `docker stop <container-id>` appears twice (lines 32–33) with identical descriptions. ✅ Fixed 2026-06-30
   - **Impact:** Confusing redundancy; readers may assume there is a meaningful difference.
   - **Recommendation:** Delete the duplicate row.
   - **Effort:** 2 minutes
