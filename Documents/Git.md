@@ -94,7 +94,7 @@ There's a neat NPM package that does it for you (and it should work cross-platfo
 
 Install it with:
 
-```batch
+```bash
   npm install -g git-removed-branches
 ```
 
@@ -102,19 +102,19 @@ And then git removed-branches will show you all the stale local branches, and gi
 
 * Run this command to see which branches will be deleted
 
-```batch
+```bash
   git removed-branches
 ```
 
 * Run this command to actually delete these branches
 
-```batch
+```bash
   git removed-branches --prune
 ```
 
 * Run this to actually delete these branches (forced)
 
-```batch
+```bash
   git removed-branches --prune --force
 ```
 
@@ -122,13 +122,13 @@ And then git removed-branches will show you all the stale local branches, and gi
 
 * Run this to see which branches will be deleted!
 
-```batch
+```bash
   git remote prune origin --dry-run
 ```
 
 * Run this command to delete these branches
   
-```batch
+```bash
   git remote prune origin
  ```
 

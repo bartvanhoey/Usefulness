@@ -94,7 +94,7 @@
 
 - `Documents/Git.md:279,298` — Near-duplicate sections on amending commit messages (un-pushed vs pushed). The pushed variant correctly adds `git push --force-with-lease`, but that command is erroneously placed inside the VIM `:wq` code block. Extract it to its own block after the VIM instructions. ✅ Fixed 2026-06-30
 
-- `Documents/Git.md:97,105,110,115,125,129` — Non-standard ` ```batch ` fence label used in several blocks. GitHub Pages renders `batch` as plain text without syntax highlighting. Change to `bash` or `cmd`.
+- `Documents/Git.md:97,105,110,115,125,129` — Non-standard ` ```batch ` fence label used in several blocks. GitHub Pages renders `batch` as plain text without syntax highlighting. Change to `bash` or `cmd`. ✅ Fixed 2026-06-30
 
 - `Documents/Git.md:191` — `git push --force` recommended as a solution with no caveat. Add a note recommending `git push --force-with-lease` instead, which is safer.
 
