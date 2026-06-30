@@ -304,6 +304,9 @@ After updating the message leave VIM editor by pressing
 ```csharp
 Esc
 :wq
+```
+
+```bash
 git push --force-with-lease <repository> <branch>
 ```
 
