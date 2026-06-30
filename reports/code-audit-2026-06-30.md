@@ -37,7 +37,7 @@
 
 #### 🔴 High Priority
 
-- `Documents/Git.md:85` — **Broken hyperlink.** The Whodid link is malformed: `[Whodid]([https://](https://www.npmjs.com/package/whodid))`. The `[https://]` prefix inside the link target breaks the URL and renders as a nested bracket expression on GitHub Pages.
+- `Documents/Git.md:85` — **Broken hyperlink.** The Whodid link is malformed: `[Whodid]([https://](https://www.npmjs.com/package/whodid))`. The `[https://]` prefix inside the link target breaks the URL and renders as a nested bracket expression on GitHub Pages. ✅ Fixed 2026-06-30
   - **Impact:** Readers clicking this link get a broken page.
   - **Recommendation:** Change to `[Whodid](https://www.npmjs.com/package/whodid)`
   - **Effort:** 2 minutes

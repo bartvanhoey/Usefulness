@@ -82,7 +82,7 @@ admin:repo_hook Full control of repository hooks
 
 ### Howto check contributions from a git repository
 
-[Whodid]([https://](https://www.npmjs.com/package/whodid)) is a CLI contribution check tool that counts edited lines from all commits pro author
+[Whodid](https://www.npmjs.com/package/whodid) is a CLI contribution check tool that counts edited lines from all commits pro author
 
 ```bash
   npm install -g whodid
