@@ -131,7 +131,7 @@
   - **Recommendation:** Expand with common PowerShell patterns relevant to the .NET/Windows workflow.
   - **Effort:** 1–2 hours
 
-- `Documents/PowerShell.md:7,13,19` — **PowerShell code blocks use `bash` fence.** Change to `powershell` for correct syntax highlighting.
+- `Documents/PowerShell.md:7,13,19` — **PowerShell code blocks use `bash` fence.** Change to `powershell` for correct syntax highlighting. ✅ Fixed 2026-06-30
   - **Effort:** 2 minutes
 
 #### 🟢 Low Priority / Observations
