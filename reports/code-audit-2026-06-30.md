@@ -54,7 +54,7 @@
 
 #### 🟡 Medium Priority
 
-- `Documents/VsCode.md:22,27,29,40,47,51,55` — **`CTRl` capitalisation typos** (lowercase `l`) in 7 shortcut key rows: `CTRl+ALT+C`, `CTRl+ALT+T`, `CTRl+B, CTRL+B`, `CTRl+K+S`, `CTRl+SHIFT+.`, `CTRl+SHIFT+G`, `CTRl+SHIFT+P -> Balance (outward)`.
+- `Documents/VsCode.md:22,27,29,40,47,51,55` — **`CTRl` capitalisation typos** (lowercase `l`) in 7 shortcut key rows: ✅ Fixed 2026-06-30 `CTRl+ALT+C`, `CTRl+ALT+T`, `CTRl+B, CTRL+B`, `CTRl+K+S`, `CTRl+SHIFT+.`, `CTRl+SHIFT+G`, `CTRl+SHIFT+P -> Balance (outward)`.
   - **Recommendation:** Change all occurrences to `CTRL` (uppercase L).
   - **Effort:** 5 minutes
 

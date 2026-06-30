@@ -19,14 +19,14 @@
 | `CTRL+/`                            | Split Editor                                                                                     |
 | `CTRL+`                             | Zoom in                                                                                          |
 | `CTRL+7`                            | Comment Line (toggle)                                                                            |
-| `CTRl+ALT+C`                        | Create New Git Branch (own Keyboard short cut)                                                   |
+| `CTRL+ALT+C`                        | Create New Git Branch (own Keyboard short cut)                                                   |
 | `CTRL+ALT+L`                        | Reveal Active File in Explorer                                                                   |
 | `CTRL+ALT+B`                        | Show/Hide GitHub Copilot Chat Window                                                             |
 | `CTRL+ALT+B+ENTER`                  | Hide GitHub Copilot Chat Window                                                                  |
 | `CTRL+K, I`                         | GitHub Copilot Fix This                                                                          |
-| `CTRl+ALT+T`                        | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
+| `CTRL+ALT+T`                        | Surround with ... (Surround Extension - Mehmet Yatkı)                                            |
 | `CTRL+ARROW LEFT/RIGHT`             | Move to Next Word                                                                                |
-| `CTRl+B, CTRL+B`                    | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
+| `CTRL+B, CTRL+B`                    | Copy current branch name [install extension 'Copy name of current git branch' ]                  |
 | `CTRL+Q`                            | Show/Hide Terminal                                                                               |
 | `CTRL+C,C`                          | Clear Console                                                                                    |
 | `CTRL+C`                            | Copy (no need to select line)                                                                    |
@@ -37,22 +37,22 @@
 | `CTRL+J`                            | Toggle Bottom Panel Visibility                                                                   |
 | `CTRL+K+C` or `CTRL+/`              | Comment/Uncomment Line                                                                           |
 | `CTRL+K+D`                          | Format Document                                                                                  |
-| `CTRl+K+S`                          | Shows VsCode shortcuts                                                                           |
+| `CTRL+K+S`                          | Shows VsCode shortcuts                                                                           |
 | `CTRL+K+W`                          | Close All Documents                                                                              |
 | `CTRL+L`                            | Delete Line (no need to select line)                                                             |
 | `CTRL+M`                            | Go to Type Declaration                                                                           |
 | `CTRL+N,N`                          | New File...                                                                                      |
 | `CTRL+P`                            | Go to File                                                                                       |
 | `CTRL+S`                            | Pin tab/Unpin tab                                                                                |
-| `CTRl+SHIFT+.`                      | Show methods, properties, fields of a TypeScript class                                           |
+| `CTRL+SHIFT+.`                      | Show methods, properties, fields of a TypeScript class                                           |
 | `CTRL+SHIFT+D`                      | Focus Debugger                                                                                   |
 | `CTRL+SHIFT+E`                      | Toggle Solution Explorer (toggleSideBarVisibility)                                               |
 | `CTRL+SHIFT+F`                      | Search in All Files                                                                              |
-| `CTRl+SHIFT+G`                      | Open Source Control Panel                                                                        |
+| `CTRL+SHIFT+G`                      | Open Source Control Panel                                                                        |
 | `CTRL+SHIFT+H`                      | Search and Replace in All Files                                                                  |
 | `CTRL+SHIFT+O`                      | Shows list of methods, properties, fields of active field                                        |
 | `CTRL+SHIFT+ö`                      | Opens External Terminal in Project Root                                                          |
-| `CTRl+SHIFT+P -> Balance (outward)` | Select a whole HTML tag                                                                          |
+| `CTRL+SHIFT+P -> Balance (outward)` | Select a whole HTML tag                                                                          |
 | `CTRL+SHIFT+P`                      | Command Palette                                                                                  |
 | `CTRL+SHIFT+R`                      | Rename Symbol                                                                                    |
 | `CTRL+SHIFT+T`                      | Open New Terminal                                                                                |
