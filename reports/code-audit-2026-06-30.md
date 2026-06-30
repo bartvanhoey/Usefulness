@@ -117,7 +117,7 @@
 ### 5. Testing
 
 - A `validate.yml` GitHub Actions workflow exists (badge shown in README). The badge was green at the time of audit, indicating the workflow is active.
-- No automated broken-link detection was found. Given the broken link at `Git.md:85`, adding a link-checker step to the validate workflow would be a worthwhile low-cost improvement.
+- No automated broken-link detection was found. Given the broken link at `Git.md:85`, adding a link-checker step to the validate workflow would be a worthwhile low-cost improvement. ✅ Fixed 2026-06-30
   - **Recommendation:** Add `lychee-action` or `markdown-link-check` to the validate workflow.
   - **Effort:** 30 minutes
 
@@ -127,7 +127,7 @@
 
 #### 🟡 Medium Priority
 
-- `Documents/PowerShell.md` — **Stub file with only 3 entries.** PowerShell is a primary tool for Windows/.NET developers (the stated audience), yet this is the thinnest file in the repo.
+- `Documents/PowerShell.md` — **Stub file with only 3 entries.** PowerShell is a primary tool for Windows/.NET developers (the stated audience), yet this is the thinnest file in the repo. ⏭ Won't fix
   - **Recommendation:** Expand with common PowerShell patterns relevant to the .NET/Windows workflow.
   - **Effort:** 1–2 hours
 
