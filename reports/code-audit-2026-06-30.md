@@ -98,7 +98,7 @@
 
 - `Documents/Git.md:191` — `git push --force` recommended as a solution with no caveat. Add a note recommending `git push --force-with-lease` instead, which is safer. ✅ Fixed 2026-06-30
 
-- `Documents/PowerShell.md:1` — Heading reads `## Powershell` — should be `## PowerShell` (capital S), consistent with README and Microsoft branding.
+- `Documents/PowerShell.md:1` — Heading reads `## Powershell` — should be `## PowerShell` (capital S), consistent with README and Microsoft branding. ✅ Fixed 2026-06-30
 
 ---
 

@@ -1,4 +1,4 @@
-## Powershell
+## PowerShell
 
 ### Howto convert csv to JSON
 
