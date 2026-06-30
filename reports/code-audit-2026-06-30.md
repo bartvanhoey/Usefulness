@@ -84,7 +84,7 @@
   - **Recommendation:** Replace with `%USERPROFILE%\AppData\Roaming\Microsoft\UserSecrets`
   - **Effort:** 2 minutes
 
-- `Documents/DotNet.md:17,23,29` — **Heading style inconsistency.** Three headings use `### How to ...` (two words) while the repo-wide convention is `### Howto ...` (one word).
+- `Documents/DotNet.md:17,23,29` — **Heading style inconsistency.** Three headings use `### How to ...` (two words) while the repo-wide convention is `### Howto ...` (one word). ✅ Fixed 2026-06-30
   - **Recommendation:** Normalise to `### Howto ...`
   - **Effort:** 5 minutes
 
