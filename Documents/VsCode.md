@@ -93,7 +93,7 @@
 | `GitHub Pull Requests`                      | Manage Your Pull Requests for a Repository from VSCode                     |
 | `html tag wrapper`                          | Wrap selected html tags by pressing CTRL+i                                 |
 | `Inline Fold - Mohammed Alamri`             | A custom decorator that "fold" matching content in a single line           |
-| `html tag Wrapper - hwencc`                 | wrap selected html tag by press ctrl+i, you can change the wrapper tag name simply too |
+| `html tag Wrapper - hwencc`                 | wrap selected html tag by press ctrl+i, change the wrapper tag name too    |
 | `Lorem Ipsum`                               | Generates and inserts lorem ipsum text into Visual Studio Code             |
 | `Markdown Extension Pack`                   | Extension pack with some of the most popular Markdown extensions           |
 | `Markdown Table Sort`                       | Sorts a Markdown Table                                                     |
@@ -169,6 +169,14 @@
 ```bash
     // File -> Preferences -> Settings  
     search for "editor.accessibilitySupport" set to "off"
+```
+
+### Open Markdown Preview by default in a new tab
+
+```json
+"workbench.editorAssociations": {
+  "*.md": "vscode.markdown.preview.editor"
+}
 ```
 
 ### ColorTabs settings in settings.json file
