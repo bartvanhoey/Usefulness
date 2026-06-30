@@ -180,7 +180,7 @@
 
 ### ColorTabs settings in settings.json file
 
-```bash
+```json
     "colorTabs.config": [
         {
             "regex": ".*",
@@ -193,7 +193,7 @@
 
 ### Prettier settings in settings.json file
 
-```bash
+```json
   "prettier.jsxSingleQuote": true,
   "prettier.bracketSameLine": true,
   "prettier.bracketSpacing": true,

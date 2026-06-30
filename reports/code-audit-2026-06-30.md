@@ -71,7 +71,7 @@
   - **Recommendation:** Verify whether these are distinct extensions; if the same, keep the `hwencc` entry (more specific) and remove the generic one.
   - **Effort:** 5 minutes
 
-- `Documents/VsCode.md:184,197` — **Wrong code fence language for JSON content.** The `ColorTabs settings` block (line 184) and `Prettier settings` block (line 197) use ` ```bash ` fences but contain JSON configuration snippets. This disables JSON syntax highlighting.
+- `Documents/VsCode.md:184,197` — **Wrong code fence language for JSON content.** The `ColorTabs settings` block (line 184) and `Prettier settings` block (line 197) use ` ```bash ` fences but contain JSON configuration snippets. This disables JSON syntax highlighting. ✅ Fixed 2026-06-30
   - **Recommendation:** Change both fence labels from `bash` to `json`.
   - **Effort:** 2 minutes
 
