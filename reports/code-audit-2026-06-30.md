@@ -79,7 +79,7 @@
   - **Recommendation:** Restructure to: `` `git log origin/master..HEAD` — view unpushed git commits ``
   - **Effort:** 2 minutes
 
-- `Documents/DotNet.md:60` — **Machine-specific hardcoded username.** The text reads `C:\Users\bartv\AppData\Roaming\Microsoft\UserSecrets` — `bartv` is specific to one machine.
+- `Documents/DotNet.md:60` — **Machine-specific hardcoded username.** The text reads `C:\Users\bartv\AppData\Roaming\Microsoft\UserSecrets` — `bartv` is specific to one machine. ✅ Fixed 2026-06-30
   - **Impact:** Readers on other machines will follow an incorrect path.
   - **Recommendation:** Replace with `%USERPROFILE%\AppData\Roaming\Microsoft\UserSecrets`
   - **Effort:** 2 minutes

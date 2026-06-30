@@ -57,7 +57,7 @@ dotnet new gitignore
 
 ## User Secrets
 
-You can find the user secrets in following folder: `C:\Users\bartv\AppData\Roaming\Microsoft\UserSecrets`
+You can find the user secrets in following folder: `%USERPROFILE%\AppData\Roaming\Microsoft\UserSecrets`
 
 ### Init
 
