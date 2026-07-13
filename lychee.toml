@@ -1,0 +1,14 @@
+# Config for lycheeverse/lychee-action (weekly link check workflow)
+
+# Resolve root-relative links (e.g. /Images/foo.png) against the repo root.
+root_dir = "."
+
+exclude = [
+  # Illustrative placeholder URL used in Git.md examples, not a real repo.
+  "https://github.com/your-username/repository-name",
+  # Local-only Kubernetes dashboard link, never reachable from CI.
+  "http://localhost:8001",
+]
+
+# npm returns 403 to lychee's bot user agent for this package page even though it's live.
+accept = ["403"]
